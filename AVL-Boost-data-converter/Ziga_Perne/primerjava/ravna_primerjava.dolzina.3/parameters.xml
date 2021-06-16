@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<summary title="BOOST™ v2019.2 - Model Parameters">
+  <section name="ModelParameters" title="Model Parameters">
+    <dvalue name="len" title="len" unit="mm" case_param="True">800</dvalue>
+  </section>
+</summary>

@@ -1,0 +1,12 @@
+BEGIN
+diameter = 100
+dolzina = 10
+len = 500
+CHANNELNAME = ['diameter', &
+               'ADDEDFUEL']
+UNIT        = ['mm', &
+               'kg/cycle']
+END
+1.000000E+02   0.55015774E-005
+1.000000E+02   0.52319040E-005
+1.000000E+02   0.52589608E-005

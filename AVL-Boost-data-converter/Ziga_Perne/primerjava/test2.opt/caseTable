@@ -1,0 +1,5 @@
+opt diameter  dolzina  len  
+[UNITS] length~mm  length~mm  length~mm  
+opt.Case_1 100  10  500  
+opt.Case_2 100  50  500  
+opt.Case_3 100  100  500  

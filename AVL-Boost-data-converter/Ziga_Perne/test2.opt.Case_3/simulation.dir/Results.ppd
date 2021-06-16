@@ -1,0 +1,2956 @@
+
+# File Variables:
+ModelFile = "../../test2.bwf"
+
+# Result Node:
+FOLDER "Boost" "case_1" "Boost - Test"
+client = "BOOST"
+version = "2018"
+  FOLDER "TRANSIENTS" "Transients"
+    FOLDER "ENGINE 1" "Engine 1"
+      uuid = "5E60B2318031-0006C571-4C4943454D-01"
+      CURVE "CYCLE" "Cycle"
+        legend = "Cycle Engine 1"
+        xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kEG1____1.gid "CYCLE"
+        yunit = "dimensionless~none"
+        ..
+      CURVE "CYCLEAVERAGEDSPEED" "CycleAveragedSpeed"
+        legend = "CycleAveragedSpeed Engine 1"
+        xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kEG1____1.gid "CYCLEAVERAGEDSPEED"
+        yunit = "ang_vel~rpm"
+        ..
+      CURVE "CYCLEFREQUENCY" "CycleFrequency"
+        legend = "CycleFrequency Engine 1"
+        xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kEG1____1.gid "CYCLEFREQUENCY"
+        yunit = "frequency"
+        ..
+      CURVE "CYCLEPERIOD" "CyclePeriod"
+        legend = "CyclePeriod Engine 1"
+        xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kEG1____1.gid "CYCLEPERIOD"
+        yunit = "time"
+        ..
+      CURVE "PRESSURE-AMB" "AmbientPressure"
+        legend = "AmbientPressure Engine 1"
+        xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kEG1____1.gid "PRESSURE-AMB"
+        yunit = "pressure"
+        ..
+      CURVE "TEMPERATURE-AMB" "AmbientTemperature"
+        legend = "AmbientTemperature Engine 1"
+        xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kEG1____1.gid "TEMPERATURE-AMB"
+        yunit = "temperature"
+        ..
+      CURVE "PEAKCYLINDERTEMPERATURE" "PeakFiringTemperature"
+        legend = "PeakFiringTemperature Engine 1"
+        xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kEG1____1.gid "PEAKCYLINDERTEMPERATURE"
+        yunit = "temperature"
+        ..
+      CURVE "PEAKCYLINDERTEMPERATURE-CRANKANGLE" "PeakFiringTemperature-CrA"
+        legend = "PeakFiringTemperature-CrA Engine 1"
+        xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kEG1____1.gid "PEAKCYLINDERTEMPERATURE-CRANKANGLE"
+        yunit = "angle"
+        ..
+      CURVE "FUELMASSINJECTED" "InjectedFuelMass"
+        legend = "InjectedFuelMass Engine 1"
+        xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kEG1____1.gid "FUELMASSINJECTED"
+        yunit = "mass"
+        ..
+      CURVE "CONVERGENCE" "Convergence"
+        legend = "Convergence Engine 1"
+        xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kEG1____1.gid "CONVERGENCE"
+        yunit = "dimensionless~none"
+        ..
+      FOLDER "SHP" "Start of High Pressure"
+        CURVE "A/F-RATIO-STOICH" "A/F-Ratio-Stoich"
+          legend = "A/F-Ratio-Stoich Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "A/F-RATIO-STOICH_SHP"
+          yunit = "dimensionless~none"
+          ..
+        CURVE "A/F-RATIO-UNBRND" "UnBrnd-Air/Fuel-Ratio"
+          legend = "UnBrnd-Air/Fuel-Ratio Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "A/F-RATIO-UNBRND_SHP"
+          yunit = "dimensionless~none"
+          ..
+        CURVE "AIR-EXCESS-RATIO" "Unbrnd-AirExcessRatio"
+          legend = "Unbrnd-AirExcessRatio Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "AIR-EXCESS-RATIO_SHP"
+          yunit = "dimensionless~none"
+          ..
+        ..
+      FOLDER "C" "Combustion"
+        CURVE "LOWER-HEAT-VALUE" "LowerHeatingValue"
+          legend = "LowerHeatingValue Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "LOWER-HEAT-VALUE_C"
+          yunit = "spec_energy"
+          ..
+        CURVE "PEAKCYLINDERPRESSURE" "PeakFiringPressure"
+          legend = "PeakFiringPressure Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "PEAKCYLINDERPRESSURE_C"
+          yunit = "pressure"
+          ..
+        CURVE "PEAKCYLINDERPRESSURE-CRANKANGLE" "PeakFiringPressure-CrA"
+          legend = "PeakFiringPressure-CrA Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "PEAKCYLINDERPRESSURE-CRANKANGLE_C"
+          yunit = "angle"
+          ..
+        CURVE "PEAKPRESSURERISE" "PeakPressureRise"
+          legend = "PeakPressureRise Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "PEAKPRESSURERISE_C"
+          yunit = "dpda"
+          ..
+        CURVE "PEAKPRESSURERISE-CRANKANGLE" "PeakPressureRise-CrA"
+          legend = "PeakPressureRise-CrA Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "PEAKPRESSURERISE-CRANKANGLE_C"
+          yunit = "angle"
+          ..
+        CURVE "COMBUSTIONSTART" "CombustionStart"
+          legend = "CombustionStart Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "COMBUSTIONSTART_C"
+          yunit = "angle"
+          ..
+        CURVE "COMBUSTIONDURATION" "CombustionDuration"
+          legend = "CombustionDuration Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "COMBUSTIONDURATION_C"
+          yunit = "angle"
+          ..
+        ..
+      FOLDER "GEO" "Geometry"
+        CURVE "NBR-OF-CYLINDERS" "NumberOfCylinders"
+          legend = "NumberOfCylinders Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "NBR-OF-CYLINDERS_GEO"
+          yunit = "dimensionless~none"
+          ..
+        CURVE "ENGINE-DISPLACEMENT" "EngineDisplacement"
+          legend = "EngineDisplacement Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "ENGINE-DISPLACEMENT_GEO"
+          yunit = "volume"
+          ..
+        CURVE "COMPRESSIONRATIO" "CompressionRatio"
+          legend = "CompressionRatio Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "COMPRESSIONRATIO_GEO"
+          yunit = "dimensionless~none"
+          ..
+        ..
+      FOLDER "PF" "Performance"
+        CURVE "IMEP" "IMEP"
+          legend = "IMEP Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "IMEP_PF"
+          yunit = "pressure"
+          ..
+        CURVE "BMEP" "BMEP"
+          legend = "BMEP Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "BMEP_PF"
+          yunit = "pressure"
+          ..
+        CURVE "FMEP" "FMEP"
+          legend = "FMEP Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "FMEP_PF"
+          yunit = "pressure"
+          ..
+        CURVE "AMEP" "AMEP"
+          legend = "AMEP Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "AMEP_PF"
+          yunit = "pressure"
+          ..
+        CURVE "TORQUE" "Torque"
+          legend = "Torque Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "TORQUE_PF"
+          yunit = "moment"
+          ..
+        CURVE "POWER" "Power"
+          legend = "Power Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "POWER_PF"
+          yunit = "power"
+          ..
+        CURVE "FRICTIONTORQUE" "FrictionTorque"
+          legend = "FrictionTorque Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "FRICTIONTORQUE_PF"
+          yunit = "moment"
+          ..
+        CURVE "FRICTIONPOWER" "FrictionPower"
+          legend = "FrictionPower Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "FRICTIONPOWER_PF"
+          yunit = "power"
+          ..
+        CURVE "ISFC1" "ISFC1"
+          legend = "ISFC1 Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "ISFC1_PF"
+          yunit = "spec_mass_flow"
+          ..
+        CURVE "ISFC2" "ISFC2"
+          legend = "ISFC2 Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "ISFC2_PF"
+          yunit = "spec_mass_flow"
+          ..
+        CURVE "BSFC" "BSFC"
+          legend = "BSFC Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "BSFC_PF"
+          yunit = "spec_mass_flow"
+          ..
+        CURVE "ISO-VOL-COMB-EFFICIENCY" "IsoVolumetricEfficiency"
+          legend = "IsoVolumetricEfficiency Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "ISO-VOL-COMB-EFFICIENCY_PF"
+          yunit = "dimensionless~none"
+          ..
+        CURVE "INDICATED-EFFICIENCY" "IndicatedEfficiency"
+          legend = "IndicatedEfficiency Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "INDICATED-EFFICIENCY_PF"
+          yunit = "dimensionless~none"
+          ..
+        CURVE "EFFECTIVE-EFFICIENCY" "EffectiveEfficiency"
+          legend = "EffectiveEfficiency Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "EFFECTIVE-EFFICIENCY_PF"
+          yunit = "dimensionless~none"
+          ..
+        CURVE "MECHANICAL-EFFICIENCY" "MechanicalEfficiency"
+          legend = "MechanicalEfficiency Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "MECHANICAL-EFFICIENCY_PF"
+          yunit = "dimensionless~none"
+          ..
+        ..
+      FOLDER "G" "GasExchange"
+        CURVE "DELIVERYRATIO-AMB" "Delivery Ratio Amb"
+          legend = "Delivery Ratio Amb Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "DELIVERYRATIO-AMB_G"
+          yunit = "dimensionless~none"
+          ..
+        CURVE "DELIVERYRATIO-INT" "Delivery Ratio Int"
+          legend = "Delivery Ratio Int Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "DELIVERYRATIO-INT_G"
+          yunit = "dimensionless~none"
+          ..
+        CURVE "AIRDELIVERYRATIO-AMB" "Air Delivery Ratio Amb"
+          legend = "Air Delivery Ratio Amb Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "AIRDELIVERYRATIO-AMB_G"
+          yunit = "dimensionless~none"
+          ..
+        CURVE "AIRDELIVERYRATIO-INT" "Air Delivery Ratio Int"
+          legend = "Air Delivery Ratio Int Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "AIRDELIVERYRATIO-INT_G"
+          yunit = "dimensionless~none"
+          ..
+        CURVE "VOLUMETRICEFFICIENCY-AMB" "Volumetric Efficiency Amb"
+          legend = "Volumetric Efficiency Amb Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "VOLUMETRICEFFICIENCY-AMB_G"
+          yunit = "dimensionless~none"
+          ..
+        CURVE "VOLUMETRICEFFICIENCY-INT" "Volumetric Efficiency Int"
+          legend = "Volumetric Efficiency Int Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "VOLUMETRICEFFICIENCY-INT_G"
+          yunit = "dimensionless~none"
+          ..
+        CURVE "SWIRL" "Swirl"
+          legend = "Swirl Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "SWIRL_G"
+          yunit = "dimensionless~none"
+          ..
+        CURVE "BLOWBY" "BlowBy"
+          legend = "BlowBy Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "BLOWBY_G"
+          yunit = "massflow_cycle"
+          ..
+        ..
+      FOLDER "MB" "Mass Balance"
+        CURVE "TRAPPED-FUEL" "TrappedFuelMass"
+          legend = "TrappedFuelMass Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "TRAPPED-FUEL_MB"
+          yunit = "mass"
+          ..
+        CURVE "MASS-ASPIRATED" "Mass-Aspirated"
+          legend = "Mass-Aspirated Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "MASS-ASPIRATED_MB"
+          yunit = "mass"
+          ..
+        CURVE "AIRMASS-ASPIRATED" "Air-Aspirated"
+          legend = "Air-Aspirated Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "AIRMASS-ASPIRATED_MB"
+          yunit = "mass"
+          ..
+        CURVE "FUELMASS-ASPIRATED" "Fuel-Aspirated"
+          legend = "Fuel-Aspirated Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "FUELMASS-ASPIRATED_MB"
+          yunit = "mass"
+          ..
+        CURVE "MASS-ASPIRATED-PERS" "Mass-Aspirated-PerS"
+          legend = "Mass-Aspirated-PerS Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "MASS-ASPIRATED-PERS_MB"
+          yunit = "massflow"
+          ..
+        CURVE "AIRMASS-ASPIRATED-PERS" "Air-Aspirated-PerS"
+          legend = "Air-Aspirated-PerS Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "AIRMASS-ASPIRATED-PERS_MB"
+          yunit = "massflow"
+          ..
+        CURVE "FUELMASS-ASPIRATED-PERS" "Fuel-Aspirated-PerS"
+          legend = "Fuel-Aspirated-PerS Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "FUELMASS-ASPIRATED-PERS_MB"
+          yunit = "massflow"
+          ..
+        CURVE "RESIDUALGASMASSIN" "ResGas-Aspirated-IN"
+          legend = "ResGas-Aspirated-IN Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "RESIDUALGASMASSIN_MB"
+          yunit = "mass"
+          ..
+        CURVE "RESIDUALGASMASSIN-PERS" "ResGas-Aspirated-PerS"
+          legend = "ResGas-Aspirated-PerS Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "RESIDUALGASMASSIN-PERS_MB"
+          yunit = "massflow"
+          ..
+        CURVE "RESIDUALGASMASSINTOCYL" "ResGas-from-Intake"
+          legend = "ResGas-from-Intake Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "RESIDUALGASMASSINTOCYL_MB"
+          yunit = "mass"
+          ..
+        CURVE "RESIDUALGASMASSEX" "ResGas-Aspirated-EX"
+          legend = "ResGas-Aspirated-EX Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "RESIDUALGASMASSEX_MB"
+          yunit = "mass"
+          ..
+        CURVE "RESIDUALGASMASSEXTOCYL" "ResGas-from-Exhaust"
+          legend = "ResGas-from-Exhaust Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "RESIDUALGASMASSEXTOCYL_MB"
+          yunit = "mass"
+          ..
+        CURVE "TOTALRESIDUALGAS-CONC" "TotalResidualGasConc"
+          legend = "TotalResidualGasConc Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "TOTALRESIDUALGAS-CONC_MB"
+          yunit = "dimensionless~none"
+          ..
+        CURVE "TRAPPED-FUEL-PERS" "TrappedFuelMassFlow"
+          legend = "TrappedFuelMassFlow Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "TRAPPED-FUEL-PERS_MB"
+          yunit = "massflow"
+          ..
+        ..
+      FOLDER "EB" "Energy Balance"
+        CURVE "FUEL-ENERGY" "FuelEnergy"
+          legend = "FuelEnergy Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "FUEL-ENERGY_EB"
+          yunit = "volumework"
+          ..
+        CURVE "FUEL-ENERGY-PERS" "FuelEnergyPerS"
+          legend = "FuelEnergyPerS Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "FUEL-ENERGY-PERS_EB"
+          yunit = "power"
+          ..
+        CURVE "RELEASED-ENERGY" "ReleasedEnergy"
+          legend = "ReleasedEnergy Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "RELEASED-ENERGY_EB"
+          yunit = "volumework"
+          ..
+        CURVE "RELEASED-ENERGY-PERS" "ReleasedEnergyPerS"
+          legend = "ReleasedEnergyPerS Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "RELEASED-ENERGY-PERS_EB"
+          yunit = "power"
+          ..
+        CURVE "GROSS-RELEASED-ENERGY" "Gross Released Energy"
+          legend = "Gross Released Energy Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "GROSS-RELEASED-ENERGY_EB"
+          yunit = "volumework"
+          ..
+        CURVE "EFF-RELEASED-ENERGY" "ReleasedEnergy-Effective"
+          legend = "ReleasedEnergy-Effective Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "EFF-RELEASED-ENERGY_EB"
+          yunit = "volumework"
+          ..
+        CURVE "EFF-RELEASED-ENERGY-PERS" "ReleasedEnergyPerS-Effective"
+          legend = "ReleasedEnergyPerS-Effective Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "EFF-RELEASED-ENERGY-PERS_EB"
+          yunit = "power"
+          ..
+        CURVE "EFF-GROSS-RELEASED-ENERGY" "Gross Released Energy-Effective"
+          legend = "Gross Released Energy-Effective Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "EFF-GROSS-RELEASED-ENERGY_EB"
+          yunit = "volumework"
+          ..
+        CURVE "ENERGYBALANCE" "EnergyBalance"
+          legend = "EnergyBalance Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "ENERGYBALANCE_EB"
+          yunit = "dimensionless~none"
+          ..
+        CURVE "EFFENERGYBALANCE" "EnergyBalance-Effective"
+          legend = "EnergyBalance-Effective Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "EFFENERGYBALANCE_EB"
+          yunit = "dimensionless~none"
+          ..
+        CURVE "BLOWBYENTHALPYFLOW" "BlowByEnthalpyFlow"
+          legend = "BlowByEnthalpyFlow Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "BLOWBYENTHALPYFLOW_EB"
+          yunit = "volumework"
+          ..
+        CURVE "EVAPORATIONENERGY" "EvaporationEnergy"
+          legend = "EvaporationEnergy Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "EVAPORATIONENERGY_EB"
+          yunit = "volumework"
+          ..
+        CURVE "ENTHALPYFLUX-IN" "EnthalpyFluxInPerS"
+          legend = "EnthalpyFluxInPerS Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "ENTHALPYFLUX-IN_EB"
+          yunit = "power"
+          ..
+        CURVE "ENTHALPYFLUX-EX" "EnthalpyFluxOutPerS"
+          legend = "EnthalpyFluxOutPerS Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "ENTHALPYFLUX-EX_EB"
+          yunit = "power"
+          ..
+        CURVE "PORTWALLHEATFLOW-IN" "WallHeatFlow-IntakePort-PerS"
+          legend = "WallHeatFlow-IntakePort-PerS Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "PORTWALLHEATFLOW-IN_EB"
+          yunit = "power"
+          ..
+        CURVE "PORTWALLHEATFLOW-EX" "WallHeatFlow-ExhaustPort-PerS"
+          legend = "WallHeatFlow-ExhaustPort-PerS Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "PORTWALLHEATFLOW-EX_EB"
+          yunit = "power"
+          ..
+        CURVE "ENTHALPYFLUX-FUEL" "EnthalpyFluxFuelPerS"
+          legend = "EnthalpyFluxFuelPerS Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "ENTHALPYFLUX-FUEL_EB"
+          yunit = "power"
+          ..
+        ..
+      FOLDER "H" "Gas-Wall HeatTransfer"
+        CURVE "WALLHEATFLOW" "Gas-Wall HeatFlow"
+          legend = "Gas-Wall HeatFlow Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "WALLHEATFLOW_H"
+          yunit = "volumework"
+          ..
+        CURVE "WALLHEATFLOWPERS" "WallHeatFlowPerS"
+          legend = "WallHeatFlowPerS Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "WALLHEATFLOWPERS_H"
+          yunit = "power"
+          ..
+        CURVE "PISTONWALLHEATFLOW" "PistWallHeatFlow"
+          legend = "PistWallHeatFlow Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "PISTONWALLHEATFLOW_H"
+          yunit = "volumework"
+          ..
+        CURVE "HEADWALLHEATFLOW" "HeadWallHeatFlow"
+          legend = "HeadWallHeatFlow Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "HEADWALLHEATFLOW_H"
+          yunit = "volumework"
+          ..
+        CURVE "LINERWALLHEATFLOW" "LinerWallHeatFlow"
+          legend = "LinerWallHeatFlow Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "LINERWALLHEATFLOW_H"
+          yunit = "volumework"
+          ..
+        CURVE "PISTONTEMPERATURE" "PistonTemperature"
+          legend = "PistonTemperature Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "PISTONTEMPERATURE_H"
+          yunit = "temperature"
+          ..
+        CURVE "HEADTEMPERATURE" "HeadTemperature"
+          legend = "HeadTemperature Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "HEADTEMPERATURE_H"
+          yunit = "temperature"
+          ..
+        CURVE "LINERTDCTEMPERATURE" "LinerTDCTemperature"
+          legend = "LinerTDCTemperature Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "LINERTDCTEMPERATURE_H"
+          yunit = "temperature"
+          ..
+        CURVE "LINERBDCTEMPERATURE" "LinerBDCTemperature"
+          legend = "LinerBDCTemperature Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "LINERBDCTEMPERATURE_H"
+          yunit = "temperature"
+          ..
+        CURVE "MEAN-EFF-HTC" "MeanEffHeatTransferCoeff"
+          legend = "MeanEffHeatTransferCoeff Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "MEAN-EFF-HTC_H"
+          yunit = "heat_transf_coeff"
+          ..
+        CURVE "MEAN-EFF-HTGASTEMP" "MeanEffHeatTransferGasTemp"
+          legend = "MeanEffHeatTransferGasTemp Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "MEAN-EFF-HTGASTEMP_H"
+          yunit = "temperature"
+          ..
+        ..
+      FOLDER "M" "Emissions/End of High Pressure"
+        CURVE "ACCUMULATEDSOOT-TIME" "ACCUMULATEDSOOT-TIME"
+          legend = "ACCUMULATEDSOOT-TIME Engine 1"
+          xlocation = GIDAS kEG1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kEG1____1.gid "ACCUMULATEDSOOT-TIME_M"
+          yunit = "kg/s"
+          ..
+        ..
+      ..
+    FOLDER "CYLINDER 1" "Cylinder 1"
+      uuid = "5E6774E83208-00932880-4C4943454D-01"
+      CURVE "CYLINDER-DISPLACEMENT" "CylinderDisplacement"
+        legend = "CylinderDisplacement Cylinder 1"
+        xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kCY1____1.gid "CYLINDER-DISPLACEMENT"
+        yunit = "volume"
+        ..
+      CURVE "IMEP" "IMEP"
+        legend = "IMEP Cylinder 1"
+        xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kCY1____1.gid "IMEP"
+        yunit = "pressure"
+        ..
+      CURVE "BMEP" "BMEP"
+        legend = "BMEP Cylinder 1"
+        xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kCY1____1.gid "BMEP"
+        yunit = "pressure"
+        ..
+      CURVE "FMEP" "FMEP"
+        legend = "FMEP Cylinder 1"
+        xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kCY1____1.gid "FMEP"
+        yunit = "pressure"
+        ..
+      CURVE "SMEP" "SMEP"
+        legend = "SMEP Cylinder 1"
+        xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kCY1____1.gid "SMEP"
+        yunit = "pressure"
+        ..
+      CURVE "ISFC1" "ISFC1"
+        legend = "ISFC1 Cylinder 1"
+        xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kCY1____1.gid "ISFC1"
+        yunit = "spec_mass_flow"
+        ..
+      CURVE "ISFC2" "ISFC2"
+        legend = "ISFC2 Cylinder 1"
+        xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kCY1____1.gid "ISFC2"
+        yunit = "spec_mass_flow"
+        ..
+      CURVE "BSFC" "BSFC"
+        legend = "BSFC Cylinder 1"
+        xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kCY1____1.gid "BSFC"
+        yunit = "spec_mass_flow"
+        ..
+      CURVE "DELIVERYRATIO-AMB" "Delivery Ratio Amb"
+        legend = "Delivery Ratio Amb Cylinder 1"
+        xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kCY1____1.gid "DELIVERYRATIO-AMB"
+        yunit = "dimensionless~none"
+        ..
+      CURVE "DELIVERYRATIO-INT" "Delivery Ratio Int"
+        legend = "Delivery Ratio Int Cylinder 1"
+        xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kCY1____1.gid "DELIVERYRATIO-INT"
+        yunit = "dimensionless~none"
+        ..
+      CURVE "AIRDELIVERYRATIO-AMB" "Air Delivery Ratio Amb"
+        legend = "Air Delivery Ratio Amb Cylinder 1"
+        xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kCY1____1.gid "AIRDELIVERYRATIO-AMB"
+        yunit = "dimensionless~none"
+        ..
+      CURVE "VOLUMETRICEFFICIENCY-AMB" "Volumetric Efficiency Amb"
+        legend = "Volumetric Efficiency Amb Cylinder 1"
+        xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kCY1____1.gid "VOLUMETRICEFFICIENCY-AMB"
+        yunit = "dimensionless~none"
+        ..
+      CURVE "VOLUMETRICEFFICIENCY-INT" "Volumetric Efficiency Int"
+        legend = "Volumetric Efficiency Int Cylinder 1"
+        xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kCY1____1.gid "VOLUMETRICEFFICIENCY-INT"
+        yunit = "dimensionless~none"
+        ..
+      CURVE "TOTALFUELMASS" "TotalFuelMass"
+        legend = "TotalFuelMass Cylinder 1"
+        xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kCY1____1.gid "TOTALFUELMASS"
+        yunit = "mass"
+        ..
+      CURVE "FUELMASSINJECTED" "InjectedFuelMass"
+        legend = "InjectedFuelMass Cylinder 1"
+        xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kCY1____1.gid "FUELMASSINJECTED"
+        yunit = "mass"
+        ..
+      CURVE "FUELMASS-ASPIRATED" "Fuel-Aspirated"
+        legend = "Fuel-Aspirated Cylinder 1"
+        xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kCY1____1.gid "FUELMASS-ASPIRATED"
+        yunit = "mass"
+        ..
+      CURVE "PEAKCYLINDERPRESSURE" "PeakFiringPressure"
+        legend = "PeakFiringPressure Cylinder 1"
+        xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kCY1____1.gid "PEAKCYLINDERPRESSURE"
+        yunit = "pressure"
+        ..
+      CURVE "PEAKCYLINDERPRESSURE-CRANKANGLE" "PeakFiringPressure-CrA"
+        legend = "PeakFiringPressure-CrA Cylinder 1"
+        xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kCY1____1.gid "PEAKCYLINDERPRESSURE-CRANKANGLE"
+        yunit = "angle"
+        ..
+      CURVE "PEAKCYLINDERTEMPERATURE" "PeakFiringTemperature"
+        legend = "PeakFiringTemperature Cylinder 1"
+        xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kCY1____1.gid "PEAKCYLINDERTEMPERATURE"
+        yunit = "temperature"
+        ..
+      CURVE "PEAKCYLINDERTEMPERATURE-CRANKANGLE" "PeakFiringTemperature-CrA"
+        legend = "PeakFiringTemperature-CrA Cylinder 1"
+        xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kCY1____1.gid "PEAKCYLINDERTEMPERATURE-CRANKANGLE"
+        yunit = "angle"
+        ..
+      CURVE "PEAKPRESSURERISE" "PeakPressureRise"
+        legend = "PeakPressureRise Cylinder 1"
+        xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kCY1____1.gid "PEAKPRESSURERISE"
+        yunit = "dpda"
+        ..
+      CURVE "PEAKPRESSURERISE-CRANKANGLE" "PeakPressureRise-CrA"
+        legend = "PeakPressureRise-CrA Cylinder 1"
+        xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kCY1____1.gid "PEAKPRESSURERISE-CRANKANGLE"
+        yunit = "angle"
+        ..
+      CURVE "AIRDELIVERYRATIO-INT" "Air Delivery Ratio Int"
+        legend = "Air Delivery Ratio Int Cylinder 1"
+        xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kCY1____1.gid "AIRDELIVERYRATIO-INT"
+        yunit = "dimensionless~none"
+        ..
+      CURVE "ENTHALPYFLUX-FUEL" "EnthalpyFluxFuelPerS"
+        legend = "EnthalpyFluxFuelPerS Cylinder 1"
+        xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kCY1____1.gid "ENTHALPYFLUX-FUEL"
+        yunit = "power"
+        ..
+      FOLDER "SHP" "Start of High Pressure"
+        CURVE "HP-START-PRESSURE" "SHP-Press"
+          legend = "SHP-Press Cylinder 1"
+          xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____1.gid "HP-START-PRESSURE_SHP"
+          yunit = "pressure"
+          ..
+        CURVE "HP-START-TEMPERATURE" "SHP-Temp"
+          legend = "SHP-Temp Cylinder 1"
+          xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____1.gid "HP-START-TEMPERATURE_SHP"
+          yunit = "temperature"
+          ..
+        CURVE "HP-START-TOTALMASS" "SHP-Totalmass"
+          legend = "SHP-Totalmass Cylinder 1"
+          xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____1.gid "HP-START-TOTALMASS_SHP"
+          yunit = "mass"
+          ..
+        CURVE "HP-START-AIRMASS" "SHP-Airmass"
+          legend = "SHP-Airmass Cylinder 1"
+          xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____1.gid "HP-START-AIRMASS_SHP"
+          yunit = "mass"
+          ..
+        CURVE "TOTALRESIDUALGAS-CONC" "TotalResidualGasConc"
+          legend = "TotalResidualGasConc Cylinder 1"
+          xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____1.gid "TOTALRESIDUALGAS-CONC_SHP"
+          yunit = "dimensionless~none"
+          ..
+        CURVE "A/F-RATIO-UNBRND" "UnBrnd-Air/Fuel-Ratio"
+          legend = "UnBrnd-Air/Fuel-Ratio Cylinder 1"
+          xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____1.gid "A/F-RATIO-UNBRND_SHP"
+          yunit = "dimensionless~none"
+          ..
+        CURVE "A/F-RATIO-BRND" "Brnd-Air/Fuel-Ratio"
+          legend = "Brnd-Air/Fuel-Ratio Cylinder 1"
+          xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____1.gid "A/F-RATIO-BRND_SHP"
+          yunit = "dimensionless~none"
+          ..
+        CURVE "AIR-EXCESS-RATIO" "Unbrnd-AirExcessRatio"
+          legend = "Unbrnd-AirExcessRatio Cylinder 1"
+          xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____1.gid "AIR-EXCESS-RATIO_SHP"
+          yunit = "dimensionless~none"
+          ..
+        CURVE "HP-START-FBMASS" "SHP-FuelBurnedmass"
+          legend = "SHP-FuelBurnedmass Cylinder 1"
+          xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____1.gid "HP-START-FBMASS_SHP"
+          yunit = "mass"
+          ..
+        ..
+      FOLDER "G" "GasExchange"
+        CURVE "RESIDUALGASMASSIN" "ResGas-Aspirated-IN"
+          legend = "ResGas-Aspirated-IN Cylinder 1"
+          xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____1.gid "RESIDUALGASMASSIN_G"
+          yunit = "mass"
+          ..
+        CURVE "RESIDUALGASMASSINTOCYL" "ResGas-from-Intake"
+          legend = "ResGas-from-Intake Cylinder 1"
+          xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____1.gid "RESIDUALGASMASSINTOCYL_G"
+          yunit = "mass"
+          ..
+        CURVE "RESIDUALGASMASSEX" "ResGas-Aspirated-EX"
+          legend = "ResGas-Aspirated-EX Cylinder 1"
+          xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____1.gid "RESIDUALGASMASSEX_G"
+          yunit = "mass"
+          ..
+        CURVE "RESIDUALGASMASSEXTOCYL" "ResGas-from-Exhaust"
+          legend = "ResGas-from-Exhaust Cylinder 1"
+          xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____1.gid "RESIDUALGASMASSEXTOCYL_G"
+          yunit = "mass"
+          ..
+        CURVE "BLOWBY" "BlowBy"
+          legend = "BlowBy Cylinder 1"
+          xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____1.gid "BLOWBY_G"
+          yunit = "massflow_cycle"
+          ..
+        CURVE "SCAVENGINGEFFICIENCY" "ScavengingEfficiency"
+          legend = "ScavengingEfficiency Cylinder 1"
+          xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____1.gid "SCAVENGINGEFFICIENCY_G"
+          yunit = "dimensionless~none"
+          ..
+        ..
+      FOLDER "H" "Gas-Wall HeatTransfer"
+        CURVE "WALLHEATFLOW" "Gas-Wall HeatFlow"
+          legend = "Gas-Wall HeatFlow Cylinder 1"
+          xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____1.gid "WALLHEATFLOW_H"
+          yunit = "volumework"
+          ..
+        CURVE "PISTONWALLHEATFLOW" "PistWallHeatFlow"
+          legend = "PistWallHeatFlow Cylinder 1"
+          xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____1.gid "PISTONWALLHEATFLOW_H"
+          yunit = "volumework"
+          ..
+        CURVE "HEADWALLHEATFLOW" "HeadWallHeatFlow"
+          legend = "HeadWallHeatFlow Cylinder 1"
+          xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____1.gid "HEADWALLHEATFLOW_H"
+          yunit = "volumework"
+          ..
+        CURVE "LINERWALLHEATFLOW" "LinerWallHeatFlow"
+          legend = "LinerWallHeatFlow Cylinder 1"
+          xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____1.gid "LINERWALLHEATFLOW_H"
+          yunit = "volumework"
+          ..
+        CURVE "PISTONTEMPERATURE" "PistonTemperature"
+          legend = "PistonTemperature Cylinder 1"
+          xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____1.gid "PISTONTEMPERATURE_H"
+          yunit = "temperature"
+          ..
+        CURVE "HEADTEMPERATURE" "HeadTemperature"
+          legend = "HeadTemperature Cylinder 1"
+          xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____1.gid "HEADTEMPERATURE_H"
+          yunit = "temperature"
+          ..
+        CURVE "LINERTDCTEMPERATURE" "LinerTDCTemperature"
+          legend = "LinerTDCTemperature Cylinder 1"
+          xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____1.gid "LINERTDCTEMPERATURE_H"
+          yunit = "temperature"
+          ..
+        CURVE "LINERBDCTEMPERATURE" "LinerBDCTemperature"
+          legend = "LinerBDCTemperature Cylinder 1"
+          xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____1.gid "LINERBDCTEMPERATURE_H"
+          yunit = "temperature"
+          ..
+        CURVE "MEAN-EFF-HTC" "MeanEffHeatTransferCoeff"
+          legend = "MeanEffHeatTransferCoeff Cylinder 1"
+          xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____1.gid "MEAN-EFF-HTC_H"
+          yunit = "heat_transf_coeff"
+          ..
+        CURVE "MEAN-EFF-HTGASTEMP" "MeanEffHeatTransferGasTemp"
+          legend = "MeanEffHeatTransferGasTemp Cylinder 1"
+          xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____1.gid "MEAN-EFF-HTGASTEMP_H"
+          yunit = "temperature"
+          ..
+        CURVE "BLOWBYENTHALPYFLOW" "BlowByEnthalpyFlow"
+          legend = "BlowByEnthalpyFlow Cylinder 1"
+          xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____1.gid "BLOWBYENTHALPYFLOW_H"
+          yunit = "volumework"
+          ..
+        ..
+      FOLDER "C" "Combustion"
+        CURVE "COMBUSTIONSTART" "CombustionStart"
+          legend = "CombustionStart Cylinder 1"
+          xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____1.gid "COMBUSTIONSTART_C"
+          yunit = "angle"
+          ..
+        CURVE "COMBUSTIONDURATION" "CombustionDuration"
+          legend = "CombustionDuration Cylinder 1"
+          xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____1.gid "COMBUSTIONDURATION_C"
+          yunit = "angle"
+          ..
+        CURVE "VIBEPARAMETER-M" "VibeParameter m"
+          legend = "VibeParameter m Cylinder 1"
+          xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____1.gid "VIBEPARAMETER-M_C"
+          yunit = "dimensionless~none"
+          ..
+        CURVE "VIBEPARAMETER-A" "VibeParameter a"
+          legend = "VibeParameter a Cylinder 1"
+          xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____1.gid "VIBEPARAMETER-A_C"
+          yunit = "dimensionless~none"
+          ..
+        CURVE "MASS-FRAC-BURNED-02-CRANKANGLE" "MassFracBurned02-CrA"
+          legend = "MassFracBurned02-CrA Cylinder 1"
+          xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____1.gid "MASS-FRAC-BURNED-02-CRANKANGLE_C"
+          yunit = "angle"
+          ..
+        CURVE "MASS-FRAC-BURNED-05-CRANKANGLE" "MassFracBurned05-CrA"
+          legend = "MassFracBurned05-CrA Cylinder 1"
+          xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____1.gid "MASS-FRAC-BURNED-05-CRANKANGLE_C"
+          yunit = "angle"
+          ..
+        CURVE "MASS-FRAC-BURNED-10-CRANKANGLE" "MassFracBurned10-CrA"
+          legend = "MassFracBurned10-CrA Cylinder 1"
+          xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____1.gid "MASS-FRAC-BURNED-10-CRANKANGLE_C"
+          yunit = "angle"
+          ..
+        CURVE "MASS-FRAC-BURNED-50-CRANKANGLE" "MassFracBurned50-CrA"
+          legend = "MassFracBurned50-CrA Cylinder 1"
+          xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____1.gid "MASS-FRAC-BURNED-50-CRANKANGLE_C"
+          yunit = "angle"
+          ..
+        CURVE "MASS-FRAC-BURNED-90-CRANKANGLE" "MassFracBurned90-CrA"
+          legend = "MassFracBurned90-CrA Cylinder 1"
+          xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____1.gid "MASS-FRAC-BURNED-90-CRANKANGLE_C"
+          yunit = "angle"
+          ..
+        CURVE "MASS-FRAC-BURNED-95-CRANKANGLE" "MassFracBurned95-CrA"
+          legend = "MassFracBurned95-CrA Cylinder 1"
+          xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____1.gid "MASS-FRAC-BURNED-95-CRANKANGLE_C"
+          yunit = "angle"
+          ..
+        CURVE "SOC-TEMPERATURE" "Temperature at SOC"
+          legend = "Temperature at SOC Cylinder 1"
+          xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____1.gid "SOC-TEMPERATURE_C"
+          yunit = "temperature"
+          ..
+        CURVE "SOC-PRESSURE" "Pressure at SOC"
+          legend = "Pressure at SOC Cylinder 1"
+          xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____1.gid "SOC-PRESSURE_C"
+          yunit = "pressure"
+          ..
+        ..
+      FOLDER "PF" "Performance"
+        CURVE "INDICATED-EFFICIENCY" "IndicatedEfficiency"
+          legend = "IndicatedEfficiency Cylinder 1"
+          xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____1.gid "INDICATED-EFFICIENCY_PF"
+          yunit = "dimensionless~none"
+          ..
+        CURVE "EFFECTIVE-EFFICIENCY" "EffectiveEfficiency"
+          legend = "EffectiveEfficiency Cylinder 1"
+          xlocation = GIDAS kCY1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____1.gid "EFFECTIVE-EFFICIENCY_PF"
+          yunit = "dimensionless~none"
+          ..
+        ..
+      FOLDER "I#2" "AttachedIntakePipe 2"
+        CURVE "FLOWCOEFFICIENT" "FlowCoeff"
+          legend = "FlowCoeff Cylinder 1"
+          xlocation = GIDAS kCY1____2.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____2.gid "FLOWCOEFFICIENT_I#2"
+          yunit = "dimensionless~none"
+          ..
+        CURVE "MASSFLOW" "MassFlow"
+          legend = "MassFlow Cylinder 1"
+          xlocation = GIDAS kCY1____2.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____2.gid "MASSFLOW_I#2"
+          yunit = "massflow_cycle"
+          ..
+        CURVE "PORTWALLHEAT" "Port Wall Heat"
+          legend = "Port Wall Heat Cylinder 1"
+          xlocation = GIDAS kCY1____2.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____2.gid "PORTWALLHEAT_I#2"
+          yunit = "volumework"
+          ..
+        CURVE "VALVEPORTOPENING-EFF0MM-CRANKANGLE" "ValvePortOpeningEff0mm-CrA"
+          legend = "ValvePortOpeningEff0mm-CrA Cylinder 1"
+          xlocation = GIDAS kCY1____2.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____2.gid "VALVEPORTOPENING-EFF0MM-CRANKANGLE_I#2"
+          yunit = "angle"
+          ..
+        CURVE "VALVEPORTCLOSING-EFF0MM-CRANKANGLE" "ValvePortClosingEff0mm-CrA"
+          legend = "ValvePortClosingEff0mm-CrA Cylinder 1"
+          xlocation = GIDAS kCY1____2.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____2.gid "VALVEPORTCLOSING-EFF0MM-CRANKANGLE_I#2"
+          yunit = "angle"
+          ..
+        ..
+      FOLDER "E#3" "AttachedExhaustPipe 3"
+        CURVE "FLOWCOEFFICIENT" "FlowCoeff"
+          legend = "FlowCoeff Cylinder 1"
+          xlocation = GIDAS kCY1____3.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____3.gid "FLOWCOEFFICIENT_E#3"
+          yunit = "dimensionless~none"
+          ..
+        CURVE "MASSFLOW" "MassFlow"
+          legend = "MassFlow Cylinder 1"
+          xlocation = GIDAS kCY1____3.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____3.gid "MASSFLOW_E#3"
+          yunit = "massflow_cycle"
+          ..
+        CURVE "PORTWALLHEAT" "Port Wall Heat"
+          legend = "Port Wall Heat Cylinder 1"
+          xlocation = GIDAS kCY1____3.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____3.gid "PORTWALLHEAT_E#3"
+          yunit = "volumework"
+          ..
+        CURVE "VALVEPORTOPENING-EFF0MM-CRANKANGLE" "ValvePortOpeningEff0mm-CrA"
+          legend = "ValvePortOpeningEff0mm-CrA Cylinder 1"
+          xlocation = GIDAS kCY1____3.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____3.gid "VALVEPORTOPENING-EFF0MM-CRANKANGLE_E#3"
+          yunit = "angle"
+          ..
+        CURVE "VALVEPORTCLOSING-EFF0MM-CRANKANGLE" "ValvePortClosingEff0mm-CrA"
+          legend = "ValvePortClosingEff0mm-CrA Cylinder 1"
+          xlocation = GIDAS kCY1____3.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kCY1____3.gid "VALVEPORTCLOSING-EFF0MM-CRANKANGLE_E#3"
+          yunit = "angle"
+          ..
+        ..
+      ..
+    FOLDER "VARIABLE_PLENUM 1" "Variable Plenum 1"
+      uuid = "5E60B14C0048-0003467A-4C4943454D-01"
+      CURVE "PRESSURE" "Pressure"
+        legend = "Pressure Variable Plenum 1"
+        xlocation = GIDAS kVP1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kVP1____1.gid "PRESSURE"
+        yunit = "pressure"
+        ..
+      CURVE "TEMPERATURE" "Temperature"
+        legend = "Temperature Variable Plenum 1"
+        xlocation = GIDAS kVP1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kVP1____1.gid "TEMPERATURE"
+        yunit = "temperature"
+        ..
+      CURVE "MASS" "Mass"
+        legend = "Mass Variable Plenum 1"
+        xlocation = GIDAS kVP1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kVP1____1.gid "MASS"
+        yunit = "mass"
+        ..
+      CURVE "VOLUME" "Volume"
+        legend = "Volume Variable Plenum 1"
+        xlocation = GIDAS kVP1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kVP1____1.gid "VOLUME"
+        yunit = "volume"
+        ..
+      CURVE "VOLUMEWORK" "VolumeWork"
+        legend = "VolumeWork Variable Plenum 1"
+        xlocation = GIDAS kVP1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kVP1____1.gid "VOLUMEWORK"
+        yunit = "volumework"
+        ..
+      FOLDER "S" "Species"
+        CURVE "A/F-RATIO" "Brnd-A/F-Ratio"
+          legend = "Brnd-A/F-Ratio Variable Plenum 1"
+          xlocation = GIDAS kVP1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kVP1____1.gid "A/F-RATIO_S"
+          yunit = "dimensionless~none"
+          ..
+        CURVE "COMBUSTIONPRODUCTCONCENTRATION" "CombProdConcentration"
+          legend = "CombProdConcentration Variable Plenum 1"
+          xlocation = GIDAS kVP1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kVP1____1.gid "COMBUSTIONPRODUCTCONCENTRATION_S"
+          yunit = "dimensionless~none"
+          ..
+        CURVE "FUELVAPOURCONCENTRATION" "FuelVapourConcentration"
+          legend = "FuelVapourConcentration Variable Plenum 1"
+          xlocation = GIDAS kVP1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kVP1____1.gid "FUELVAPOURCONCENTRATION_S"
+          yunit = "dimensionless~none"
+          ..
+        ..
+      FOLDER "P#2" "AttachedPipe 2"
+        CURVE "FLOWCOEFFICIENT" "FlowCoeff"
+          legend = "FlowCoeff Variable Plenum 1"
+          xlocation = GIDAS kVP1____2.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kVP1____2.gid "FLOWCOEFFICIENT_P#2"
+          yunit = "dimensionless~none"
+          ..
+        CURVE "MASSFLOW" "MassFlow"
+          legend = "MassFlow Variable Plenum 1"
+          xlocation = GIDAS kVP1____2.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kVP1____2.gid "MASSFLOW_P#2"
+          yunit = "massflow_cycle"
+          ..
+        CURVE "VELOCITY" "Velocity"
+          legend = "Velocity Variable Plenum 1"
+          xlocation = GIDAS kVP1____2.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kVP1____2.gid "VELOCITY_P#2"
+          yunit = "velocity"
+          ..
+        ..
+      FOLDER "P#6" "AttachedPipe 6"
+        CURVE "FLOWCOEFFICIENT" "FlowCoeff"
+          legend = "FlowCoeff Variable Plenum 1"
+          xlocation = GIDAS kVP1____3.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kVP1____3.gid "FLOWCOEFFICIENT_P#6"
+          yunit = "dimensionless~none"
+          ..
+        CURVE "MASSFLOW" "MassFlow"
+          legend = "MassFlow Variable Plenum 1"
+          xlocation = GIDAS kVP1____3.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kVP1____3.gid "MASSFLOW_P#6"
+          yunit = "massflow_cycle"
+          ..
+        CURVE "VELOCITY" "Velocity"
+          legend = "Velocity Variable Plenum 1"
+          xlocation = GIDAS kVP1____3.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kVP1____3.gid "VELOCITY_P#6"
+          yunit = "velocity"
+          ..
+        ..
+      ..
+    FOLDER "MEASURINGPOINT 1" "MeasuringPoint 1"
+      uuid = "5E7213B84521-0457FF11-4C4943454D-01"
+      CURVE "PRESSURE" "Pressure"
+        legend = "Pressure MeasuringPoint 1"
+        xlocation = GIDAS kMP1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kMP1____1.gid "PRESSURE"
+        yunit = "pressure"
+        ..
+      CURVE "VELOCITY" "Velocity"
+        legend = "Velocity MeasuringPoint 1"
+        xlocation = GIDAS kMP1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kMP1____1.gid "VELOCITY"
+        yunit = "velocity"
+        ..
+      CURVE "TEMPERATURE" "Temperature"
+        legend = "Temperature MeasuringPoint 1"
+        xlocation = GIDAS kMP1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kMP1____1.gid "TEMPERATURE"
+        yunit = "temperature"
+        ..
+      CURVE "MASSFLOW" "MassFlow"
+        legend = "MassFlow MeasuringPoint 1"
+        xlocation = GIDAS kMP1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kMP1____1.gid "MASSFLOW"
+        yunit = "massflow_cycle"
+        ..
+      CURVE "MASSFLOWPERS" "MassFlowPerS"
+        legend = "MassFlowPerS MeasuringPoint 1"
+        xlocation = GIDAS kMP1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kMP1____1.gid "MASSFLOWPERS"
+        yunit = "massflow"
+        ..
+      CURVE "MASSFLOWAVERAGED-TEMPERATURE" "MassflowaveragedTemp."
+        legend = "MassflowaveragedTemp. MeasuringPoint 1"
+        xlocation = GIDAS kMP1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kMP1____1.gid "MASSFLOWAVERAGED-TEMPERATURE"
+        yunit = "temperature"
+        ..
+      CURVE "MACHNUMBER" "Mach Number"
+        legend = "Mach Number MeasuringPoint 1"
+        xlocation = GIDAS kMP1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kMP1____1.gid "MACHNUMBER"
+        yunit = "dimensionless~none"
+        ..
+      CURVE "STAGNATIONPRESSURE" "StagPressure"
+        legend = "StagPressure MeasuringPoint 1"
+        xlocation = GIDAS kMP1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kMP1____1.gid "STAGNATIONPRESSURE"
+        yunit = "pressure"
+        ..
+      CURVE "STAGNATIONTEMPERATURE" "StagTemp"
+        legend = "StagTemp MeasuringPoint 1"
+        xlocation = GIDAS kMP1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kMP1____1.gid "STAGNATIONTEMPERATURE"
+        yunit = "temperature"
+        ..
+      CURVE "ENTHALPYFLOWPERS" "EnthalpyFlowPers"
+        legend = "EnthalpyFlowPers MeasuringPoint 1"
+        xlocation = GIDAS kMP1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kMP1____1.gid "ENTHALPYFLOWPERS"
+        yunit = "heat_flow"
+        ..
+      CURVE "REYNOLDSNUMBER" "ReynoldsNumber"
+        legend = "ReynoldsNumber MeasuringPoint 1"
+        xlocation = GIDAS kMP1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kMP1____1.gid "REYNOLDSNUMBER"
+        yunit = "dimensionless~none"
+        ..
+      CURVE "WALLTEMPERATURE" "WallTemperature"
+        legend = "WallTemperature MeasuringPoint 1"
+        xlocation = GIDAS kMP1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kMP1____1.gid "WALLTEMPERATURE"
+        yunit = "temperature"
+        ..
+      CURVE "CONVERGENCE" "Convergence"
+        legend = "Convergence MeasuringPoint 1"
+        xlocation = GIDAS kMP1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kMP1____1.gid "CONVERGENCE"
+        yunit = "dimensionless~none"
+        ..
+      CURVE "DENSITY" "Density"
+        legend = "Density MeasuringPoint 1"
+        xlocation = GIDAS kMP1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kMP1____1.gid "DENSITY"
+        yunit = "density"
+        ..
+      CURVE "SPECHEATCP" "SpecHeatConstPre"
+        legend = "SpecHeatConstPre MeasuringPoint 1"
+        xlocation = GIDAS kMP1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kMP1____1.gid "SPECHEATCP"
+        yunit = "gasconst"
+        ..
+      CURVE "ISENTROPIC-EXPONENT" "IsentropicExponent"
+        legend = "IsentropicExponent MeasuringPoint 1"
+        xlocation = GIDAS kMP1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kMP1____1.gid "ISENTROPIC-EXPONENT"
+        yunit = "dimensionless~none"
+        ..
+      CURVE "GAS-CONSTANT" "GasConstant"
+        legend = "GasConstant MeasuringPoint 1"
+        xlocation = GIDAS kMP1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kMP1____1.gid "GAS-CONSTANT"
+        yunit = "gasconst"
+        ..
+      ..
+    FOLDER "SYSTEMBOUNDARY 1" "SystemBoundary 1"
+      uuid = "5E60B0C80000-00014530-4C4943454D-01"
+      FOLDER "P#1" "AttachedPipe 1"
+        CURVE "FLOWCOEFFICIENT" "FlowCoeff"
+          legend = "FlowCoeff SystemBoundary 1"
+          xlocation = GIDAS kSB1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kSB1____1.gid "FLOWCOEFFICIENT_P#1"
+          yunit = "dimensionless~none"
+          ..
+        CURVE "MASSFLOW" "MassFlow"
+          legend = "MassFlow SystemBoundary 1"
+          xlocation = GIDAS kSB1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kSB1____1.gid "MASSFLOW_P#1"
+          yunit = "massflow_cycle"
+          ..
+        CURVE "VELOCITY" "Velocity"
+          legend = "Velocity SystemBoundary 1"
+          xlocation = GIDAS kSB1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kSB1____1.gid "VELOCITY_P#1"
+          yunit = "velocity"
+          ..
+        ..
+      ..
+    FOLDER "SYSTEMBOUNDARY 2" "SystemBoundary 2"
+      uuid = "5E675ABF2458-002CF995-4C4943454D-01"
+      FOLDER "P#9" "AttachedPipe 9"
+        CURVE "FLOWCOEFFICIENT" "FlowCoeff"
+          legend = "FlowCoeff SystemBoundary 2"
+          xlocation = GIDAS kSB2____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kSB2____1.gid "FLOWCOEFFICIENT_P#9"
+          yunit = "dimensionless~none"
+          ..
+        CURVE "MASSFLOW" "MassFlow"
+          legend = "MassFlow SystemBoundary 2"
+          xlocation = GIDAS kSB2____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kSB2____1.gid "MASSFLOW_P#9"
+          yunit = "massflow_cycle"
+          ..
+        CURVE "VELOCITY" "Velocity"
+          legend = "Velocity SystemBoundary 2"
+          xlocation = GIDAS kSB2____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kSB2____1.gid "VELOCITY_P#9"
+          yunit = "velocity"
+          ..
+        ..
+      ..
+    FOLDER "RESTRICTION 1" "Restriction 1"
+      uuid = "5E6649166400-006C226F-4C4943454D-01"
+      FOLDER "P#3" "AttachedPipe 3"
+        CURVE "FLOWCOEFFICIENT" "FlowCoeff"
+          legend = "FlowCoeff Restriction 1"
+          xlocation = GIDAS kFR1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kFR1____1.gid "FLOWCOEFFICIENT_P#3"
+          yunit = "dimensionless~none"
+          ..
+        CURVE "MASSFLOW" "MassFlow"
+          legend = "MassFlow Restriction 1"
+          xlocation = GIDAS kFR1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kFR1____1.gid "MASSFLOW_P#3"
+          yunit = "massflow_cycle"
+          ..
+        CURVE "VELOCITY" "Velocity"
+          legend = "Velocity Restriction 1"
+          xlocation = GIDAS kFR1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kFR1____1.gid "VELOCITY_P#3"
+          yunit = "velocity"
+          ..
+        ..
+      FOLDER "P#7" "AttachedPipe 7"
+        CURVE "FLOWCOEFFICIENT" "FlowCoeff"
+          legend = "FlowCoeff Restriction 1"
+          xlocation = GIDAS kFR1____2.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kFR1____2.gid "FLOWCOEFFICIENT_P#7"
+          yunit = "dimensionless~none"
+          ..
+        CURVE "MASSFLOW" "MassFlow"
+          legend = "MassFlow Restriction 1"
+          xlocation = GIDAS kFR1____2.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kFR1____2.gid "MASSFLOW_P#7"
+          yunit = "massflow_cycle"
+          ..
+        CURVE "VELOCITY" "Velocity"
+          legend = "Velocity Restriction 1"
+          xlocation = GIDAS kFR1____2.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kFR1____2.gid "VELOCITY_P#7"
+          yunit = "velocity"
+          ..
+        ..
+      ..
+    FOLDER "RESTRICTION 2" "Restriction 2"
+      uuid = "5E6649176400-006C267F-4C4943454D-01"
+      FOLDER "P#4" "AttachedPipe 4"
+        CURVE "FLOWCOEFFICIENT" "FlowCoeff"
+          legend = "FlowCoeff Restriction 2"
+          xlocation = GIDAS kFR2____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kFR2____1.gid "FLOWCOEFFICIENT_P#4"
+          yunit = "dimensionless~none"
+          ..
+        CURVE "MASSFLOW" "MassFlow"
+          legend = "MassFlow Restriction 2"
+          xlocation = GIDAS kFR2____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kFR2____1.gid "MASSFLOW_P#4"
+          yunit = "massflow_cycle"
+          ..
+        CURVE "VELOCITY" "Velocity"
+          legend = "Velocity Restriction 2"
+          xlocation = GIDAS kFR2____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kFR2____1.gid "VELOCITY_P#4"
+          yunit = "velocity"
+          ..
+        ..
+      FOLDER "P#7" "AttachedPipe 7"
+        CURVE "FLOWCOEFFICIENT" "FlowCoeff"
+          legend = "FlowCoeff Restriction 2"
+          xlocation = GIDAS kFR2____2.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kFR2____2.gid "FLOWCOEFFICIENT_P#7"
+          yunit = "dimensionless~none"
+          ..
+        CURVE "MASSFLOW" "MassFlow"
+          legend = "MassFlow Restriction 2"
+          xlocation = GIDAS kFR2____2.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kFR2____2.gid "MASSFLOW_P#7"
+          yunit = "massflow_cycle"
+          ..
+        CURVE "VELOCITY" "Velocity"
+          legend = "Velocity Restriction 2"
+          xlocation = GIDAS kFR2____2.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kFR2____2.gid "VELOCITY_P#7"
+          yunit = "velocity"
+          ..
+        ..
+      ..
+    FOLDER "RESTRICTION 3" "Restriction 3"
+      uuid = "5E675A1D225A-002A7F30-4C4943454D-01"
+      FOLDER "P#4" "AttachedPipe 4"
+        CURVE "FLOWCOEFFICIENT" "FlowCoeff"
+          legend = "FlowCoeff Restriction 3"
+          xlocation = GIDAS kFR3____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kFR3____1.gid "FLOWCOEFFICIENT_P#4"
+          yunit = "dimensionless~none"
+          ..
+        CURVE "MASSFLOW" "MassFlow"
+          legend = "MassFlow Restriction 3"
+          xlocation = GIDAS kFR3____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kFR3____1.gid "MASSFLOW_P#4"
+          yunit = "massflow_cycle"
+          ..
+        CURVE "VELOCITY" "Velocity"
+          legend = "Velocity Restriction 3"
+          xlocation = GIDAS kFR3____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kFR3____1.gid "VELOCITY_P#4"
+          yunit = "velocity"
+          ..
+        ..
+      FOLDER "P#8" "AttachedPipe 8"
+        CURVE "FLOWCOEFFICIENT" "FlowCoeff"
+          legend = "FlowCoeff Restriction 3"
+          xlocation = GIDAS kFR3____2.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kFR3____2.gid "FLOWCOEFFICIENT_P#8"
+          yunit = "dimensionless~none"
+          ..
+        CURVE "MASSFLOW" "MassFlow"
+          legend = "MassFlow Restriction 3"
+          xlocation = GIDAS kFR3____2.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kFR3____2.gid "MASSFLOW_P#8"
+          yunit = "massflow_cycle"
+          ..
+        CURVE "VELOCITY" "Velocity"
+          legend = "Velocity Restriction 3"
+          xlocation = GIDAS kFR3____2.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kFR3____2.gid "VELOCITY_P#8"
+          yunit = "velocity"
+          ..
+        ..
+      ..
+    FOLDER "RESTRICTION 4" "Restriction 4"
+      uuid = "5E675A69230A-002BAA7F-4C4943454D-01"
+      FOLDER "P#8" "AttachedPipe 8"
+        CURVE "FLOWCOEFFICIENT" "FlowCoeff"
+          legend = "FlowCoeff Restriction 4"
+          xlocation = GIDAS kFR4____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kFR4____1.gid "FLOWCOEFFICIENT_P#8"
+          yunit = "dimensionless~none"
+          ..
+        CURVE "MASSFLOW" "MassFlow"
+          legend = "MassFlow Restriction 4"
+          xlocation = GIDAS kFR4____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kFR4____1.gid "MASSFLOW_P#8"
+          yunit = "massflow_cycle"
+          ..
+        CURVE "VELOCITY" "Velocity"
+          legend = "Velocity Restriction 4"
+          xlocation = GIDAS kFR4____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kFR4____1.gid "VELOCITY_P#8"
+          yunit = "velocity"
+          ..
+        ..
+      FOLDER "P#9" "AttachedPipe 9"
+        CURVE "FLOWCOEFFICIENT" "FlowCoeff"
+          legend = "FlowCoeff Restriction 4"
+          xlocation = GIDAS kFR4____2.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kFR4____2.gid "FLOWCOEFFICIENT_P#9"
+          yunit = "dimensionless~none"
+          ..
+        CURVE "MASSFLOW" "MassFlow"
+          legend = "MassFlow Restriction 4"
+          xlocation = GIDAS kFR4____2.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kFR4____2.gid "MASSFLOW_P#9"
+          yunit = "massflow_cycle"
+          ..
+        CURVE "VELOCITY" "Velocity"
+          legend = "Velocity Restriction 4"
+          xlocation = GIDAS kFR4____2.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kFR4____2.gid "VELOCITY_P#9"
+          yunit = "velocity"
+          ..
+        ..
+      ..
+    FOLDER "ROTARYVALVE 1" "RotaryValve 1"
+      uuid = "5E6750DE6401-00066412-4C4943454D-01"
+      FOLDER "P#5" "AttachedPipe 5"
+        CURVE "FLOWCOEFFICIENT" "FlowCoeff"
+          legend = "FlowCoeff RotaryValve 1"
+          xlocation = GIDAS kRV1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kRV1____1.gid "FLOWCOEFFICIENT_P#5"
+          yunit = "dimensionless~none"
+          ..
+        CURVE "MASSFLOW" "MassFlow"
+          legend = "MassFlow RotaryValve 1"
+          xlocation = GIDAS kRV1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kRV1____1.gid "MASSFLOW_P#5"
+          yunit = "massflow_cycle"
+          ..
+        CURVE "VELOCITY" "Velocity"
+          legend = "Velocity RotaryValve 1"
+          xlocation = GIDAS kRV1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kRV1____1.gid "VELOCITY_P#5"
+          yunit = "velocity"
+          ..
+        ..
+      FOLDER "P#6" "AttachedPipe 6"
+        CURVE "FLOWCOEFFICIENT" "FlowCoeff"
+          legend = "FlowCoeff RotaryValve 1"
+          xlocation = GIDAS kRV1____2.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kRV1____2.gid "FLOWCOEFFICIENT_P#6"
+          yunit = "dimensionless~none"
+          ..
+        CURVE "MASSFLOW" "MassFlow"
+          legend = "MassFlow RotaryValve 1"
+          xlocation = GIDAS kRV1____2.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kRV1____2.gid "MASSFLOW_P#6"
+          yunit = "massflow_cycle"
+          ..
+        CURVE "VELOCITY" "Velocity"
+          legend = "Velocity RotaryValve 1"
+          xlocation = GIDAS kRV1____2.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kRV1____2.gid "VELOCITY_P#6"
+          yunit = "velocity"
+          ..
+        ..
+      ..
+    FOLDER "FUELINJECTOR 1" "FuelInjector 1"
+      uuid = "5E60B12D8101-0002CDD3-4C4943454D-01"
+      CURVE "ADDEDFUEL" "AddedFuel"
+        legend = "AddedFuel FuelInjector 1"
+        xlocation = GIDAS kIJ1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kIJ1____1.gid "ADDEDFUEL"
+        yunit = "massflow_cycle"
+        ..
+      FOLDER "P#1" "AttachedPipe 1"
+        CURVE "FLOWCOEFFICIENT" "FlowCoeff"
+          legend = "FlowCoeff FuelInjector 1"
+          xlocation = GIDAS kIJ1____2.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kIJ1____2.gid "FLOWCOEFFICIENT_P#1"
+          yunit = "dimensionless~none"
+          ..
+        CURVE "MASSFLOW" "MassFlow"
+          legend = "MassFlow FuelInjector 1"
+          xlocation = GIDAS kIJ1____2.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kIJ1____2.gid "MASSFLOW_P#1"
+          yunit = "massflow_cycle"
+          ..
+        CURVE "VELOCITY" "Velocity"
+          legend = "Velocity FuelInjector 1"
+          xlocation = GIDAS kIJ1____2.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kIJ1____2.gid "VELOCITY_P#1"
+          yunit = "velocity"
+          ..
+        ..
+      FOLDER "P#5" "AttachedPipe 5"
+        CURVE "FLOWCOEFFICIENT" "FlowCoeff"
+          legend = "FlowCoeff FuelInjector 1"
+          xlocation = GIDAS kIJ1____3.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kIJ1____3.gid "FLOWCOEFFICIENT_P#5"
+          yunit = "dimensionless~none"
+          ..
+        CURVE "MASSFLOW" "MassFlow"
+          legend = "MassFlow FuelInjector 1"
+          xlocation = GIDAS kIJ1____3.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kIJ1____3.gid "MASSFLOW_P#5"
+          yunit = "massflow_cycle"
+          ..
+        CURVE "VELOCITY" "Velocity"
+          legend = "Velocity FuelInjector 1"
+          xlocation = GIDAS kIJ1____3.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kIJ1____3.gid "VELOCITY_P#5"
+          yunit = "velocity"
+          ..
+        ..
+      ..
+    FOLDER "PIPE 1" "Pipe 1"
+      uuid = "5E60B1C00100-00050F29-4C4943454D-01"
+      FOLDER "H" "Gas-Wall HeatTransfer"
+        CURVE "WALLHEATFLOW" "Gas-Wall HeatFlow"
+          legend = "Gas-Wall HeatFlow Pipe 1"
+          xlocation = GIDAS kPI1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kPI1____1.gid "WALLHEATFLOW_H"
+          yunit = "volumework"
+          ..
+        CURVE "ALPHA-GAS-WALL" "Gas-Wall Heat-Trans Coeff"
+          legend = "Gas-Wall Heat-Trans Coeff Pipe 1"
+          xlocation = GIDAS kPI1____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kPI1____1.gid "ALPHA-GAS-WALL_H"
+          yunit = "heat_transf_coeff"
+          ..
+        ..
+      ..
+    FOLDER "PIPE 2" "Pipe 2"
+      uuid = "5E60EC8960A4-00EAA7AF-4C4943454D-01"
+      FOLDER "H" "Gas-Wall HeatTransfer"
+        CURVE "WALLHEATFLOW" "Gas-Wall HeatFlow"
+          legend = "Gas-Wall HeatFlow Pipe 2"
+          xlocation = GIDAS kPI2____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kPI2____1.gid "WALLHEATFLOW_H"
+          yunit = "volumework"
+          ..
+        CURVE "ALPHA-GAS-WALL" "Gas-Wall Heat-Trans Coeff"
+          legend = "Gas-Wall Heat-Trans Coeff Pipe 2"
+          xlocation = GIDAS kPI2____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kPI2____1.gid "ALPHA-GAS-WALL_H"
+          yunit = "heat_transf_coeff"
+          ..
+        ..
+      ..
+    FOLDER "PIPE 3" "Pipe 3"
+      uuid = "5E6649256448-006C5E5E-4C4943454D-01"
+      FOLDER "H" "Gas-Wall HeatTransfer"
+        CURVE "WALLHEATFLOW" "Gas-Wall HeatFlow"
+          legend = "Gas-Wall HeatFlow Pipe 3"
+          xlocation = GIDAS kPI3____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kPI3____1.gid "WALLHEATFLOW_H"
+          yunit = "volumework"
+          ..
+        CURVE "ALPHA-GAS-WALL" "Gas-Wall Heat-Trans Coeff"
+          legend = "Gas-Wall Heat-Trans Coeff Pipe 3"
+          xlocation = GIDAS kPI3____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kPI3____1.gid "ALPHA-GAS-WALL_H"
+          yunit = "heat_transf_coeff"
+          ..
+        ..
+      ..
+    FOLDER "PIPE 4" "Pipe 4"
+      uuid = "5E66492B6441-006C75A1-4C4943454D-01"
+      FOLDER "H" "Gas-Wall HeatTransfer"
+        CURVE "WALLHEATFLOW" "Gas-Wall HeatFlow"
+          legend = "Gas-Wall HeatFlow Pipe 4"
+          xlocation = GIDAS kPI4____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kPI4____1.gid "WALLHEATFLOW_H"
+          yunit = "volumework"
+          ..
+        CURVE "ALPHA-GAS-WALL" "Gas-Wall Heat-Trans Coeff"
+          legend = "Gas-Wall Heat-Trans Coeff Pipe 4"
+          xlocation = GIDAS kPI4____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kPI4____1.gid "ALPHA-GAS-WALL_H"
+          yunit = "heat_transf_coeff"
+          ..
+        ..
+      ..
+    FOLDER "PIPE 5" "Pipe 5"
+      uuid = "5E6750EE6002-0006A024-4C4943454D-01"
+      FOLDER "H" "Gas-Wall HeatTransfer"
+        CURVE "WALLHEATFLOW" "Gas-Wall HeatFlow"
+          legend = "Gas-Wall HeatFlow Pipe 5"
+          xlocation = GIDAS kPI5____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kPI5____1.gid "WALLHEATFLOW_H"
+          yunit = "volumework"
+          ..
+        CURVE "ALPHA-GAS-WALL" "Gas-Wall Heat-Trans Coeff"
+          legend = "Gas-Wall Heat-Trans Coeff Pipe 5"
+          xlocation = GIDAS kPI5____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kPI5____1.gid "ALPHA-GAS-WALL_H"
+          yunit = "heat_transf_coeff"
+          ..
+        ..
+      ..
+    FOLDER "PIPE 6" "Pipe 6"
+      uuid = "5E6750F06005-0006A75A-4C4943454D-01"
+      FOLDER "H" "Gas-Wall HeatTransfer"
+        CURVE "WALLHEATFLOW" "Gas-Wall HeatFlow"
+          legend = "Gas-Wall HeatFlow Pipe 6"
+          xlocation = GIDAS kPI6____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kPI6____1.gid "WALLHEATFLOW_H"
+          yunit = "volumework"
+          ..
+        CURVE "ALPHA-GAS-WALL" "Gas-Wall Heat-Trans Coeff"
+          legend = "Gas-Wall Heat-Trans Coeff Pipe 6"
+          xlocation = GIDAS kPI6____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kPI6____1.gid "ALPHA-GAS-WALL_H"
+          yunit = "heat_transf_coeff"
+          ..
+        ..
+      ..
+    FOLDER "PIPE 7" "Pipe 7"
+      uuid = "5E67592C2651-0026D1E4-4C4943454D-01"
+      FOLDER "H" "Gas-Wall HeatTransfer"
+        CURVE "WALLHEATFLOW" "Gas-Wall HeatFlow"
+          legend = "Gas-Wall HeatFlow Pipe 7"
+          xlocation = GIDAS kPI7____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kPI7____1.gid "WALLHEATFLOW_H"
+          yunit = "volumework"
+          ..
+        CURVE "ALPHA-GAS-WALL" "Gas-Wall Heat-Trans Coeff"
+          legend = "Gas-Wall Heat-Trans Coeff Pipe 7"
+          xlocation = GIDAS kPI7____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kPI7____1.gid "ALPHA-GAS-WALL_H"
+          yunit = "heat_transf_coeff"
+          ..
+        ..
+      ..
+    FOLDER "PIPE 8" "Pipe 8"
+      uuid = "5E675A72234A-002BCBB9-4C4943454D-01"
+      FOLDER "H" "Gas-Wall HeatTransfer"
+        CURVE "WALLHEATFLOW" "Gas-Wall HeatFlow"
+          legend = "Gas-Wall HeatFlow Pipe 8"
+          xlocation = GIDAS kPI8____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kPI8____1.gid "WALLHEATFLOW_H"
+          yunit = "volumework"
+          ..
+        CURVE "ALPHA-GAS-WALL" "Gas-Wall Heat-Trans Coeff"
+          legend = "Gas-Wall Heat-Trans Coeff Pipe 8"
+          xlocation = GIDAS kPI8____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kPI8____1.gid "ALPHA-GAS-WALL_H"
+          yunit = "heat_transf_coeff"
+          ..
+        ..
+      ..
+    FOLDER "PIPE 9" "Pipe 9"
+      uuid = "5E675AC92500-002D2005-4C4943454D-01"
+      FOLDER "H" "Gas-Wall HeatTransfer"
+        CURVE "WALLHEATFLOW" "Gas-Wall HeatFlow"
+          legend = "Gas-Wall HeatFlow Pipe 9"
+          xlocation = GIDAS kPI9____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kPI9____1.gid "WALLHEATFLOW_H"
+          yunit = "volumework"
+          ..
+        CURVE "ALPHA-GAS-WALL" "Gas-Wall Heat-Trans Coeff"
+          legend = "Gas-Wall Heat-Trans Coeff Pipe 9"
+          xlocation = GIDAS kPI9____1.gid "ENDOFCYCLE-TIME"
+          xunit = "time"
+          ylocation = GIDAS kPI9____1.gid "ALPHA-GAS-WALL_H"
+          yunit = "heat_transf_coeff"
+          ..
+        ..
+      ..
+    FOLDER "TEST_BED_REFERENCE 1" "Test Bed Reference 1"
+      CURVE "P-0-A" "P_0_A"
+        legend = "P_0_A Test Bed Reference 1"
+        xlocation = GIDAS kTT1____1.gid "ENDOFCYCLE-TIME"
+        xunit = "time"
+        ylocation = GIDAS kTT1____1.gid "P-0-A"
+        yunit = "pressure"
+        ..
+      ..
+    ..
+  FOLDER "TRACES" "Traces"
+    FOLDER "ENGINE 1" "Engine 1"
+      uuid = "5E60B2318031-0006C571-4C4943454D-01"
+      CURVE "TRACESTIME" "Time"
+        legend = "Time Engine 1"
+        xlocation = GIDAS tEG1____1.gid "CRANKANGLE"
+        xunit = "angle~deg"
+        ylocation = GIDAS tEG1____1.gid "TRACESTIME"
+        yunit = "time"
+        coord_type = any
+        ..
+      CURVE "ENGINESPEED" "EngineSpeed"
+        legend = "EngineSpeed Engine 1"
+        xlocation = GIDAS tEG1____1.gid "CRANKANGLE"
+        xunit = "angle~deg"
+        ylocation = GIDAS tEG1____1.gid "ENGINESPEED"
+        yunit = "ang_vel~rpm"
+        coord_type = any
+        ..
+      CURVE "TORQUE" "Torque"
+        legend = "Torque Engine 1"
+        xlocation = GIDAS tEG1____1.gid "CRANKANGLE"
+        xunit = "angle~deg"
+        ylocation = GIDAS tEG1____1.gid "TORQUE"
+        yunit = "moment"
+        coord_type = any
+        ..
+      ..
+    FOLDER "CYLINDER 1" "Cylinder 1"
+      uuid = "5E6774E83208-00932880-4C4943454D-01"
+      CURVE "PRESSURE" "Pressure"
+        legend = "Pressure Cylinder 1"
+        xlocation = GIDAS tCY1____1.gid "CRANKANGLE"
+        xunit = "angle~deg"
+        ylocation = GIDAS tCY1____1.gid "PRESSURE"
+        yunit = "pressure"
+        coord_type = any
+        ..
+      CURVE "TEMPERATURE" "Temperature"
+        legend = "Temperature Cylinder 1"
+        xlocation = GIDAS tCY1____1.gid "CRANKANGLE"
+        xunit = "angle~deg"
+        ylocation = GIDAS tCY1____1.gid "TEMPERATURE"
+        yunit = "temperature"
+        coord_type = any
+        ..
+      CURVE "MASS" "Mass"
+        legend = "Mass Cylinder 1"
+        xlocation = GIDAS tCY1____1.gid "CRANKANGLE"
+        xunit = "angle~deg"
+        ylocation = GIDAS tCY1____1.gid "MASS"
+        yunit = "mass"
+        coord_type = any
+        ..
+      CURVE "VOLUME" "Volume"
+        legend = "Volume Cylinder 1"
+        xlocation = GIDAS tCY1____1.gid "CRANKANGLE"
+        xunit = "angle~deg"
+        ylocation = GIDAS tCY1____1.gid "VOLUME"
+        yunit = "volume"
+        coord_type = any
+        ..
+      CURVE "VOLUMEWORK" "VolumeWork"
+        legend = "VolumeWork Cylinder 1"
+        xlocation = GIDAS tCY1____1.gid "CRANKANGLE"
+        xunit = "angle~deg"
+        ylocation = GIDAS tCY1____1.gid "VOLUMEWORK"
+        yunit = "heat_rel_by_crank_angle"
+        coord_type = any
+        ..
+      CURVE "VOLUMEWORKINTEGRAL" "VolWorkInt"
+        legend = "VolWorkInt Cylinder 1"
+        xlocation = GIDAS tCY1____1.gid "CRANKANGLE"
+        xunit = "angle~deg"
+        ylocation = GIDAS tCY1____1.gid "VOLUMEWORKINTEGRAL"
+        yunit = "work"
+        coord_type = any
+        ..
+      CURVE "PRESSURERISE" "PressRise"
+        legend = "PressRise Cylinder 1"
+        xlocation = GIDAS tCY1____1.gid "CRANKANGLE"
+        xunit = "angle~deg"
+        ylocation = GIDAS tCY1____1.gid "PRESSURERISE"
+        yunit = "dpda"
+        coord_type = any
+        ..
+      CURVE "TEMPERATURERISE" "TempRise"
+        legend = "TempRise Cylinder 1"
+        xlocation = GIDAS tCY1____1.gid "CRANKANGLE"
+        xunit = "angle~deg"
+        ylocation = GIDAS tCY1____1.gid "TEMPERATURERISE"
+        yunit = "dtda"
+        coord_type = any
+        ..
+      CURVE "ENTHALPY" "Enthalpy"
+        legend = "Enthalpy Cylinder 1"
+        xlocation = GIDAS tCY1____1.gid "CRANKANGLE"
+        xunit = "angle~deg"
+        ylocation = GIDAS tCY1____1.gid "ENTHALPY"
+        yunit = "spec_energy"
+        coord_type = any
+        ..
+      CURVE "ENTROPY" "Entropy"
+        legend = "Entropy Cylinder 1"
+        xlocation = GIDAS tCY1____1.gid "CRANKANGLE"
+        xunit = "angle~deg"
+        ylocation = GIDAS tCY1____1.gid "ENTROPY"
+        yunit = "spec_heat"
+        coord_type = any
+        ..
+      CURVE "SPECHEATCV" "SpecHeatConstVol"
+        legend = "SpecHeatConstVol Cylinder 1"
+        xlocation = GIDAS tCY1____1.gid "CRANKANGLE"
+        xunit = "angle~deg"
+        ylocation = GIDAS tCY1____1.gid "SPECHEATCV"
+        yunit = "gasconst"
+        coord_type = any
+        ..
+      CURVE "SPECHEATCP" "SpecHeatConstPre"
+        legend = "SpecHeatConstPre Cylinder 1"
+        xlocation = GIDAS tCY1____1.gid "CRANKANGLE"
+        xunit = "angle~deg"
+        ylocation = GIDAS tCY1____1.gid "SPECHEATCP"
+        yunit = "gasconst"
+        coord_type = any
+        ..
+      CURVE "RGASMIX" "GasConstantMixture"
+        legend = "GasConstantMixture Cylinder 1"
+        xlocation = GIDAS tCY1____1.gid "CRANKANGLE"
+        xunit = "angle~deg"
+        ylocation = GIDAS tCY1____1.gid "RGASMIX"
+        yunit = "gasconst"
+        coord_type = any
+        ..
+      CURVE "PISTONPOSITION" "PistonPosition"
+        legend = "PistonPosition Cylinder 1"
+        xlocation = GIDAS tCY1____1.gid "CRANKANGLE"
+        xunit = "angle~deg"
+        ylocation = GIDAS tCY1____1.gid "PISTONPOSITION"
+        yunit = "length"
+        coord_type = any
+        ..
+      FOLDER "C" "Combustion"
+        CURVE "RATEOFHEATRELEASE" "RateHeatRel"
+          legend = "RateHeatRel Cylinder 1"
+          xlocation = GIDAS tCY1____1.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tCY1____1.gid "RATEOFHEATRELEASE_C"
+          yunit = "heat_rel_by_crank_angle"
+          coord_type = any
+          ..
+        CURVE "RATEOFHEATRELEASE-EFF" "RateHeatRelEff"
+          legend = "RateHeatRelEff Cylinder 1"
+          xlocation = GIDAS tCY1____1.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tCY1____1.gid "RATEOFHEATRELEASE-EFF_C"
+          yunit = "heat_rel_by_crank_angle"
+          coord_type = any
+          ..
+        CURVE "NETRATEOFHEATRELEASE" "Net Rate of Heat Release"
+          legend = "Net Rate of Heat Release Cylinder 1"
+          xlocation = GIDAS tCY1____1.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tCY1____1.gid "NETRATEOFHEATRELEASE_C"
+          yunit = "heat_rel_by_crank_angle"
+          coord_type = any
+          ..
+        CURVE "NORMRATEOFHEATRELEASE" "RateHeatRelNorm"
+          legend = "RateHeatRelNorm Cylinder 1"
+          xlocation = GIDAS tCY1____1.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tCY1____1.gid "NORMRATEOFHEATRELEASE_C"
+          yunit = "norm_roi"
+          coord_type = any
+          ..
+        ..
+      FOLDER "H" "HeatTransfer"
+        CURVE "TOTALWALLHEATFLOW" "TotalWallHeatFlow"
+          legend = "TotalWallHeatFlow Cylinder 1"
+          xlocation = GIDAS tCY1____1.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tCY1____1.gid "TOTALWALLHEATFLOW_H"
+          yunit = "heat_rel_by_crank_angle"
+          coord_type = any
+          ..
+        CURVE "PISTONWALLHEATFLOW" "PistWallHeatFlow"
+          legend = "PistWallHeatFlow Cylinder 1"
+          xlocation = GIDAS tCY1____1.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tCY1____1.gid "PISTONWALLHEATFLOW_H"
+          yunit = "heat_rel_by_crank_angle"
+          coord_type = any
+          ..
+        CURVE "HEADWALLHEATFLOW" "HeadWallHeatFlow"
+          legend = "HeadWallHeatFlow Cylinder 1"
+          xlocation = GIDAS tCY1____1.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tCY1____1.gid "HEADWALLHEATFLOW_H"
+          yunit = "heat_rel_by_crank_angle"
+          coord_type = any
+          ..
+        CURVE "LINERWALLHEATFLOW" "LinerWallHeatFlow"
+          legend = "LinerWallHeatFlow Cylinder 1"
+          xlocation = GIDAS tCY1____1.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tCY1____1.gid "LINERWALLHEATFLOW_H"
+          yunit = "heat_rel_by_crank_angle"
+          coord_type = any
+          ..
+        CURVE "HEATTRANSFERCOEFFICIENT" "HeatTransCoeff"
+          legend = "HeatTransCoeff Cylinder 1"
+          xlocation = GIDAS tCY1____1.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tCY1____1.gid "HEATTRANSFERCOEFFICIENT_H"
+          yunit = "heat_transf_coeff"
+          coord_type = any
+          ..
+        CURVE "BLOWBYENTHALPYFLOW" "BlowByHeatFlow"
+          legend = "BlowByHeatFlow Cylinder 1"
+          xlocation = GIDAS tCY1____1.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tCY1____1.gid "BLOWBYENTHALPYFLOW_H"
+          yunit = "heat_rel_by_crank_angle"
+          coord_type = any
+          ..
+        CURVE "MOTOREDPRESSUREREF" "MotoredPressureRef"
+          legend = "MotoredPressureRef Cylinder 1"
+          xlocation = GIDAS tCY1____1.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tCY1____1.gid "MOTOREDPRESSUREREF_H"
+          yunit = "pressure"
+          coord_type = any
+          ..
+        ..
+      FOLDER "G" "GasExchange"
+        CURVE "INTAKEMASSFLOW" "IntakeMassFlow"
+          legend = "IntakeMassFlow Cylinder 1"
+          xlocation = GIDAS tCY1____1.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tCY1____1.gid "INTAKEMASSFLOW_G"
+          yunit = "massflow"
+          coord_type = any
+          ..
+        CURVE "EXHAUSTMASSFLOW" "ExhaustMassFlow"
+          legend = "ExhaustMassFlow Cylinder 1"
+          xlocation = GIDAS tCY1____1.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tCY1____1.gid "EXHAUSTMASSFLOW_G"
+          yunit = "massflow"
+          coord_type = any
+          ..
+        CURVE "BLOWBY" "BlowBy"
+          legend = "BlowBy Cylinder 1"
+          xlocation = GIDAS tCY1____1.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tCY1____1.gid "BLOWBY_G"
+          yunit = "massflow"
+          coord_type = any
+          ..
+        CURVE "MASSASPIRATED" "MassAspirated"
+          legend = "MassAspirated Cylinder 1"
+          xlocation = GIDAS tCY1____1.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tCY1____1.gid "MASSASPIRATED_G"
+          yunit = "mass"
+          coord_type = any
+          ..
+        CURVE "MASSTRAPPED" "MassTrapped"
+          legend = "MassTrapped Cylinder 1"
+          xlocation = GIDAS tCY1____1.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tCY1____1.gid "MASSTRAPPED_G"
+          yunit = "mass"
+          coord_type = any
+          ..
+        CURVE "SCAVENGINGEFFICIENCY" "ScavengingEfficiency"
+          legend = "ScavengingEfficiency Cylinder 1"
+          xlocation = GIDAS tCY1____1.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tCY1____1.gid "SCAVENGINGEFFICIENCY_G"
+          yunit = "dimensionless~none"
+          coord_type = any
+          ..
+        CURVE "SCAVENGINGQUALITY" "ScavengingQuality"
+          legend = "ScavengingQuality Cylinder 1"
+          xlocation = GIDAS tCY1____1.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tCY1____1.gid "SCAVENGINGQUALITY_G"
+          yunit = "dimensionless~none"
+          coord_type = any
+          ..
+        ..
+      FOLDER "S" "Species"
+        CURVE "FUELBURNEDCONCENTRATION" "FuelBrndConc"
+          legend = "FuelBrndConc Cylinder 1"
+          xlocation = GIDAS tCY1____1.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tCY1____1.gid "FUELBURNEDCONCENTRATION_S"
+          yunit = "dimensionless~none"
+          coord_type = any
+          ..
+        CURVE "COMBUSTIONPRODUCTCONCENTRATION" "CombProdConc"
+          legend = "CombProdConc Cylinder 1"
+          xlocation = GIDAS tCY1____1.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tCY1____1.gid "COMBUSTIONPRODUCTCONCENTRATION_S"
+          yunit = "dimensionless~none"
+          coord_type = any
+          ..
+        CURVE "FUELVAPOURCONCENTRATION" "FuelConc"
+          legend = "FuelConc Cylinder 1"
+          xlocation = GIDAS tCY1____1.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tCY1____1.gid "FUELVAPOURCONCENTRATION_S"
+          yunit = "dimensionless~none"
+          coord_type = any
+          ..
+        CURVE "A/F-RATIO" "Brnd-A/F-Ratio"
+          legend = "Brnd-A/F-Ratio Cylinder 1"
+          xlocation = GIDAS tCY1____1.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tCY1____1.gid "A/F-RATIO_S"
+          yunit = "dimensionless~none"
+          coord_type = any
+          ..
+        ..
+      FOLDER "I#2" "AttachedIntakePipe 2"
+        CURVE "FLOWCOEFFICIENTS" "FlowCoeffs"
+          legend = "FlowCoeffs Cylinder 1"
+          xlocation = GIDAS tCY1____2.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tCY1____2.gid "FLOWCOEFFICIENTS_I#2"
+          yunit = "dimensionless~none"
+          coord_type = any
+          ..
+        CURVE "MASSFLOW" "MassFlow"
+          legend = "MassFlow Cylinder 1"
+          xlocation = GIDAS tCY1____2.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tCY1____2.gid "MASSFLOW_I#2"
+          yunit = "massflow"
+          coord_type = any
+          ..
+        CURVE "VELOCITY" "Velocity"
+          legend = "Velocity Cylinder 1"
+          xlocation = GIDAS tCY1____2.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tCY1____2.gid "VELOCITY_I#2"
+          yunit = "velocity"
+          coord_type = any
+          ..
+        CURVE "EFFECTIVEFLOWAREA" "EffectiveFlowArea"
+          legend = "EffectiveFlowArea Cylinder 1"
+          xlocation = GIDAS tCY1____2.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tCY1____2.gid "EFFECTIVEFLOWAREA_I#2"
+          yunit = "area"
+          coord_type = any
+          ..
+        CURVE "PORTWALLHEATFLOW" "PortWallHeatFlow"
+          legend = "PortWallHeatFlow Cylinder 1"
+          xlocation = GIDAS tCY1____2.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tCY1____2.gid "PORTWALLHEATFLOW_I#2"
+          yunit = "heat_flow"
+          coord_type = any
+          ..
+        ..
+      FOLDER "E#3" "AttachedExhaustPipe 3"
+        CURVE "FLOWCOEFFICIENTS" "FlowCoeffs"
+          legend = "FlowCoeffs Cylinder 1"
+          xlocation = GIDAS tCY1____3.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tCY1____3.gid "FLOWCOEFFICIENTS_E#3"
+          yunit = "dimensionless~none"
+          coord_type = any
+          ..
+        CURVE "MASSFLOW" "MassFlow"
+          legend = "MassFlow Cylinder 1"
+          xlocation = GIDAS tCY1____3.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tCY1____3.gid "MASSFLOW_E#3"
+          yunit = "massflow"
+          coord_type = any
+          ..
+        CURVE "VELOCITY" "Velocity"
+          legend = "Velocity Cylinder 1"
+          xlocation = GIDAS tCY1____3.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tCY1____3.gid "VELOCITY_E#3"
+          yunit = "velocity"
+          coord_type = any
+          ..
+        CURVE "EFFECTIVEFLOWAREA" "EffectiveFlowArea"
+          legend = "EffectiveFlowArea Cylinder 1"
+          xlocation = GIDAS tCY1____3.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tCY1____3.gid "EFFECTIVEFLOWAREA_E#3"
+          yunit = "area"
+          coord_type = any
+          ..
+        CURVE "PORTWALLHEATFLOW" "PortWallHeatFlow"
+          legend = "PortWallHeatFlow Cylinder 1"
+          xlocation = GIDAS tCY1____3.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tCY1____3.gid "PORTWALLHEATFLOW_E#3"
+          yunit = "heat_flow"
+          coord_type = any
+          ..
+        ..
+      ..
+    FOLDER "VARIABLE_PLENUM 1" "Variable Plenum 1"
+      uuid = "5E60B14C0048-0003467A-4C4943454D-01"
+      CURVE "PRESSURE" "Pressure"
+        legend = "Pressure Variable Plenum 1"
+        xlocation = GIDAS tVP1____1.gid "CRANKANGLE"
+        xunit = "angle~deg"
+        ylocation = GIDAS tVP1____1.gid "PRESSURE"
+        yunit = "pressure"
+        coord_type = any
+        ..
+      CURVE "TEMPERATURE" "Temperature"
+        legend = "Temperature Variable Plenum 1"
+        xlocation = GIDAS tVP1____1.gid "CRANKANGLE"
+        xunit = "angle~deg"
+        ylocation = GIDAS tVP1____1.gid "TEMPERATURE"
+        yunit = "temperature"
+        coord_type = any
+        ..
+      CURVE "MASS" "Mass"
+        legend = "Mass Variable Plenum 1"
+        xlocation = GIDAS tVP1____1.gid "CRANKANGLE"
+        xunit = "angle~deg"
+        ylocation = GIDAS tVP1____1.gid "MASS"
+        yunit = "mass"
+        coord_type = any
+        ..
+      CURVE "VOLUME" "Volume"
+        legend = "Volume Variable Plenum 1"
+        xlocation = GIDAS tVP1____1.gid "CRANKANGLE"
+        xunit = "angle~deg"
+        ylocation = GIDAS tVP1____1.gid "VOLUME"
+        yunit = "volume"
+        coord_type = any
+        ..
+      CURVE "VOLUMEWORK" "VolumeWork"
+        legend = "VolumeWork Variable Plenum 1"
+        xlocation = GIDAS tVP1____1.gid "CRANKANGLE"
+        xunit = "angle~deg"
+        ylocation = GIDAS tVP1____1.gid "VOLUMEWORK"
+        yunit = "heat_rel_by_crank_angle"
+        coord_type = any
+        ..
+      FOLDER "S" "Species"
+        CURVE "A/F-RATIO" "Brnd-A/F-Ratio"
+          legend = "Brnd-A/F-Ratio Variable Plenum 1"
+          xlocation = GIDAS tVP1____1.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tVP1____1.gid "A/F-RATIO_S"
+          yunit = "dimensionless~none"
+          coord_type = any
+          ..
+        CURVE "COMBUSTIONPRODUCTCONCENTRATION" "CombProdConc"
+          legend = "CombProdConc Variable Plenum 1"
+          xlocation = GIDAS tVP1____1.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tVP1____1.gid "COMBUSTIONPRODUCTCONCENTRATION_S"
+          yunit = "dimensionless~none"
+          coord_type = any
+          ..
+        CURVE "FUELVAPOURCONCENTRATION" "FuelConc"
+          legend = "FuelConc Variable Plenum 1"
+          xlocation = GIDAS tVP1____1.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tVP1____1.gid "FUELVAPOURCONCENTRATION_S"
+          yunit = "dimensionless~none"
+          coord_type = any
+          ..
+        ..
+      FOLDER "P#2" "AttachedPipe 2"
+        CURVE "FLOWCOEFFICIENTS" "FlowCoeffs"
+          legend = "FlowCoeffs Variable Plenum 1"
+          xlocation = GIDAS tVP1____2.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tVP1____2.gid "FLOWCOEFFICIENTS_P#2"
+          yunit = "dimensionless~none"
+          coord_type = any
+          ..
+        CURVE "MASSFLOW" "MassFlow"
+          legend = "MassFlow Variable Plenum 1"
+          xlocation = GIDAS tVP1____2.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tVP1____2.gid "MASSFLOW_P#2"
+          yunit = "massflow"
+          coord_type = any
+          ..
+        CURVE "VELOCITY" "Velocity"
+          legend = "Velocity Variable Plenum 1"
+          xlocation = GIDAS tVP1____2.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tVP1____2.gid "VELOCITY_P#2"
+          yunit = "velocity"
+          coord_type = any
+          ..
+        ..
+      FOLDER "P#6" "AttachedPipe 6"
+        CURVE "FLOWCOEFFICIENTS" "FlowCoeffs"
+          legend = "FlowCoeffs Variable Plenum 1"
+          xlocation = GIDAS tVP1____3.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tVP1____3.gid "FLOWCOEFFICIENTS_P#6"
+          yunit = "dimensionless~none"
+          coord_type = any
+          ..
+        CURVE "MASSFLOW" "MassFlow"
+          legend = "MassFlow Variable Plenum 1"
+          xlocation = GIDAS tVP1____3.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tVP1____3.gid "MASSFLOW_P#6"
+          yunit = "massflow"
+          coord_type = any
+          ..
+        CURVE "VELOCITY" "Velocity"
+          legend = "Velocity Variable Plenum 1"
+          xlocation = GIDAS tVP1____3.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tVP1____3.gid "VELOCITY_P#6"
+          yunit = "velocity"
+          coord_type = any
+          ..
+        ..
+      ..
+    FOLDER "MEASURINGPOINT 1" "MeasuringPoint 1"
+      uuid = "5E7213B84521-0457FF11-4C4943454D-01"
+      CURVE "PRESSURE" "Pressure"
+        legend = "Pressure MeasuringPoint 1"
+        xlocation = GIDAS tMP1____1.gid "CRANKANGLE"
+        xunit = "angle~deg"
+        ylocation = GIDAS tMP1____1.gid "PRESSURE"
+        yunit = "pressure"
+        coord_type = any
+        ..
+      CURVE "VELOCITY" "Velocity"
+        legend = "Velocity MeasuringPoint 1"
+        xlocation = GIDAS tMP1____1.gid "CRANKANGLE"
+        xunit = "angle~deg"
+        ylocation = GIDAS tMP1____1.gid "VELOCITY"
+        yunit = "velocity"
+        coord_type = any
+        ..
+      CURVE "TEMPERATURE" "Temperature"
+        legend = "Temperature MeasuringPoint 1"
+        xlocation = GIDAS tMP1____1.gid "CRANKANGLE"
+        xunit = "angle~deg"
+        ylocation = GIDAS tMP1____1.gid "TEMPERATURE"
+        yunit = "temperature"
+        coord_type = any
+        ..
+      CURVE "MASSFLOW" "MassFlow"
+        legend = "MassFlow MeasuringPoint 1"
+        xlocation = GIDAS tMP1____1.gid "CRANKANGLE"
+        xunit = "angle~deg"
+        ylocation = GIDAS tMP1____1.gid "MASSFLOW"
+        yunit = "massflow"
+        coord_type = any
+        ..
+      CURVE "MACHNUMBER" "MachNumber"
+        legend = "MachNumber MeasuringPoint 1"
+        xlocation = GIDAS tMP1____1.gid "CRANKANGLE"
+        xunit = "angle~deg"
+        ylocation = GIDAS tMP1____1.gid "MACHNUMBER"
+        yunit = "dimensionless~none"
+        coord_type = any
+        ..
+      ..
+    FOLDER "SYSTEMBOUNDARY 1" "SystemBoundary 1"
+      uuid = "5E60B0C80000-00014530-4C4943454D-01"
+      CURVE "PRESSURE" "Pressure"
+        legend = "Pressure SystemBoundary 1"
+        xlocation = GIDAS tSB1____1.gid "CRANKANGLE"
+        xunit = "angle~deg"
+        ylocation = GIDAS tSB1____1.gid "PRESSURE"
+        yunit = "pressure"
+        coord_type = any
+        ..
+      CURVE "TEMPERATURE" "Temperature"
+        legend = "Temperature SystemBoundary 1"
+        xlocation = GIDAS tSB1____1.gid "CRANKANGLE"
+        xunit = "angle~deg"
+        ylocation = GIDAS tSB1____1.gid "TEMPERATURE"
+        yunit = "temperature"
+        coord_type = any
+        ..
+      FOLDER "P#1" "AttachedPipe 1"
+        CURVE "FLOWCOEFFICIENTS" "FlowCoeffs"
+          legend = "FlowCoeffs SystemBoundary 1"
+          xlocation = GIDAS tSB1____2.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tSB1____2.gid "FLOWCOEFFICIENTS_P#1"
+          yunit = "dimensionless~none"
+          coord_type = any
+          ..
+        CURVE "MASSFLOW" "MassFlow"
+          legend = "MassFlow SystemBoundary 1"
+          xlocation = GIDAS tSB1____2.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tSB1____2.gid "MASSFLOW_P#1"
+          yunit = "massflow"
+          coord_type = any
+          ..
+        CURVE "VELOCITY" "Velocity"
+          legend = "Velocity SystemBoundary 1"
+          xlocation = GIDAS tSB1____2.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tSB1____2.gid "VELOCITY_P#1"
+          yunit = "velocity"
+          coord_type = any
+          ..
+        ..
+      ..
+    FOLDER "SYSTEMBOUNDARY 2" "SystemBoundary 2"
+      uuid = "5E675ABF2458-002CF995-4C4943454D-01"
+      CURVE "PRESSURE" "Pressure"
+        legend = "Pressure SystemBoundary 2"
+        xlocation = GIDAS tSB2____1.gid "CRANKANGLE"
+        xunit = "angle~deg"
+        ylocation = GIDAS tSB2____1.gid "PRESSURE"
+        yunit = "pressure"
+        coord_type = any
+        ..
+      CURVE "TEMPERATURE" "Temperature"
+        legend = "Temperature SystemBoundary 2"
+        xlocation = GIDAS tSB2____1.gid "CRANKANGLE"
+        xunit = "angle~deg"
+        ylocation = GIDAS tSB2____1.gid "TEMPERATURE"
+        yunit = "temperature"
+        coord_type = any
+        ..
+      FOLDER "P#9" "AttachedPipe 9"
+        CURVE "FLOWCOEFFICIENTS" "FlowCoeffs"
+          legend = "FlowCoeffs SystemBoundary 2"
+          xlocation = GIDAS tSB2____2.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tSB2____2.gid "FLOWCOEFFICIENTS_P#9"
+          yunit = "dimensionless~none"
+          coord_type = any
+          ..
+        CURVE "MASSFLOW" "MassFlow"
+          legend = "MassFlow SystemBoundary 2"
+          xlocation = GIDAS tSB2____2.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tSB2____2.gid "MASSFLOW_P#9"
+          yunit = "massflow"
+          coord_type = any
+          ..
+        CURVE "VELOCITY" "Velocity"
+          legend = "Velocity SystemBoundary 2"
+          xlocation = GIDAS tSB2____2.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tSB2____2.gid "VELOCITY_P#9"
+          yunit = "velocity"
+          coord_type = any
+          ..
+        ..
+      ..
+    FOLDER "RESTRICTION 1" "Restriction 1"
+      uuid = "5E6649166400-006C226F-4C4943454D-01"
+      FOLDER "P#3" "AttachedPipe 3"
+        CURVE "FLOWCOEFFICIENTS" "FlowCoeffs"
+          legend = "FlowCoeffs Restriction 1"
+          xlocation = GIDAS tFR1____1.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tFR1____1.gid "FLOWCOEFFICIENTS_P#3"
+          yunit = "dimensionless~none"
+          coord_type = any
+          ..
+        CURVE "MASSFLOW" "MassFlow"
+          legend = "MassFlow Restriction 1"
+          xlocation = GIDAS tFR1____1.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tFR1____1.gid "MASSFLOW_P#3"
+          yunit = "massflow"
+          coord_type = any
+          ..
+        CURVE "VELOCITY" "Velocity"
+          legend = "Velocity Restriction 1"
+          xlocation = GIDAS tFR1____1.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tFR1____1.gid "VELOCITY_P#3"
+          yunit = "velocity"
+          coord_type = any
+          ..
+        ..
+      FOLDER "P#7" "AttachedPipe 7"
+        CURVE "FLOWCOEFFICIENTS" "FlowCoeffs"
+          legend = "FlowCoeffs Restriction 1"
+          xlocation = GIDAS tFR1____2.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tFR1____2.gid "FLOWCOEFFICIENTS_P#7"
+          yunit = "dimensionless~none"
+          coord_type = any
+          ..
+        CURVE "MASSFLOW" "MassFlow"
+          legend = "MassFlow Restriction 1"
+          xlocation = GIDAS tFR1____2.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tFR1____2.gid "MASSFLOW_P#7"
+          yunit = "massflow"
+          coord_type = any
+          ..
+        CURVE "VELOCITY" "Velocity"
+          legend = "Velocity Restriction 1"
+          xlocation = GIDAS tFR1____2.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tFR1____2.gid "VELOCITY_P#7"
+          yunit = "velocity"
+          coord_type = any
+          ..
+        ..
+      ..
+    FOLDER "RESTRICTION 2" "Restriction 2"
+      uuid = "5E6649176400-006C267F-4C4943454D-01"
+      FOLDER "P#4" "AttachedPipe 4"
+        CURVE "FLOWCOEFFICIENTS" "FlowCoeffs"
+          legend = "FlowCoeffs Restriction 2"
+          xlocation = GIDAS tFR2____1.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tFR2____1.gid "FLOWCOEFFICIENTS_P#4"
+          yunit = "dimensionless~none"
+          coord_type = any
+          ..
+        CURVE "MASSFLOW" "MassFlow"
+          legend = "MassFlow Restriction 2"
+          xlocation = GIDAS tFR2____1.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tFR2____1.gid "MASSFLOW_P#4"
+          yunit = "massflow"
+          coord_type = any
+          ..
+        CURVE "VELOCITY" "Velocity"
+          legend = "Velocity Restriction 2"
+          xlocation = GIDAS tFR2____1.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tFR2____1.gid "VELOCITY_P#4"
+          yunit = "velocity"
+          coord_type = any
+          ..
+        ..
+      FOLDER "P#7" "AttachedPipe 7"
+        CURVE "FLOWCOEFFICIENTS" "FlowCoeffs"
+          legend = "FlowCoeffs Restriction 2"
+          xlocation = GIDAS tFR2____2.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tFR2____2.gid "FLOWCOEFFICIENTS_P#7"
+          yunit = "dimensionless~none"
+          coord_type = any
+          ..
+        CURVE "MASSFLOW" "MassFlow"
+          legend = "MassFlow Restriction 2"
+          xlocation = GIDAS tFR2____2.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tFR2____2.gid "MASSFLOW_P#7"
+          yunit = "massflow"
+          coord_type = any
+          ..
+        CURVE "VELOCITY" "Velocity"
+          legend = "Velocity Restriction 2"
+          xlocation = GIDAS tFR2____2.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tFR2____2.gid "VELOCITY_P#7"
+          yunit = "velocity"
+          coord_type = any
+          ..
+        ..
+      ..
+    FOLDER "RESTRICTION 3" "Restriction 3"
+      uuid = "5E675A1D225A-002A7F30-4C4943454D-01"
+      FOLDER "P#4" "AttachedPipe 4"
+        CURVE "FLOWCOEFFICIENTS" "FlowCoeffs"
+          legend = "FlowCoeffs Restriction 3"
+          xlocation = GIDAS tFR3____1.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tFR3____1.gid "FLOWCOEFFICIENTS_P#4"
+          yunit = "dimensionless~none"
+          coord_type = any
+          ..
+        CURVE "MASSFLOW" "MassFlow"
+          legend = "MassFlow Restriction 3"
+          xlocation = GIDAS tFR3____1.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tFR3____1.gid "MASSFLOW_P#4"
+          yunit = "massflow"
+          coord_type = any
+          ..
+        CURVE "VELOCITY" "Velocity"
+          legend = "Velocity Restriction 3"
+          xlocation = GIDAS tFR3____1.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tFR3____1.gid "VELOCITY_P#4"
+          yunit = "velocity"
+          coord_type = any
+          ..
+        ..
+      FOLDER "P#8" "AttachedPipe 8"
+        CURVE "FLOWCOEFFICIENTS" "FlowCoeffs"
+          legend = "FlowCoeffs Restriction 3"
+          xlocation = GIDAS tFR3____2.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tFR3____2.gid "FLOWCOEFFICIENTS_P#8"
+          yunit = "dimensionless~none"
+          coord_type = any
+          ..
+        CURVE "MASSFLOW" "MassFlow"
+          legend = "MassFlow Restriction 3"
+          xlocation = GIDAS tFR3____2.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tFR3____2.gid "MASSFLOW_P#8"
+          yunit = "massflow"
+          coord_type = any
+          ..
+        CURVE "VELOCITY" "Velocity"
+          legend = "Velocity Restriction 3"
+          xlocation = GIDAS tFR3____2.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tFR3____2.gid "VELOCITY_P#8"
+          yunit = "velocity"
+          coord_type = any
+          ..
+        ..
+      ..
+    FOLDER "RESTRICTION 4" "Restriction 4"
+      uuid = "5E675A69230A-002BAA7F-4C4943454D-01"
+      FOLDER "P#8" "AttachedPipe 8"
+        CURVE "FLOWCOEFFICIENTS" "FlowCoeffs"
+          legend = "FlowCoeffs Restriction 4"
+          xlocation = GIDAS tFR4____1.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tFR4____1.gid "FLOWCOEFFICIENTS_P#8"
+          yunit = "dimensionless~none"
+          coord_type = any
+          ..
+        CURVE "MASSFLOW" "MassFlow"
+          legend = "MassFlow Restriction 4"
+          xlocation = GIDAS tFR4____1.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tFR4____1.gid "MASSFLOW_P#8"
+          yunit = "massflow"
+          coord_type = any
+          ..
+        CURVE "VELOCITY" "Velocity"
+          legend = "Velocity Restriction 4"
+          xlocation = GIDAS tFR4____1.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tFR4____1.gid "VELOCITY_P#8"
+          yunit = "velocity"
+          coord_type = any
+          ..
+        ..
+      FOLDER "P#9" "AttachedPipe 9"
+        CURVE "FLOWCOEFFICIENTS" "FlowCoeffs"
+          legend = "FlowCoeffs Restriction 4"
+          xlocation = GIDAS tFR4____2.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tFR4____2.gid "FLOWCOEFFICIENTS_P#9"
+          yunit = "dimensionless~none"
+          coord_type = any
+          ..
+        CURVE "MASSFLOW" "MassFlow"
+          legend = "MassFlow Restriction 4"
+          xlocation = GIDAS tFR4____2.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tFR4____2.gid "MASSFLOW_P#9"
+          yunit = "massflow"
+          coord_type = any
+          ..
+        CURVE "VELOCITY" "Velocity"
+          legend = "Velocity Restriction 4"
+          xlocation = GIDAS tFR4____2.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tFR4____2.gid "VELOCITY_P#9"
+          yunit = "velocity"
+          coord_type = any
+          ..
+        ..
+      ..
+    FOLDER "ROTARYVALVE 1" "RotaryValve 1"
+      uuid = "5E6750DE6401-00066412-4C4943454D-01"
+      FOLDER "P#5" "AttachedPipe 5"
+        CURVE "FLOWCOEFFICIENTS" "FlowCoeffs"
+          legend = "FlowCoeffs RotaryValve 1"
+          xlocation = GIDAS tRV1____1.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tRV1____1.gid "FLOWCOEFFICIENTS_P#5"
+          yunit = "dimensionless~none"
+          coord_type = any
+          ..
+        CURVE "MASSFLOW" "MassFlow"
+          legend = "MassFlow RotaryValve 1"
+          xlocation = GIDAS tRV1____1.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tRV1____1.gid "MASSFLOW_P#5"
+          yunit = "massflow"
+          coord_type = any
+          ..
+        CURVE "VELOCITY" "Velocity"
+          legend = "Velocity RotaryValve 1"
+          xlocation = GIDAS tRV1____1.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tRV1____1.gid "VELOCITY_P#5"
+          yunit = "velocity"
+          coord_type = any
+          ..
+        ..
+      FOLDER "P#6" "AttachedPipe 6"
+        CURVE "FLOWCOEFFICIENTS" "FlowCoeffs"
+          legend = "FlowCoeffs RotaryValve 1"
+          xlocation = GIDAS tRV1____2.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tRV1____2.gid "FLOWCOEFFICIENTS_P#6"
+          yunit = "dimensionless~none"
+          coord_type = any
+          ..
+        CURVE "MASSFLOW" "MassFlow"
+          legend = "MassFlow RotaryValve 1"
+          xlocation = GIDAS tRV1____2.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tRV1____2.gid "MASSFLOW_P#6"
+          yunit = "massflow"
+          coord_type = any
+          ..
+        CURVE "VELOCITY" "Velocity"
+          legend = "Velocity RotaryValve 1"
+          xlocation = GIDAS tRV1____2.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tRV1____2.gid "VELOCITY_P#6"
+          yunit = "velocity"
+          coord_type = any
+          ..
+        ..
+      ..
+    FOLDER "FUELINJECTOR 1" "FuelInjector 1"
+      uuid = "5E60B12D8101-0002CDD3-4C4943454D-01"
+      CURVE "ADDEDFUEL" "AddedFuel"
+        legend = "AddedFuel FuelInjector 1"
+        xlocation = GIDAS tIJ1____1.gid "CRANKANGLE"
+        xunit = "angle~deg"
+        ylocation = GIDAS tIJ1____1.gid "ADDEDFUEL"
+        yunit = "massflow"
+        coord_type = any
+        ..
+      FOLDER "P#1" "AttachedPipe 1"
+        CURVE "FLOWCOEFFICIENTS" "FlowCoeffs"
+          legend = "FlowCoeffs FuelInjector 1"
+          xlocation = GIDAS tIJ1____2.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tIJ1____2.gid "FLOWCOEFFICIENTS_P#1"
+          yunit = "dimensionless~none"
+          coord_type = any
+          ..
+        CURVE "MASSFLOW" "MassFlow"
+          legend = "MassFlow FuelInjector 1"
+          xlocation = GIDAS tIJ1____2.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tIJ1____2.gid "MASSFLOW_P#1"
+          yunit = "massflow"
+          coord_type = any
+          ..
+        CURVE "VELOCITY" "Velocity"
+          legend = "Velocity FuelInjector 1"
+          xlocation = GIDAS tIJ1____2.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tIJ1____2.gid "VELOCITY_P#1"
+          yunit = "velocity"
+          coord_type = any
+          ..
+        ..
+      FOLDER "P#5" "AttachedPipe 5"
+        CURVE "FLOWCOEFFICIENTS" "FlowCoeffs"
+          legend = "FlowCoeffs FuelInjector 1"
+          xlocation = GIDAS tIJ1____3.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tIJ1____3.gid "FLOWCOEFFICIENTS_P#5"
+          yunit = "dimensionless~none"
+          coord_type = any
+          ..
+        CURVE "MASSFLOW" "MassFlow"
+          legend = "MassFlow FuelInjector 1"
+          xlocation = GIDAS tIJ1____3.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tIJ1____3.gid "MASSFLOW_P#5"
+          yunit = "massflow"
+          coord_type = any
+          ..
+        CURVE "VELOCITY" "Velocity"
+          legend = "Velocity FuelInjector 1"
+          xlocation = GIDAS tIJ1____3.gid "CRANKANGLE"
+          xunit = "angle~deg"
+          ylocation = GIDAS tIJ1____3.gid "VELOCITY_P#5"
+          yunit = "velocity"
+          coord_type = any
+          ..
+        ..
+      ..
+    ..
+  ..

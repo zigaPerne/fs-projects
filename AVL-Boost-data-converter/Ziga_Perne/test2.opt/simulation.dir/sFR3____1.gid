@@ -1,0 +1,16 @@
+BEGIN
+diameter = 100
+dolzina = 10
+len = 500
+CHANNELNAME = ['diameter', &
+               'FLOWCOEFFICIENT_P#4', &
+               'MASSFLOW_P#4', &
+               'VELOCITY_P#4']
+UNIT        = ['mm', &
+               '-', &
+               'kg/cycle', &
+               'm/s']
+END
+1.000000E+02   0.72039031E+000   0.32063842E-004   0.27519381E+000
+1.000000E+02   0.72355489E+000   0.49594843E-004   0.42319137E+000
+1.000000E+02   0.72489116E+000   0.46486749E-004   0.42762972E+000

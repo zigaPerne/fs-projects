@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<summary title="BOOST™ v2019.2 - Model Parameters">
+  <section name="ModelParameters" title="Model Parameters">
+    <dvalue name="kompresijsko" title="kompresijsko" unit="[-]" case_param="True">5.0</dvalue>
+    <dvalue name="len" title="len" unit="mm" case_param="True">989.795918</dvalue>
+    <dvalue name="premer" title="premer" unit="mm" case_param="True">48.5</dvalue>
+  </section>
+</summary>

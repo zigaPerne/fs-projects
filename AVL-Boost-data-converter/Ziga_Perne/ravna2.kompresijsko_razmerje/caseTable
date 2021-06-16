@@ -1,0 +1,5 @@
+kompresijsko_razmerje compression_ratio  
+[UNITS] dimensionless~no  
+kompresijsko_razmerje.razmerje_8 8  
+kompresijsko_razmerje.razmerje_10 10  
+kompresijsko_razmerje.razmerje_14 14  

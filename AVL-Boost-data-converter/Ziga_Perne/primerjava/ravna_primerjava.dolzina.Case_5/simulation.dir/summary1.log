@@ -1,0 +1,330 @@
+ --------------------------------
+ AVL - B O O S T
+ Version:        v2019.2.0.0.0
+ Build:          Sep 30 2019 22:44:23
+ Git Build Hash: be28b9261d560946c8b3a40b85f0245f4d0c8e85
+ System:         x86_64-unknown-winnt_i16v15
+ --------------------------------
+
+LICENSE
+-------
+ sys_1DCFD_solver 2019.0@ License will expire in 279 days
+
+PROJECT
+-------
+ Preprocessor Version :  2019.2
+ Calculation date     : 27.03.2020
+ File     : ravna_primerjava.bst
+ Case Set : "dolzina"
+ Case     : "Case 5"
+ 
+ Project ID: ""
+ Run ID:     ""
+ Model date: "5. Mar 2020 08:55:39"
+
+ELEMENTS
+--------
+ Element Name        Number
+
+ PIPE                   6
+ SYSTEMBOUNDARY         2
+ VARIABLE_PLENUM        1
+ CYLINDER               1
+ RESTRICTION            1
+ ROTARYVALVE            1
+ FUELINJECTOR           1
+ MEASURINGPOINT         4
+ ENGINE                 1
+ PIPE_END              12
+ ALL_PIPES              6
+ ALL_PLENUMS            1
+ ALL_BOUNDARIES         2
+ RESTRICTIONS           3
+ ALL_PIDS               1
+ PIPE_VAR_WALL_TEMP     6
+
+GLOBAL DATA
+-----------
+  Engine Speed :         3000.0  rpm
+  Calculationmode:        BOOST  Single
+  Cycle Duration:        360.00  degrees
+  Max. calc. period:   36000.00  degrees
+  Cycles calculated:        100  cycles
+  Calc. time steps:     0.73888  degrees (max)
+                        0.71820  degrees
+                        0.03990  ms
+                        0.66788  degrees (short pipe)
+                        0.03710  ms (short pipe)
+  Traces results step:  3.00000  degrees
+  User concentrations:        0
+  Ref. pressure:      100000.00  Pa
+  Ref. temperature:     298.000  K
+  Gas properties:      Variable
+  Gasproperties File:     GASOLINE.BGP
+     bgp_build_version:   v2013.0.0.0.0
+     bgp_build_host:      boosthost
+     bgp_build_user:      boost
+     bgp_build_date:      2012.03.23
+     bgp_build_time:      08:00:00
+  Lower calorific:  0.43500E+08  J/kg
+  Stoic. A/F-ratio:      14.500
+
+  Warnings:                   0
+  Convergence errors:         0
+
+PIPES
+-----
+
+ Total number of pipe cells:     36
+
+ Pipe   Cells   Cell size       W.Heat     Wall T    Fric. coeff.   Lam. Fric. Coeff.  Heat Factor       Volume
+  nr.                [mm]         [kJ]        [K]             [-]                 [-]          [-]        [dm3]
+    1       4        26.5        0.000     300.00        0.019000           64.000000     1.000000     0.033301
+    2       1        30.0       -0.000     300.00        0.019000           64.000000     1.000000     0.005301
+    3       1        30.0       -0.001     300.00        0.019000           64.000000     1.000000     0.005301
+    4       4        25.0        0.000     300.00        0.019000           64.000000     1.000000     0.031416
+    5       1        30.0        0.000     300.00        0.019000           64.000000     1.000000     0.009425
+    6      25        25.6       -0.016     300.00        0.019000           64.000000     1.000000     0.340035
+
+
+MEASURINGPOINTS: Average Values
+-------------------------------
+ Mp. Pipe Location   Diameter  Pressure  Temp. Ms.Temp.  Velo.   Massflow   Massflow To.Ent.f.  To.Ent.f.  Mach. Wtemp.  Converg.
+ nr.  nr.     [mm]       [mm]     [bar]    [K]      [K]  [m/s]      [g/s]  [g/cycle]    [kJ/s]  [kJ/cyc.]    [-]    [K]       [-]
+  1   2     0.0000    15.0000    0.9943  299.7    299.1   12.4     2.7081     0.0542     0.017     0.0003   0.04  300.0 0.513E-08
+  2   6     0.0000    26.0000    1.0069  508.6    751.0   11.0     2.7051     0.0541     4.534     0.0907   0.02  300.0 0.601E-07
+  3   6   100.0000    26.0000    1.0058  783.0    716.6   10.5     2.7071     0.0541     4.406     0.0881   0.02  300.0 0.801E-08
+  4   6   632.6531    26.0000    1.0004  478.9    501.5    7.4     2.7098     0.0542     3.744     0.0749   0.02  300.0 0.270E-06
+
+SYSTEMBOUNDARIES
+Attachments
+-----------
+ Type                 Nr.   Pipe       Mass flow
+                             Nr.       [g/cycle]
+ SYSTEMBOUNDARY        1      1          0.0493
+ SYSTEMBOUNDARY        2      6          0.0541
+
+PLENUMS: Average Values
+-----------------------
+                   Pl. Pressure   Temp.      Mass Wallheat
+                   nr.    [bar]     [K]       [g]     [kJ]
+ VARIABLE_PLENUM    1    1.0018  299.76     0.628    0.000
+                                          Attached pipe   2:      0.0541 g/cycle
+                                          Attached pipe   5:      0.0541 g/cycle
+
+PLENUMS
+Attachments
+-----------
+ Type                 Nr.   Pipe       Mass flow
+                             Nr.       [g/cycle]
+ VARIABLE_PLENUM       1      2          0.0541
+ VARIABLE_PLENUM       1      5          0.0541
+
+VARIABLE PLENUMS: Average Values
+--------------------------------
+ Pl. Pressure   Temp.      Mass Wallheat  Vol.work  Volume
+ nr.    [bar]     [K]       [g]     [kJ]      [kJ]     [l]
+  1    1.0018  299.76     0.628    0.000    -0.001    0.51
+                                                           Attached pipe   2:      0.0541 g/cycle
+                                                           Attached pipe   5:      0.0541 g/cycle
+
+CYLINDERS: Average Values
+-------------------------
+                               Total
+                              Engine         Cyl.   1
+Firing TDC [deg]                                  0.00
+Bore [mm]                                        37.80
+Stroke [mm]                                      43.00
+Conrodl. [mm]                                    90.00
+Piston pin offset [mm]                            0.00
+Swept Vol. [l]                   0.0483         0.0483
+Dyn. Comp. ratio [-]                              7.84
+
+Combustion Data:
+----------------
+Combustion Char.                                  Vibe     
+Comb.start [deg]                                 -9.00
+Vibe Parameter a [-]                             6.900
+Vibe Param. m 1 [-]                              1.860
+Peak Fir.Pres. [bar]              46.04          46.04
+at Crankangle [deg]               15.52          15.52
+Peak Pres.Rise[bar/deg]            2.06           2.06
+at Crankangle [deg]                5.17           5.17
+Peak Fir. Temp. [K]             2195.08        2195.08
+at Crankangle [deg]               20.69          20.69
+
+Performance:
+------------
+Rel. to Ave. [-]                                1.0000
+BMEP [bar]                       6.0871         6.0871
+AMEP;SMEP [bar]                  0.1149         0.1149
+ISFC [g/kWh]                   490.2621       490.2621
+Rel. to Ave. [-]                                1.0000
+ISFC (tr.f.) [g/kWh]           376.9625       376.9625
+BSFC [g/kWh]                   592.1413       592.1413
+Indicated Eff. [-]               0.2195         0.2195
+Iso vol. comb. Eff [-]           0.9661         0.9661
+Polytropic Coeff. [-]                           1.3014
+
+Fuel Mass Balance:
+------------------
+Inj. Fuelmass [g]              0.000000       0.000000
+Asp.Trap. Fuelmass [g]         0.003715       0.003715
+Fuelmassfl.(A+I) [g/s]         0.241569       0.241569
+Fuelmass tot.trap. [g]         0.003715       0.003715
+Trapped Fuelm.fl.[g/s]         0.185743       0.185743
+Trapp. Eff. Fuel [-]             0.7689         0.7689
+
+Energy Balance Cylinder:
+------------------------
+Fuel Energy [kJ]                0.16166        0.16166
+Released Energy [kJ]            0.16143        0.16143
+-> Brake Power     [%]           18.195         18.195
+-> Loss: Friction  [%]            3.438          3.438
+-> Loss: Piston    [%]            8.049          8.049
+-> Loss: Head      [%]           10.496         10.496
+-> Loss: Liner     [%]            2.925          2.925
+-> Loss: Int. Port [%]            0.000          0.000
+-> Loss: Exh. Port [%]            0.000          0.000
+-> Loss: Exh. Gas  [%]           56.496         56.496
+Eff. Rel. Energy [kJ]           0.10009        0.10009
+Gross Rel. Energy [kJ]          0.16143        0.16143
+Eff.Gross Rel.Ener.[kJ]         0.10009        0.10009
+Energy Balance [-]               0.9986         0.9986
+Eff. Energy Balance [-]          0.6191         0.6191
+
+Blowby:
+-------
+Blowbymass [g]                 0.000000       0.000000
+Blowbymassfl. [g/s]            0.000000       0.000000
+Blowby Heat Flow [kJ]          0.000000       0.000000
+
+Reference Values at Start of High Pressure:
+-------------------------------------------
+Pressure at SHP[bar]             1.2109         1.2109
+Temperature [K]                  399.72         399.72
+Air Massfl.  [g/s]             2.464142       2.464142
+Fuel Massfl. [g/s]             0.241569       0.241569
+Trapp. Eff. Air [-]              0.7689         0.7689
+Trapp. Eff.Fuel [-]              0.7689         0.7689
+A/F-Ratio (Cmb.) [-]              10.20          10.20
+Excess Air Ratio [-]             0.7035         0.7035
+
+Reference Values at Start Of Combustion:
+----------------------------------------
+Pressure [bar]                  16.1072        16.1072
+Temperature [K]                  722.97         722.97
+
+Residual Gas:
+-------------
+Res.gas content [-]              0.1136         0.1136
+External EGR [-]                -0.0000        -0.0000
+Internal EGR [-]                 0.1136         0.1136
+Com.Prod.Mass. at EO [g]       0.046895       0.046895
+Res.gas mass at SHP [g]        0.005330       0.005330
+Res.gas aspirated IN [g]      -0.000000      -0.000000
+Res.gas from intake [g]        0.000154       0.000154
+Rel. to Total [-]                0.0289         0.0289
+Res.gas flow EX [g]            0.041566       0.041566
+Res.gas from exhaust [g]       0.000206       0.000206
+Rel. to Total [-]                0.0387         0.0387
+
+Gas Exchange:
+-------------
+Volumetric Eff. [-]              0.6719         0.6719
+Rel. to Ave. [-]                                1.0000
+Total Mass at SHP[g]             0.0469         0.0469
+Mass Delivered [g]              0.05411        0.05411
+Mass Delivered [g/s]            2.70571        2.70571
+Delivery Ratio [-]               0.9594         0.9594
+Rel. to Ave. [-]                                1.0000
+Av.Airmass at SHP[g]             0.0379         0.0379
+Air Delivered [g]               0.04928        0.04928
+Air Delivered [g/s]             2.46414        2.46414
+Airdeliveryratio [-]             0.8738         0.8738
+Rel. to Ave. [-]                                1.0000
+Airmass Trapped [g]             0.03789        0.03789
+Airmass Trapped [g/s]           1.89469        1.89469
+Trapp. Eff. Air [-]              0.7689         0.7689
+Rel. to Ave. [-]                                1.0000
+Airpurity [-]                    0.8073         0.8073
+Dyn. Swirl [-]                   0.0000         0.0000
+Dyn. Tumble [-]                  0.0000         0.0000
+
+Wall Heatlosses:
+----------------
+Piston [kJ]                     -0.0130        -0.0130
+Piston Temperature [K]                          570.00
+Cylinderhead [kJ]              -0.01694       -0.01694
+Head Temperature [K]                            500.00
+Cylinderliner [kJ]             -0.00472       -0.00472
+LinerTDC Temperature [K]                        470.00
+LinerBDC Temperature [K]                        390.00
+Sum of Wallheat [kJ]           -0.03466       -0.03466
+Wall Heatlosses in High Pressure Phase:
+Piston HP [kJ]                 -0.01288       -0.01288
+Cylinderhead HP [kJ]           -0.01661       -0.01661
+Cylinderliner HP [kJ]          -0.00387       -0.00387
+Sum of Wallheat HP [kJ]        -0.03335       -0.03335
+Wall Heatlosses Related to Heatinput:
+Piston [-]                      -0.0804        -0.0804
+Cylinderhead [-]                -0.1049        -0.1049
+Cylinderliner [-]               -0.0292        -0.0292
+Sum of Wallheat [-]             -0.2145        -0.2145
+M. Eff. HTC [W/m2/K]             348.02         348.02
+M. Eff. Temp. [K]               1381.26        1381.26
+
+Reference Values at EO:
+-----------------------
+Pressure [bar]                     3.91           3.91
+Temperature [K]                 1143.71        1143.71
+A/F-Ratio [-]                     10.20          10.20
+Com.Prod.Conc. [-]              0.99912        0.99912
+Fuel Concentr. [-]             0.000079       0.000079
+
+Average Values of Pipeattachements:
+-----------------------------------
+ Attached Pipe                                       2
+Vlv/Prt.Op.Eff.0mm[deg]                         138.94
+Vlv/Prt.Cl.Eff.0mm[deg]                         221.68
+Massflow [g/cycle]                            0.054114
+Wallheat [kJ/cycle]                           0.000000
+ Attached Pipe                                       3
+Vlv/Prt.Op.Eff.0mm[deg]                         114.53
+Vlv/Prt.Cl.Eff.0mm[deg]                         245.17
+Massflow [g/cycle]                            0.054114
+Wallheat [kJ/cycle]                           0.000000
+
+FLOWRESTRICTIONS: Average Values
+--------------------------------
+ Flr. Att.Pi.  Massflow  Att.Pi.  Massflow
+  nr.  number [g/cycle]   number [g/cycle]
+    1       3    0.0541        6    0.0541
+
+ROTARYVALVES: Average Values
+----------------------------
+ RVl. Att.Pi.  Massflow  Att.Pi.  Massflow
+  nr.  number [g/cycle]   number [g/cycle]
+    1       4    0.0541        5    0.0541
+
+FUELINJECTORS: Average Values
+-----------------------------
+ Inj. Att.Pi.  Massflow  Att.Pi.  Massflow Added Fuel
+  nr.  number [g/cycle]   number [g/cycle]  [g/cycle]
+    1       1    0.0493        4    0.0541     0.0049
+
+OVERALL ENGINE PERFORMANCE:
+===========================
+
+Indicated Torque          :      5.65 Nm                    Indicated Specific Torque :    117.01 Nm/l
+Indicated Power           :      1.77 kW,         2.41 PS   Indicated Specific Power  :     36.76 kW/l,      49.98 PS/l
+Auxiliary Drives Torque   :      0.09 Nm                    Auxiliary Drives Power    :      0.03 kW
+Friction Torque           :      0.88 Nm                    Friction Power            :      0.28 kW
+Effective Torque          :      4.67 Nm                    Effective Specific Torque :     96.88 Nm/l
+Effective Power           :      1.47 kW,         2.00 PS   Effective Specific Power  :     30.44 kW/l,      41.38 PS/l
+
+Required time for reading the inputfile and initialisation:       0.05 min
+Required time for the calculation: .........................      0.17 min
+Required time for writing the outputfile: ..................      0.00 min
+Required total time: .......................................      0.22 min
+Required total CPU-time: ...................................     10.31 sec

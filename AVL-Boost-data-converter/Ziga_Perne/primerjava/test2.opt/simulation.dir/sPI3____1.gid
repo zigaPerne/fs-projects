@@ -1,0 +1,14 @@
+BEGIN
+diameter = 100
+dolzina = 10
+len = 500
+CHANNELNAME = ['diameter', &
+               'WALLHEATFLOW_H', &
+               'ALPHA-GAS-WALL_H']
+UNIT        = ['mm', &
+               'J/cycle', &
+               'W/m2/K']
+END
+1.000000E+02  -0.70301374E+000   0.19401105E+002
+1.000000E+02  -0.66700434E+000   0.16828797E+002
+1.000000E+02  -0.72105484E+000   0.96783494E+001

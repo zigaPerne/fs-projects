@@ -1,0 +1,135 @@
+BOOST Python job started.
+Fri, 27 Mar 2020 21:55:25
+    AAA    VV   VV  LL        BBBBBB    OOOOO    OOOOO    SSSSS  TTTTTTTT
+   AAAAA   VV   VV  LL        BBBBBBB  OOOOOOO  OOOOOOO  SSSSSS  TTTTTTTT
+  AA   AA  VV   VV  LL        BB   BB  OO   OO  OO   OO  SS         TT
+  AAAAAAA  VV   VV  LL        BBBBBB   OO   OO  OO   OO  SSSSSS     TT
+  AAAAAAA  VVV VVV  LL        BB   BB  OO   OO  OO   OO      SS     TT
+  AA   AA   VVVVV   LLLLL     BBBBBBB  OOOOOOO  OOOOOOO  SSSSSS     TT
+  AA   AA    VVV    LLLLL     BBBBBB    OOOOO    OOOOO   SSSSS      TT
+
+  V E R S I O N   v2019.2.0.0.0
+  AVL - Advanced Simulation Technologies
+  Platform: x86_64-unknown-winnt_i16v15
+  Build date: Sep 30 2019 22:44:23
+  Git build hash: be28b9261d560946c8b3a40b85f0245f4d0c8e85
+
+  System date: 27.03.2020
+
+
+  input file name:     ravna_primerjava.bst
+  sys_1DCFD_solver License will expire in 279 days
+
+  Starting calculation
+  -------------------------------
+   Cycle   IMEP [bar] of cylinder
+  compl.       1
+  -------------------------------
+       2    1.34
+       3    1.98
+       4    2.76
+       5    3.26
+       6    3.61
+       7    3.96
+       8    4.35
+       9    4.45
+      10    4.59
+      11    4.76
+      12    5.11
+      13    5.00
+      14    4.68
+      15    5.05
+      16    5.90
+      17    5.90
+      18    5.87
+      19    5.68
+      20    5.27
+      21    5.09
+      22    5.50
+      23    5.74
+      24    5.82
+      25    5.79
+      26    5.79
+      27    5.77
+      28    5.77
+      29    5.76
+      30    5.75
+      31    5.75
+      32    5.75
+      33    5.76
+      34    5.77
+      35    5.77
+      36    5.78
+      37    5.78
+      38    5.79
+      39    5.79
+      40    5.80
+      41    5.80
+      42    5.80
+      43    5.81
+      44    5.81
+      45    5.82
+      46    5.82
+      47    5.82
+      48    5.82
+      49    5.83
+      50    5.83
+      51    5.83
+      52    5.83
+      53    5.81
+      54    5.81
+      55    5.81
+      56    5.82
+      57    5.82
+      58    5.82
+      59    5.82
+      60    5.82
+      61    5.82
+      62    5.82
+      63    5.82
+      64    5.83
+      65    5.83
+      66    5.83
+      67    5.83
+      68    5.83
+      69    5.83
+      70    5.83
+      71    5.83
+      72    5.83
+      73    5.83
+      74    5.83
+      75    5.83
+      76    5.83
+      77    5.83
+      78    5.83
+      79    5.83
+      80    5.83
+      81    5.83
+      82    5.83
+      83    5.83
+      84    5.83
+      85    5.83
+      86    5.83
+      87    5.83
+      88    5.83
+      89    5.83
+      90    5.83
+      91    5.83
+      92    5.83
+      93    5.83
+      94    5.83
+      95    5.83
+      96    5.83
+      97    5.83
+      98    5.83
+      99    5.83
+     100    5.83
+  70 warning(s) issued. Please check messages.
+  Successful finish for ravna_primerjava.bst
+
+Results tree writer (Boost PPD writer) 2019 R2
+Impress chart results tree generation completed.
+Result unpacker (boost_unpack) v2019 R2
+Results unpacking completed. 
+Fri, 27 Mar 2020 21:55:42
+BOOST Python job completed.

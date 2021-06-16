@@ -1,0 +1,2055 @@
+Fri, 27 Mar 2020 21:56:43
+Creating Series Results ...
+Creation of series results started.
+================================================================================
+CSR - Case Set Result Creator
+================================================================================
+Case Set Table File: 'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina/caseTable'
+SUCCESS: When opening Case Set Table File
+
+Case Set Name:        'dolzina'
+Main Parameter Name:  'len'
+Main Parameter Group: 'length'
+Main Parameter Unit:  'mm'
+
+C A S E S  -->  R E A D   S T A T E
+Number of Cases:  '30'
+1. Case:  name='dolzina.Case_1'  value='704.081633' state='Unknown'
+2. Case:  name='dolzina.Case_2'  value='908.163265' state='Unknown'
+3. Case:  name='dolzina.Case_3'  value='500.000000' state='Unknown'
+4. Case:  name='dolzina.Case_4'  value='989.795918' state='Unknown'
+5. Case:  name='dolzina.Case_5'  value='632.653061' state='Unknown'
+6. Case:  name='dolzina.Case_6'  value='1000.000000' state='Unknown'
+7. Case:  name='dolzina.Case_7'  value='846.938776' state='Unknown'
+8. Case:  name='dolzina.Case_8'  value='1000.000000' state='Unknown'
+9. Case:  name='dolzina.Case_9'  value='877.551020' state='Unknown'
+10. Case:  name='dolzina.Case_10'  value='500.000000' state='Unknown'
+11. Case:  name='dolzina.Case_11'  value='836.734694' state='Unknown'
+12. Case:  name='dolzina.Case_12'  value='846.938776' state='Unknown'
+13. Case:  name='dolzina.Case_13'  value='642.857143' state='Unknown'
+14. Case:  name='dolzina.Case_14'  value='510.204082' state='Unknown'
+15. Case:  name='dolzina.Case_15'  value='591.836735' state='Unknown'
+16. Case:  name='dolzina.Case_16'  value='612.244898' state='Unknown'
+17. Case:  name='dolzina.Case_17'  value='989.795918' state='Unknown'
+18. Case:  name='dolzina.Case_18'  value='500.000000' state='Unknown'
+19. Case:  name='dolzina.Case_19'  value='683.673469' state='Unknown'
+20. Case:  name='dolzina.Case_20'  value='867.346939' state='Unknown'
+21. Case:  name='dolzina.Case_21'  value='632.653061' state='Unknown'
+22. Case:  name='dolzina.Case_22'  value='877.551020' state='Unknown'
+23. Case:  name='dolzina.Case_23'  value='612.244898' state='Unknown'
+24. Case:  name='dolzina.Case_24'  value='785.714286' state='Unknown'
+25. Case:  name='dolzina.Case_25'  value='1000.000000' state='Unknown'
+26. Case:  name='dolzina.Case_26'  value='500.000000' state='Unknown'
+27. Case:  name='dolzina.Case_27'  value='1000.000000' state='Unknown'
+28. Case:  name='dolzina.Case_28'  value='500.000000' state='Unknown'
+29. Case:  name='dolzina.Case_29'  value='846.938776' state='Unknown'
+30. Case:  name='dolzina.Case_30'  value='632.653061' state='Unknown'
+
+C A S E S  -->  A C T U A L   S T A T E
+Number of Cases:  '30'
+1. Case:  name='dolzina.Case_1'  value='704.081633' state='Completed'
+2. Case:  name='dolzina.Case_2'  value='908.163265' state='Completed'
+3. Case:  name='dolzina.Case_3'  value='500.000000' state='Completed'
+4. Case:  name='dolzina.Case_4'  value='989.795918' state='Completed'
+5. Case:  name='dolzina.Case_5'  value='632.653061' state='Completed'
+6. Case:  name='dolzina.Case_6'  value='1000.000000' state='Completed'
+7. Case:  name='dolzina.Case_7'  value='846.938776' state='Completed'
+8. Case:  name='dolzina.Case_8'  value='1000.000000' state='Completed'
+9. Case:  name='dolzina.Case_9'  value='877.551020' state='Completed'
+10. Case:  name='dolzina.Case_10'  value='500.000000' state='Completed'
+11. Case:  name='dolzina.Case_11'  value='836.734694' state='Completed'
+12. Case:  name='dolzina.Case_12'  value='846.938776' state='Completed'
+13. Case:  name='dolzina.Case_13'  value='642.857143' state='Completed'
+14. Case:  name='dolzina.Case_14'  value='510.204082' state='Completed'
+15. Case:  name='dolzina.Case_15'  value='591.836735' state='Completed'
+16. Case:  name='dolzina.Case_16'  value='612.244898' state='Completed'
+17. Case:  name='dolzina.Case_17'  value='989.795918' state='Completed'
+18. Case:  name='dolzina.Case_18'  value='500.000000' state='Completed'
+19. Case:  name='dolzina.Case_19'  value='683.673469' state='Completed'
+20. Case:  name='dolzina.Case_20'  value='867.346939' state='Completed'
+21. Case:  name='dolzina.Case_21'  value='632.653061' state='Completed'
+22. Case:  name='dolzina.Case_22'  value='877.551020' state='Completed'
+23. Case:  name='dolzina.Case_23'  value='612.244898' state='Completed'
+24. Case:  name='dolzina.Case_24'  value='785.714286' state='Completed'
+25. Case:  name='dolzina.Case_25'  value='1000.000000' state='Completed'
+26. Case:  name='dolzina.Case_26'  value='500.000000' state='Completed'
+27. Case:  name='dolzina.Case_27'  value='1000.000000' state='Completed'
+28. Case:  name='dolzina.Case_28'  value='500.000000' state='Completed'
+29. Case:  name='dolzina.Case_29'  value='846.938776' state='Completed'
+30. Case:  name='dolzina.Case_30'  value='632.653061' state='Completed'
+
+Source PPD-File:  'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/Results.ppd'
+
+Target PPD-File:  'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina/simulation.dir/Results.ppd'
+
+SUCCESS: When opening PPD Source File
+Stored Filenames
+
+The following Gidas Files are available in the PPD-File: 
+-> 'kEG1____1.gid'
+-> 'kCY1____1.gid'
+-> 'kCY1____2.gid'
+-> 'kCY1____3.gid'
+-> 'kVP1____1.gid'
+-> 'kVP1____2.gid'
+-> 'kVP1____3.gid'
+-> 'kMP1____1.gid'
+-> 'kMP2____1.gid'
+-> 'kMP3____1.gid'
+-> 'kMP4____1.gid'
+-> 'kSB1____1.gid'
+-> 'kSB2____1.gid'
+-> 'kFR1____1.gid'
+-> 'kFR1____2.gid'
+-> 'kRV1____1.gid'
+-> 'kRV1____2.gid'
+-> 'kIJ1____1.gid'
+-> 'kIJ1____2.gid'
+-> 'kIJ1____3.gid'
+-> 'kPI1____1.gid'
+-> 'kPI2____1.gid'
+-> 'kPI3____1.gid'
+-> 'kPI4____1.gid'
+-> 'kPI5____1.gid'
+-> 'kPI6____1.gid'
+-> 'kTT1____1.gid'
+
+Source Gidas Files: 
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kEG1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kCY1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kCY1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kCY1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kVP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kVP1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kVP1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kMP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kMP2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kMP3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kMP4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kSB1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kSB2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kFR1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kFR1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kRV1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kRV1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kIJ1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kIJ1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kIJ1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kPI1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kPI2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kPI3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kPI4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kPI5____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kPI6____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kTT1____1.gid'
+
+Target Gidas Files: 
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina/simulation.dir/sEG1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina/simulation.dir/sCY1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina/simulation.dir/sCY1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina/simulation.dir/sCY1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina/simulation.dir/sVP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina/simulation.dir/sVP1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina/simulation.dir/sVP1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina/simulation.dir/sMP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina/simulation.dir/sMP2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina/simulation.dir/sMP3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina/simulation.dir/sMP4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina/simulation.dir/sSB1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina/simulation.dir/sSB2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina/simulation.dir/sFR1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina/simulation.dir/sFR1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina/simulation.dir/sRV1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina/simulation.dir/sRV1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina/simulation.dir/sIJ1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina/simulation.dir/sIJ1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina/simulation.dir/sIJ1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina/simulation.dir/sPI1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina/simulation.dir/sPI2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina/simulation.dir/sPI3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina/simulation.dir/sPI4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina/simulation.dir/sPI5____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina/simulation.dir/sPI6____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina/simulation.dir/sTT1____1.gid'
+
+SUCCESS: When opening PPD Source File 'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/Results.ppd'
+SUCCESS: When opening PPD Target File 'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina/simulation.dir/Results.ppd'
+
++FOLDER 'Boost'
+++FOLDER 'TRANSIENTS'
++++FOLDER 'ENGINE 1'
+++++CURVE 'CYCLE'
+++++..
+++++CURVE 'CYCLEAVERAGEDSPEED'
+++++..
+++++CURVE 'CYCLEFREQUENCY'
+++++..
+++++CURVE 'CYCLEPERIOD'
+++++..
+++++CURVE 'PRESSURE-AMB'
+++++..
+++++CURVE 'TEMPERATURE-AMB'
+++++..
+++++CURVE 'PEAKCYLINDERTEMPERATURE'
+++++..
+++++CURVE 'PEAKCYLINDERTEMPERATURE-CRANKANGLE'
+++++..
+++++CURVE 'FUELMASSINJECTED'
+++++..
+++++CURVE 'CONVERGENCE'
+++++..
+++++FOLDER 'SHP'
++++++CURVE 'A/F-RATIO-STOICH'
++++++..
++++++CURVE 'A/F-RATIO-UNBRND'
++++++..
++++++CURVE 'AIR-EXCESS-RATIO'
++++++..
+++++..
+++++FOLDER 'C'
++++++CURVE 'LOWER-HEAT-VALUE'
++++++..
++++++CURVE 'PEAKCYLINDERPRESSURE'
++++++..
++++++CURVE 'PEAKCYLINDERPRESSURE-CRANKANGLE'
++++++..
++++++CURVE 'PEAKPRESSURERISE'
++++++..
++++++CURVE 'PEAKPRESSURERISE-CRANKANGLE'
++++++..
++++++CURVE 'COMBUSTIONSTART'
++++++..
++++++CURVE 'COMBUSTIONDURATION'
++++++..
+++++..
+++++FOLDER 'GEO'
++++++CURVE 'NBR-OF-CYLINDERS'
++++++..
++++++CURVE 'ENGINE-DISPLACEMENT'
++++++..
++++++CURVE 'COMPRESSIONRATIO'
++++++..
+++++..
+++++FOLDER 'PF'
++++++CURVE 'IMEP'
++++++..
++++++CURVE 'BMEP'
++++++..
++++++CURVE 'FMEP'
++++++..
++++++CURVE 'AMEP'
++++++..
++++++CURVE 'TORQUE'
++++++..
++++++CURVE 'POWER'
++++++..
++++++CURVE 'FRICTIONTORQUE'
++++++..
++++++CURVE 'FRICTIONPOWER'
++++++..
++++++CURVE 'ISFC1'
++++++..
++++++CURVE 'ISFC2'
++++++..
++++++CURVE 'BSFC'
++++++..
++++++CURVE 'ISO-VOL-COMB-EFFICIENCY'
++++++..
++++++CURVE 'INDICATED-EFFICIENCY'
++++++..
++++++CURVE 'EFFECTIVE-EFFICIENCY'
++++++..
++++++CURVE 'MECHANICAL-EFFICIENCY'
++++++..
+++++..
+++++FOLDER 'G'
++++++CURVE 'DELIVERYRATIO-AMB'
++++++..
++++++CURVE 'DELIVERYRATIO-INT'
++++++..
++++++CURVE 'AIRDELIVERYRATIO-AMB'
++++++..
++++++CURVE 'AIRDELIVERYRATIO-INT'
++++++..
++++++CURVE 'VOLUMETRICEFFICIENCY-AMB'
++++++..
++++++CURVE 'VOLUMETRICEFFICIENCY-INT'
++++++..
++++++CURVE 'SWIRL'
++++++..
++++++CURVE 'BLOWBY'
++++++..
+++++..
+++++FOLDER 'MB'
++++++CURVE 'TRAPPED-FUEL'
++++++..
++++++CURVE 'MASS-ASPIRATED'
++++++..
++++++CURVE 'AIRMASS-ASPIRATED'
++++++..
++++++CURVE 'FUELMASS-ASPIRATED'
++++++..
++++++CURVE 'MASS-ASPIRATED-PERS'
++++++..
++++++CURVE 'AIRMASS-ASPIRATED-PERS'
++++++..
++++++CURVE 'FUELMASS-ASPIRATED-PERS'
++++++..
++++++CURVE 'RESIDUALGASMASSIN'
++++++..
++++++CURVE 'RESIDUALGASMASSIN-PERS'
++++++..
++++++CURVE 'RESIDUALGASMASSINTOCYL'
++++++..
++++++CURVE 'RESIDUALGASMASSEX'
++++++..
++++++CURVE 'RESIDUALGASMASSEXTOCYL'
++++++..
++++++CURVE 'TOTALRESIDUALGAS-CONC'
++++++..
++++++CURVE 'TRAPPED-FUEL-PERS'
++++++..
+++++..
+++++FOLDER 'EB'
++++++CURVE 'FUEL-ENERGY'
++++++..
++++++CURVE 'FUEL-ENERGY-PERS'
++++++..
++++++CURVE 'RELEASED-ENERGY'
++++++..
++++++CURVE 'RELEASED-ENERGY-PERS'
++++++..
++++++CURVE 'GROSS-RELEASED-ENERGY'
++++++..
++++++CURVE 'EFF-RELEASED-ENERGY'
++++++..
++++++CURVE 'EFF-RELEASED-ENERGY-PERS'
++++++..
++++++CURVE 'EFF-GROSS-RELEASED-ENERGY'
++++++..
++++++CURVE 'ENERGYBALANCE'
++++++..
++++++CURVE 'EFFENERGYBALANCE'
++++++..
++++++CURVE 'BLOWBYENTHALPYFLOW'
++++++..
++++++CURVE 'EVAPORATIONENERGY'
++++++..
++++++CURVE 'ENTHALPYFLUX-IN'
++++++..
++++++CURVE 'ENTHALPYFLUX-EX'
++++++..
++++++CURVE 'PORTWALLHEATFLOW-IN'
++++++..
++++++CURVE 'PORTWALLHEATFLOW-EX'
++++++..
++++++CURVE 'ENTHALPYFLUX-FUEL'
++++++..
+++++..
+++++FOLDER 'H'
++++++CURVE 'WALLHEATFLOW'
++++++..
++++++CURVE 'WALLHEATFLOWPERS'
++++++..
++++++CURVE 'PISTONWALLHEATFLOW'
++++++..
++++++CURVE 'HEADWALLHEATFLOW'
++++++..
++++++CURVE 'LINERWALLHEATFLOW'
++++++..
++++++CURVE 'PISTONTEMPERATURE'
++++++..
++++++CURVE 'HEADTEMPERATURE'
++++++..
++++++CURVE 'LINERTDCTEMPERATURE'
++++++..
++++++CURVE 'LINERBDCTEMPERATURE'
++++++..
++++++CURVE 'MEAN-EFF-HTC'
++++++..
++++++CURVE 'MEAN-EFF-HTGASTEMP'
++++++..
+++++..
+++++FOLDER 'M'
++++++CURVE 'ACCUMULATEDSOOT-TIME'
++++++..
+++++..
++++..
++++FOLDER 'CYLINDER 1'
+++++CURVE 'CYLINDER-DISPLACEMENT'
+++++..
+++++CURVE 'IMEP'
+++++..
+++++CURVE 'BMEP'
+++++..
+++++CURVE 'FMEP'
+++++..
+++++CURVE 'SMEP'
+++++..
+++++CURVE 'ISFC1'
+++++..
+++++CURVE 'ISFC2'
+++++..
+++++CURVE 'BSFC'
+++++..
+++++CURVE 'DELIVERYRATIO-AMB'
+++++..
+++++CURVE 'DELIVERYRATIO-INT'
+++++..
+++++CURVE 'AIRDELIVERYRATIO-AMB'
+++++..
+++++CURVE 'VOLUMETRICEFFICIENCY-AMB'
+++++..
+++++CURVE 'VOLUMETRICEFFICIENCY-INT'
+++++..
+++++CURVE 'TOTALFUELMASS'
+++++..
+++++CURVE 'FUELMASSINJECTED'
+++++..
+++++CURVE 'FUELMASS-ASPIRATED'
+++++..
+++++CURVE 'PEAKCYLINDERPRESSURE'
+++++..
+++++CURVE 'PEAKCYLINDERPRESSURE-CRANKANGLE'
+++++..
+++++CURVE 'PEAKCYLINDERTEMPERATURE'
+++++..
+++++CURVE 'PEAKCYLINDERTEMPERATURE-CRANKANGLE'
+++++..
+++++CURVE 'PEAKPRESSURERISE'
+++++..
+++++CURVE 'PEAKPRESSURERISE-CRANKANGLE'
+++++..
+++++CURVE 'AIRDELIVERYRATIO-INT'
+++++..
+++++CURVE 'ENTHALPYFLUX-FUEL'
+++++..
+++++FOLDER 'SHP'
++++++CURVE 'HP-START-PRESSURE'
++++++..
++++++CURVE 'HP-START-TEMPERATURE'
++++++..
++++++CURVE 'HP-START-TOTALMASS'
++++++..
++++++CURVE 'HP-START-AIRMASS'
++++++..
++++++CURVE 'TOTALRESIDUALGAS-CONC'
++++++..
++++++CURVE 'A/F-RATIO-UNBRND'
++++++..
++++++CURVE 'A/F-RATIO-BRND'
++++++..
++++++CURVE 'AIR-EXCESS-RATIO'
++++++..
++++++CURVE 'HP-START-FBMASS'
++++++..
+++++..
+++++FOLDER 'G'
++++++CURVE 'RESIDUALGASMASSIN'
++++++..
++++++CURVE 'RESIDUALGASMASSINTOCYL'
++++++..
++++++CURVE 'RESIDUALGASMASSEX'
++++++..
++++++CURVE 'RESIDUALGASMASSEXTOCYL'
++++++..
++++++CURVE 'BLOWBY'
++++++..
++++++CURVE 'SCAVENGINGEFFICIENCY'
++++++..
+++++..
+++++FOLDER 'H'
++++++CURVE 'WALLHEATFLOW'
++++++..
++++++CURVE 'PISTONWALLHEATFLOW'
++++++..
++++++CURVE 'HEADWALLHEATFLOW'
++++++..
++++++CURVE 'LINERWALLHEATFLOW'
++++++..
++++++CURVE 'PISTONTEMPERATURE'
++++++..
++++++CURVE 'HEADTEMPERATURE'
++++++..
++++++CURVE 'LINERTDCTEMPERATURE'
++++++..
++++++CURVE 'LINERBDCTEMPERATURE'
++++++..
++++++CURVE 'MEAN-EFF-HTC'
++++++..
++++++CURVE 'MEAN-EFF-HTGASTEMP'
++++++..
++++++CURVE 'BLOWBYENTHALPYFLOW'
++++++..
+++++..
+++++FOLDER 'C'
++++++CURVE 'COMBUSTIONSTART'
++++++..
++++++CURVE 'COMBUSTIONDURATION'
++++++..
++++++CURVE 'VIBEPARAMETER-M'
++++++..
++++++CURVE 'VIBEPARAMETER-A'
++++++..
++++++CURVE 'MASS-FRAC-BURNED-02-CRANKANGLE'
++++++..
++++++CURVE 'MASS-FRAC-BURNED-05-CRANKANGLE'
++++++..
++++++CURVE 'MASS-FRAC-BURNED-10-CRANKANGLE'
++++++..
++++++CURVE 'MASS-FRAC-BURNED-50-CRANKANGLE'
++++++..
++++++CURVE 'MASS-FRAC-BURNED-90-CRANKANGLE'
++++++..
++++++CURVE 'MASS-FRAC-BURNED-95-CRANKANGLE'
++++++..
++++++CURVE 'SOC-TEMPERATURE'
++++++..
++++++CURVE 'SOC-PRESSURE'
++++++..
+++++..
+++++FOLDER 'PF'
++++++CURVE 'INDICATED-EFFICIENCY'
++++++..
++++++CURVE 'EFFECTIVE-EFFICIENCY'
++++++..
+++++..
+++++FOLDER 'I#2'
++++++CURVE 'FLOWCOEFFICIENT'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'PORTWALLHEAT'
++++++..
++++++CURVE 'VALVEPORTOPENING-EFF0MM-CRANKANGLE'
++++++..
++++++CURVE 'VALVEPORTCLOSING-EFF0MM-CRANKANGLE'
++++++..
+++++..
+++++FOLDER 'E#3'
++++++CURVE 'FLOWCOEFFICIENT'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'PORTWALLHEAT'
++++++..
++++++CURVE 'VALVEPORTOPENING-EFF0MM-CRANKANGLE'
++++++..
++++++CURVE 'VALVEPORTCLOSING-EFF0MM-CRANKANGLE'
++++++..
+++++..
++++..
++++FOLDER 'VARIABLE_PLENUM 1'
+++++CURVE 'PRESSURE'
+++++..
+++++CURVE 'TEMPERATURE'
+++++..
+++++CURVE 'MASS'
+++++..
+++++CURVE 'VOLUME'
+++++..
+++++CURVE 'VOLUMEWORK'
+++++..
+++++FOLDER 'S'
++++++CURVE 'A/F-RATIO'
++++++..
++++++CURVE 'COMBUSTIONPRODUCTCONCENTRATION'
++++++..
++++++CURVE 'FUELVAPOURCONCENTRATION'
++++++..
+++++..
+++++FOLDER 'P#2'
++++++CURVE 'FLOWCOEFFICIENT'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
+++++FOLDER 'P#5'
++++++CURVE 'FLOWCOEFFICIENT'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
++++..
++++FOLDER 'MEASURINGPOINT 1'
+++++CURVE 'PRESSURE'
+++++..
+++++CURVE 'VELOCITY'
+++++..
+++++CURVE 'TEMPERATURE'
+++++..
+++++CURVE 'MASSFLOW'
+++++..
+++++CURVE 'MASSFLOWPERS'
+++++..
+++++CURVE 'MASSFLOWAVERAGED-TEMPERATURE'
+++++..
+++++CURVE 'MACHNUMBER'
+++++..
+++++CURVE 'STAGNATIONPRESSURE'
+++++..
+++++CURVE 'STAGNATIONTEMPERATURE'
+++++..
+++++CURVE 'ENTHALPYFLOWPERS'
+++++..
+++++CURVE 'REYNOLDSNUMBER'
+++++..
+++++CURVE 'WALLTEMPERATURE'
+++++..
+++++CURVE 'CONVERGENCE'
+++++..
+++++CURVE 'DENSITY'
+++++..
+++++CURVE 'SPECHEATCP'
+++++..
+++++CURVE 'ISENTROPIC-EXPONENT'
+++++..
+++++CURVE 'GAS-CONSTANT'
+++++..
++++..
++++FOLDER 'MEASURINGPOINT 2'
+++++CURVE 'PRESSURE'
+++++..
+++++CURVE 'VELOCITY'
+++++..
+++++CURVE 'TEMPERATURE'
+++++..
+++++CURVE 'MASSFLOW'
+++++..
+++++CURVE 'MASSFLOWPERS'
+++++..
+++++CURVE 'MASSFLOWAVERAGED-TEMPERATURE'
+++++..
+++++CURVE 'MACHNUMBER'
+++++..
+++++CURVE 'STAGNATIONPRESSURE'
+++++..
+++++CURVE 'STAGNATIONTEMPERATURE'
+++++..
+++++CURVE 'ENTHALPYFLOWPERS'
+++++..
+++++CURVE 'REYNOLDSNUMBER'
+++++..
+++++CURVE 'WALLTEMPERATURE'
+++++..
+++++CURVE 'CONVERGENCE'
+++++..
+++++CURVE 'DENSITY'
+++++..
+++++CURVE 'SPECHEATCP'
+++++..
+++++CURVE 'ISENTROPIC-EXPONENT'
+++++..
+++++CURVE 'GAS-CONSTANT'
+++++..
++++..
++++FOLDER 'MEASURINGPOINT 3'
+++++CURVE 'PRESSURE'
+++++..
+++++CURVE 'VELOCITY'
+++++..
+++++CURVE 'TEMPERATURE'
+++++..
+++++CURVE 'MASSFLOW'
+++++..
+++++CURVE 'MASSFLOWPERS'
+++++..
+++++CURVE 'MASSFLOWAVERAGED-TEMPERATURE'
+++++..
+++++CURVE 'MACHNUMBER'
+++++..
+++++CURVE 'STAGNATIONPRESSURE'
+++++..
+++++CURVE 'STAGNATIONTEMPERATURE'
+++++..
+++++CURVE 'ENTHALPYFLOWPERS'
+++++..
+++++CURVE 'REYNOLDSNUMBER'
+++++..
+++++CURVE 'WALLTEMPERATURE'
+++++..
+++++CURVE 'CONVERGENCE'
+++++..
+++++CURVE 'DENSITY'
+++++..
+++++CURVE 'SPECHEATCP'
+++++..
+++++CURVE 'ISENTROPIC-EXPONENT'
+++++..
+++++CURVE 'GAS-CONSTANT'
+++++..
++++..
++++FOLDER 'MEASURINGPOINT 4'
+++++CURVE 'PRESSURE'
+++++..
+++++CURVE 'VELOCITY'
+++++..
+++++CURVE 'TEMPERATURE'
+++++..
+++++CURVE 'MASSFLOW'
+++++..
+++++CURVE 'MASSFLOWPERS'
+++++..
+++++CURVE 'MASSFLOWAVERAGED-TEMPERATURE'
+++++..
+++++CURVE 'MACHNUMBER'
+++++..
+++++CURVE 'STAGNATIONPRESSURE'
+++++..
+++++CURVE 'STAGNATIONTEMPERATURE'
+++++..
+++++CURVE 'ENTHALPYFLOWPERS'
+++++..
+++++CURVE 'REYNOLDSNUMBER'
+++++..
+++++CURVE 'WALLTEMPERATURE'
+++++..
+++++CURVE 'CONVERGENCE'
+++++..
+++++CURVE 'DENSITY'
+++++..
+++++CURVE 'SPECHEATCP'
+++++..
+++++CURVE 'ISENTROPIC-EXPONENT'
+++++..
+++++CURVE 'GAS-CONSTANT'
+++++..
++++..
++++FOLDER 'SYSTEMBOUNDARY 1'
+++++FOLDER 'P#1'
++++++CURVE 'FLOWCOEFFICIENT'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
++++..
++++FOLDER 'SYSTEMBOUNDARY 2'
+++++FOLDER 'P#6'
++++++CURVE 'FLOWCOEFFICIENT'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
++++..
++++FOLDER 'RESTRICTION 1'
+++++FOLDER 'P#3'
++++++CURVE 'FLOWCOEFFICIENT'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
+++++FOLDER 'P#6'
++++++CURVE 'FLOWCOEFFICIENT'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
++++..
++++FOLDER 'ROTARYVALVE 1'
+++++FOLDER 'P#4'
++++++CURVE 'FLOWCOEFFICIENT'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
+++++FOLDER 'P#5'
++++++CURVE 'FLOWCOEFFICIENT'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
++++..
++++FOLDER 'FUELINJECTOR 1'
+++++CURVE 'ADDEDFUEL'
+++++..
+++++FOLDER 'P#1'
++++++CURVE 'FLOWCOEFFICIENT'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
+++++FOLDER 'P#4'
++++++CURVE 'FLOWCOEFFICIENT'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
++++..
++++FOLDER 'PIPE 1'
+++++FOLDER 'H'
++++++CURVE 'WALLHEATFLOW'
++++++..
++++++CURVE 'ALPHA-GAS-WALL'
++++++..
+++++..
++++..
++++FOLDER 'PIPE 2'
+++++FOLDER 'H'
++++++CURVE 'WALLHEATFLOW'
++++++..
++++++CURVE 'ALPHA-GAS-WALL'
++++++..
+++++..
++++..
++++FOLDER 'PIPE 3'
+++++FOLDER 'H'
++++++CURVE 'WALLHEATFLOW'
++++++..
++++++CURVE 'ALPHA-GAS-WALL'
++++++..
+++++..
++++..
++++FOLDER 'PIPE 4'
+++++FOLDER 'H'
++++++CURVE 'WALLHEATFLOW'
++++++..
++++++CURVE 'ALPHA-GAS-WALL'
++++++..
+++++..
++++..
++++FOLDER 'PIPE 5'
+++++FOLDER 'H'
++++++CURVE 'WALLHEATFLOW'
++++++..
++++++CURVE 'ALPHA-GAS-WALL'
++++++..
+++++..
++++..
++++FOLDER 'PIPE 6'
+++++FOLDER 'H'
++++++CURVE 'WALLHEATFLOW'
++++++..
++++++CURVE 'ALPHA-GAS-WALL'
++++++..
+++++..
++++..
++++FOLDER 'TEST_BED_REFERENCE 1'
+++++CURVE 'P-0-A'
+++++..
++++..
+++..
+++FOLDER 'TRACES'
++++FOLDER 'ENGINE 1'
+++++CURVE 'TRACESTIME'
+++++..
+++++CURVE 'ENGINESPEED'
+++++..
+++++CURVE 'TORQUE'
+++++..
++++..
++++FOLDER 'CYLINDER 1'
+++++CURVE 'PRESSURE'
+++++..
+++++CURVE 'TEMPERATURE'
+++++..
+++++CURVE 'MASS'
+++++..
+++++CURVE 'VOLUME'
+++++..
+++++CURVE 'VOLUMEWORK'
+++++..
+++++CURVE 'VOLUMEWORKINTEGRAL'
+++++..
+++++CURVE 'PRESSURERISE'
+++++..
+++++CURVE 'TEMPERATURERISE'
+++++..
+++++CURVE 'ENTHALPY'
+++++..
+++++CURVE 'ENTROPY'
+++++..
+++++CURVE 'SPECHEATCV'
+++++..
+++++CURVE 'SPECHEATCP'
+++++..
+++++CURVE 'RGASMIX'
+++++..
+++++CURVE 'PISTONPOSITION'
+++++..
+++++FOLDER 'C'
++++++CURVE 'RATEOFHEATRELEASE'
++++++..
++++++CURVE 'RATEOFHEATRELEASE-EFF'
++++++..
++++++CURVE 'NETRATEOFHEATRELEASE'
++++++..
++++++CURVE 'NORMRATEOFHEATRELEASE'
++++++..
+++++..
+++++FOLDER 'H'
++++++CURVE 'TOTALWALLHEATFLOW'
++++++..
++++++CURVE 'PISTONWALLHEATFLOW'
++++++..
++++++CURVE 'HEADWALLHEATFLOW'
++++++..
++++++CURVE 'LINERWALLHEATFLOW'
++++++..
++++++CURVE 'HEATTRANSFERCOEFFICIENT'
++++++..
++++++CURVE 'BLOWBYENTHALPYFLOW'
++++++..
++++++CURVE 'MOTOREDPRESSUREREF'
++++++..
+++++..
+++++FOLDER 'G'
++++++CURVE 'INTAKEMASSFLOW'
++++++..
++++++CURVE 'EXHAUSTMASSFLOW'
++++++..
++++++CURVE 'BLOWBY'
++++++..
++++++CURVE 'MASSASPIRATED'
++++++..
++++++CURVE 'MASSTRAPPED'
++++++..
++++++CURVE 'SCAVENGINGEFFICIENCY'
++++++..
++++++CURVE 'SCAVENGINGQUALITY'
++++++..
+++++..
+++++FOLDER 'S'
++++++CURVE 'FUELBURNEDCONCENTRATION'
++++++..
++++++CURVE 'COMBUSTIONPRODUCTCONCENTRATION'
++++++..
++++++CURVE 'FUELVAPOURCONCENTRATION'
++++++..
++++++CURVE 'A/F-RATIO'
++++++..
+++++..
+++++FOLDER 'I#2'
++++++CURVE 'FLOWCOEFFICIENTS'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
++++++CURVE 'EFFECTIVEFLOWAREA'
++++++..
++++++CURVE 'PORTWALLHEATFLOW'
++++++..
+++++..
+++++FOLDER 'E#3'
++++++CURVE 'FLOWCOEFFICIENTS'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
++++++CURVE 'EFFECTIVEFLOWAREA'
++++++..
++++++CURVE 'PORTWALLHEATFLOW'
++++++..
+++++..
++++..
++++FOLDER 'VARIABLE_PLENUM 1'
+++++CURVE 'PRESSURE'
+++++..
+++++CURVE 'TEMPERATURE'
+++++..
+++++CURVE 'MASS'
+++++..
+++++CURVE 'VOLUME'
+++++..
+++++CURVE 'VOLUMEWORK'
+++++..
+++++FOLDER 'S'
++++++CURVE 'A/F-RATIO'
++++++..
++++++CURVE 'COMBUSTIONPRODUCTCONCENTRATION'
++++++..
++++++CURVE 'FUELVAPOURCONCENTRATION'
++++++..
+++++..
+++++FOLDER 'P#2'
++++++CURVE 'FLOWCOEFFICIENTS'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
+++++FOLDER 'P#5'
++++++CURVE 'FLOWCOEFFICIENTS'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
++++..
++++FOLDER 'MEASURINGPOINT 1'
+++++CURVE 'PRESSURE'
+++++..
+++++CURVE 'VELOCITY'
+++++..
+++++CURVE 'TEMPERATURE'
+++++..
+++++CURVE 'MASSFLOW'
+++++..
+++++CURVE 'MACHNUMBER'
+++++..
++++..
++++FOLDER 'MEASURINGPOINT 2'
+++++CURVE 'PRESSURE'
+++++..
+++++CURVE 'VELOCITY'
+++++..
+++++CURVE 'TEMPERATURE'
+++++..
+++++CURVE 'MASSFLOW'
+++++..
+++++CURVE 'MACHNUMBER'
+++++..
++++..
++++FOLDER 'MEASURINGPOINT 3'
+++++CURVE 'PRESSURE'
+++++..
+++++CURVE 'VELOCITY'
+++++..
+++++CURVE 'TEMPERATURE'
+++++..
+++++CURVE 'MASSFLOW'
+++++..
+++++CURVE 'MACHNUMBER'
+++++..
++++..
++++FOLDER 'MEASURINGPOINT 4'
+++++CURVE 'PRESSURE'
+++++..
+++++CURVE 'VELOCITY'
+++++..
+++++CURVE 'TEMPERATURE'
+++++..
+++++CURVE 'MASSFLOW'
+++++..
+++++CURVE 'MACHNUMBER'
+++++..
++++..
++++FOLDER 'SYSTEMBOUNDARY 1'
+++++CURVE 'PRESSURE'
+++++..
+++++CURVE 'TEMPERATURE'
+++++..
+++++FOLDER 'P#1'
++++++CURVE 'FLOWCOEFFICIENTS'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
++++..
++++FOLDER 'SYSTEMBOUNDARY 2'
+++++CURVE 'PRESSURE'
+++++..
+++++CURVE 'TEMPERATURE'
+++++..
+++++FOLDER 'P#6'
++++++CURVE 'FLOWCOEFFICIENTS'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
++++..
++++FOLDER 'RESTRICTION 1'
+++++FOLDER 'P#3'
++++++CURVE 'FLOWCOEFFICIENTS'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
+++++FOLDER 'P#6'
++++++CURVE 'FLOWCOEFFICIENTS'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
++++..
++++FOLDER 'ROTARYVALVE 1'
+++++FOLDER 'P#4'
++++++CURVE 'FLOWCOEFFICIENTS'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
+++++FOLDER 'P#5'
++++++CURVE 'FLOWCOEFFICIENTS'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
++++..
++++FOLDER 'FUELINJECTOR 1'
+++++CURVE 'ADDEDFUEL'
+++++..
+++++FOLDER 'P#1'
++++++CURVE 'FLOWCOEFFICIENTS'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
+++++FOLDER 'P#4'
++++++CURVE 'FLOWCOEFFICIENTS'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
++++..
+++..
++..
+
+Source Gidas Files: 
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kEG1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kCY1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kCY1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kCY1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kVP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kVP1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kVP1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kMP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kMP2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kMP3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kMP4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kSB1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kSB2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kFR1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kFR1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kRV1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kRV1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kIJ1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kIJ1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kIJ1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kPI1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kPI2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kPI3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kPI4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kPI5____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kPI6____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_1/simulation.dir/kTT1____1.gid'
+
+Source Gidas Files: 
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_2/simulation.dir/kEG1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_2/simulation.dir/kCY1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_2/simulation.dir/kCY1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_2/simulation.dir/kCY1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_2/simulation.dir/kVP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_2/simulation.dir/kVP1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_2/simulation.dir/kVP1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_2/simulation.dir/kMP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_2/simulation.dir/kMP2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_2/simulation.dir/kMP3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_2/simulation.dir/kMP4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_2/simulation.dir/kSB1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_2/simulation.dir/kSB2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_2/simulation.dir/kFR1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_2/simulation.dir/kFR1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_2/simulation.dir/kRV1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_2/simulation.dir/kRV1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_2/simulation.dir/kIJ1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_2/simulation.dir/kIJ1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_2/simulation.dir/kIJ1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_2/simulation.dir/kPI1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_2/simulation.dir/kPI2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_2/simulation.dir/kPI3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_2/simulation.dir/kPI4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_2/simulation.dir/kPI5____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_2/simulation.dir/kPI6____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_2/simulation.dir/kTT1____1.gid'
+
+Source Gidas Files: 
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_3/simulation.dir/kEG1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_3/simulation.dir/kCY1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_3/simulation.dir/kCY1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_3/simulation.dir/kCY1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_3/simulation.dir/kVP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_3/simulation.dir/kVP1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_3/simulation.dir/kVP1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_3/simulation.dir/kMP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_3/simulation.dir/kMP2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_3/simulation.dir/kMP3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_3/simulation.dir/kMP4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_3/simulation.dir/kSB1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_3/simulation.dir/kSB2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_3/simulation.dir/kFR1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_3/simulation.dir/kFR1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_3/simulation.dir/kRV1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_3/simulation.dir/kRV1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_3/simulation.dir/kIJ1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_3/simulation.dir/kIJ1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_3/simulation.dir/kIJ1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_3/simulation.dir/kPI1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_3/simulation.dir/kPI2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_3/simulation.dir/kPI3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_3/simulation.dir/kPI4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_3/simulation.dir/kPI5____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_3/simulation.dir/kPI6____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_3/simulation.dir/kTT1____1.gid'
+
+Source Gidas Files: 
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_4/simulation.dir/kEG1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_4/simulation.dir/kCY1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_4/simulation.dir/kCY1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_4/simulation.dir/kCY1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_4/simulation.dir/kVP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_4/simulation.dir/kVP1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_4/simulation.dir/kVP1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_4/simulation.dir/kMP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_4/simulation.dir/kMP2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_4/simulation.dir/kMP3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_4/simulation.dir/kMP4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_4/simulation.dir/kSB1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_4/simulation.dir/kSB2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_4/simulation.dir/kFR1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_4/simulation.dir/kFR1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_4/simulation.dir/kRV1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_4/simulation.dir/kRV1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_4/simulation.dir/kIJ1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_4/simulation.dir/kIJ1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_4/simulation.dir/kIJ1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_4/simulation.dir/kPI1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_4/simulation.dir/kPI2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_4/simulation.dir/kPI3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_4/simulation.dir/kPI4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_4/simulation.dir/kPI5____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_4/simulation.dir/kPI6____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_4/simulation.dir/kTT1____1.gid'
+
+Source Gidas Files: 
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_5/simulation.dir/kEG1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_5/simulation.dir/kCY1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_5/simulation.dir/kCY1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_5/simulation.dir/kCY1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_5/simulation.dir/kVP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_5/simulation.dir/kVP1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_5/simulation.dir/kVP1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_5/simulation.dir/kMP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_5/simulation.dir/kMP2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_5/simulation.dir/kMP3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_5/simulation.dir/kMP4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_5/simulation.dir/kSB1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_5/simulation.dir/kSB2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_5/simulation.dir/kFR1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_5/simulation.dir/kFR1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_5/simulation.dir/kRV1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_5/simulation.dir/kRV1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_5/simulation.dir/kIJ1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_5/simulation.dir/kIJ1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_5/simulation.dir/kIJ1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_5/simulation.dir/kPI1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_5/simulation.dir/kPI2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_5/simulation.dir/kPI3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_5/simulation.dir/kPI4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_5/simulation.dir/kPI5____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_5/simulation.dir/kPI6____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_5/simulation.dir/kTT1____1.gid'
+
+Source Gidas Files: 
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_6/simulation.dir/kEG1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_6/simulation.dir/kCY1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_6/simulation.dir/kCY1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_6/simulation.dir/kCY1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_6/simulation.dir/kVP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_6/simulation.dir/kVP1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_6/simulation.dir/kVP1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_6/simulation.dir/kMP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_6/simulation.dir/kMP2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_6/simulation.dir/kMP3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_6/simulation.dir/kMP4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_6/simulation.dir/kSB1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_6/simulation.dir/kSB2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_6/simulation.dir/kFR1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_6/simulation.dir/kFR1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_6/simulation.dir/kRV1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_6/simulation.dir/kRV1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_6/simulation.dir/kIJ1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_6/simulation.dir/kIJ1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_6/simulation.dir/kIJ1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_6/simulation.dir/kPI1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_6/simulation.dir/kPI2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_6/simulation.dir/kPI3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_6/simulation.dir/kPI4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_6/simulation.dir/kPI5____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_6/simulation.dir/kPI6____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_6/simulation.dir/kTT1____1.gid'
+
+Source Gidas Files: 
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_7/simulation.dir/kEG1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_7/simulation.dir/kCY1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_7/simulation.dir/kCY1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_7/simulation.dir/kCY1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_7/simulation.dir/kVP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_7/simulation.dir/kVP1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_7/simulation.dir/kVP1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_7/simulation.dir/kMP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_7/simulation.dir/kMP2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_7/simulation.dir/kMP3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_7/simulation.dir/kMP4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_7/simulation.dir/kSB1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_7/simulation.dir/kSB2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_7/simulation.dir/kFR1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_7/simulation.dir/kFR1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_7/simulation.dir/kRV1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_7/simulation.dir/kRV1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_7/simulation.dir/kIJ1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_7/simulation.dir/kIJ1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_7/simulation.dir/kIJ1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_7/simulation.dir/kPI1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_7/simulation.dir/kPI2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_7/simulation.dir/kPI3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_7/simulation.dir/kPI4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_7/simulation.dir/kPI5____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_7/simulation.dir/kPI6____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_7/simulation.dir/kTT1____1.gid'
+
+Source Gidas Files: 
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_8/simulation.dir/kEG1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_8/simulation.dir/kCY1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_8/simulation.dir/kCY1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_8/simulation.dir/kCY1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_8/simulation.dir/kVP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_8/simulation.dir/kVP1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_8/simulation.dir/kVP1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_8/simulation.dir/kMP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_8/simulation.dir/kMP2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_8/simulation.dir/kMP3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_8/simulation.dir/kMP4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_8/simulation.dir/kSB1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_8/simulation.dir/kSB2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_8/simulation.dir/kFR1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_8/simulation.dir/kFR1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_8/simulation.dir/kRV1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_8/simulation.dir/kRV1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_8/simulation.dir/kIJ1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_8/simulation.dir/kIJ1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_8/simulation.dir/kIJ1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_8/simulation.dir/kPI1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_8/simulation.dir/kPI2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_8/simulation.dir/kPI3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_8/simulation.dir/kPI4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_8/simulation.dir/kPI5____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_8/simulation.dir/kPI6____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_8/simulation.dir/kTT1____1.gid'
+
+Source Gidas Files: 
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_9/simulation.dir/kEG1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_9/simulation.dir/kCY1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_9/simulation.dir/kCY1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_9/simulation.dir/kCY1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_9/simulation.dir/kVP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_9/simulation.dir/kVP1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_9/simulation.dir/kVP1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_9/simulation.dir/kMP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_9/simulation.dir/kMP2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_9/simulation.dir/kMP3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_9/simulation.dir/kMP4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_9/simulation.dir/kSB1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_9/simulation.dir/kSB2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_9/simulation.dir/kFR1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_9/simulation.dir/kFR1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_9/simulation.dir/kRV1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_9/simulation.dir/kRV1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_9/simulation.dir/kIJ1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_9/simulation.dir/kIJ1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_9/simulation.dir/kIJ1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_9/simulation.dir/kPI1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_9/simulation.dir/kPI2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_9/simulation.dir/kPI3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_9/simulation.dir/kPI4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_9/simulation.dir/kPI5____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_9/simulation.dir/kPI6____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_9/simulation.dir/kTT1____1.gid'
+
+Source Gidas Files: 
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_10/simulation.dir/kEG1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_10/simulation.dir/kCY1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_10/simulation.dir/kCY1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_10/simulation.dir/kCY1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_10/simulation.dir/kVP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_10/simulation.dir/kVP1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_10/simulation.dir/kVP1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_10/simulation.dir/kMP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_10/simulation.dir/kMP2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_10/simulation.dir/kMP3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_10/simulation.dir/kMP4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_10/simulation.dir/kSB1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_10/simulation.dir/kSB2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_10/simulation.dir/kFR1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_10/simulation.dir/kFR1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_10/simulation.dir/kRV1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_10/simulation.dir/kRV1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_10/simulation.dir/kIJ1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_10/simulation.dir/kIJ1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_10/simulation.dir/kIJ1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_10/simulation.dir/kPI1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_10/simulation.dir/kPI2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_10/simulation.dir/kPI3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_10/simulation.dir/kPI4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_10/simulation.dir/kPI5____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_10/simulation.dir/kPI6____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_10/simulation.dir/kTT1____1.gid'
+
+Source Gidas Files: 
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_11/simulation.dir/kEG1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_11/simulation.dir/kCY1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_11/simulation.dir/kCY1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_11/simulation.dir/kCY1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_11/simulation.dir/kVP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_11/simulation.dir/kVP1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_11/simulation.dir/kVP1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_11/simulation.dir/kMP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_11/simulation.dir/kMP2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_11/simulation.dir/kMP3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_11/simulation.dir/kMP4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_11/simulation.dir/kSB1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_11/simulation.dir/kSB2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_11/simulation.dir/kFR1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_11/simulation.dir/kFR1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_11/simulation.dir/kRV1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_11/simulation.dir/kRV1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_11/simulation.dir/kIJ1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_11/simulation.dir/kIJ1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_11/simulation.dir/kIJ1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_11/simulation.dir/kPI1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_11/simulation.dir/kPI2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_11/simulation.dir/kPI3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_11/simulation.dir/kPI4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_11/simulation.dir/kPI5____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_11/simulation.dir/kPI6____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_11/simulation.dir/kTT1____1.gid'
+
+Source Gidas Files: 
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_12/simulation.dir/kEG1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_12/simulation.dir/kCY1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_12/simulation.dir/kCY1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_12/simulation.dir/kCY1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_12/simulation.dir/kVP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_12/simulation.dir/kVP1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_12/simulation.dir/kVP1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_12/simulation.dir/kMP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_12/simulation.dir/kMP2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_12/simulation.dir/kMP3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_12/simulation.dir/kMP4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_12/simulation.dir/kSB1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_12/simulation.dir/kSB2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_12/simulation.dir/kFR1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_12/simulation.dir/kFR1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_12/simulation.dir/kRV1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_12/simulation.dir/kRV1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_12/simulation.dir/kIJ1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_12/simulation.dir/kIJ1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_12/simulation.dir/kIJ1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_12/simulation.dir/kPI1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_12/simulation.dir/kPI2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_12/simulation.dir/kPI3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_12/simulation.dir/kPI4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_12/simulation.dir/kPI5____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_12/simulation.dir/kPI6____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_12/simulation.dir/kTT1____1.gid'
+
+Source Gidas Files: 
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_13/simulation.dir/kEG1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_13/simulation.dir/kCY1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_13/simulation.dir/kCY1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_13/simulation.dir/kCY1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_13/simulation.dir/kVP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_13/simulation.dir/kVP1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_13/simulation.dir/kVP1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_13/simulation.dir/kMP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_13/simulation.dir/kMP2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_13/simulation.dir/kMP3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_13/simulation.dir/kMP4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_13/simulation.dir/kSB1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_13/simulation.dir/kSB2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_13/simulation.dir/kFR1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_13/simulation.dir/kFR1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_13/simulation.dir/kRV1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_13/simulation.dir/kRV1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_13/simulation.dir/kIJ1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_13/simulation.dir/kIJ1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_13/simulation.dir/kIJ1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_13/simulation.dir/kPI1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_13/simulation.dir/kPI2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_13/simulation.dir/kPI3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_13/simulation.dir/kPI4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_13/simulation.dir/kPI5____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_13/simulation.dir/kPI6____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_13/simulation.dir/kTT1____1.gid'
+
+Source Gidas Files: 
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_14/simulation.dir/kEG1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_14/simulation.dir/kCY1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_14/simulation.dir/kCY1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_14/simulation.dir/kCY1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_14/simulation.dir/kVP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_14/simulation.dir/kVP1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_14/simulation.dir/kVP1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_14/simulation.dir/kMP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_14/simulation.dir/kMP2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_14/simulation.dir/kMP3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_14/simulation.dir/kMP4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_14/simulation.dir/kSB1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_14/simulation.dir/kSB2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_14/simulation.dir/kFR1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_14/simulation.dir/kFR1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_14/simulation.dir/kRV1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_14/simulation.dir/kRV1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_14/simulation.dir/kIJ1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_14/simulation.dir/kIJ1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_14/simulation.dir/kIJ1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_14/simulation.dir/kPI1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_14/simulation.dir/kPI2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_14/simulation.dir/kPI3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_14/simulation.dir/kPI4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_14/simulation.dir/kPI5____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_14/simulation.dir/kPI6____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_14/simulation.dir/kTT1____1.gid'
+
+Source Gidas Files: 
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_15/simulation.dir/kEG1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_15/simulation.dir/kCY1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_15/simulation.dir/kCY1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_15/simulation.dir/kCY1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_15/simulation.dir/kVP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_15/simulation.dir/kVP1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_15/simulation.dir/kVP1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_15/simulation.dir/kMP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_15/simulation.dir/kMP2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_15/simulation.dir/kMP3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_15/simulation.dir/kMP4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_15/simulation.dir/kSB1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_15/simulation.dir/kSB2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_15/simulation.dir/kFR1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_15/simulation.dir/kFR1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_15/simulation.dir/kRV1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_15/simulation.dir/kRV1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_15/simulation.dir/kIJ1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_15/simulation.dir/kIJ1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_15/simulation.dir/kIJ1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_15/simulation.dir/kPI1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_15/simulation.dir/kPI2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_15/simulation.dir/kPI3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_15/simulation.dir/kPI4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_15/simulation.dir/kPI5____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_15/simulation.dir/kPI6____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_15/simulation.dir/kTT1____1.gid'
+
+Source Gidas Files: 
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_16/simulation.dir/kEG1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_16/simulation.dir/kCY1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_16/simulation.dir/kCY1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_16/simulation.dir/kCY1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_16/simulation.dir/kVP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_16/simulation.dir/kVP1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_16/simulation.dir/kVP1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_16/simulation.dir/kMP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_16/simulation.dir/kMP2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_16/simulation.dir/kMP3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_16/simulation.dir/kMP4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_16/simulation.dir/kSB1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_16/simulation.dir/kSB2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_16/simulation.dir/kFR1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_16/simulation.dir/kFR1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_16/simulation.dir/kRV1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_16/simulation.dir/kRV1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_16/simulation.dir/kIJ1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_16/simulation.dir/kIJ1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_16/simulation.dir/kIJ1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_16/simulation.dir/kPI1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_16/simulation.dir/kPI2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_16/simulation.dir/kPI3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_16/simulation.dir/kPI4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_16/simulation.dir/kPI5____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_16/simulation.dir/kPI6____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_16/simulation.dir/kTT1____1.gid'
+
+Source Gidas Files: 
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_17/simulation.dir/kEG1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_17/simulation.dir/kCY1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_17/simulation.dir/kCY1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_17/simulation.dir/kCY1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_17/simulation.dir/kVP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_17/simulation.dir/kVP1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_17/simulation.dir/kVP1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_17/simulation.dir/kMP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_17/simulation.dir/kMP2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_17/simulation.dir/kMP3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_17/simulation.dir/kMP4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_17/simulation.dir/kSB1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_17/simulation.dir/kSB2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_17/simulation.dir/kFR1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_17/simulation.dir/kFR1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_17/simulation.dir/kRV1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_17/simulation.dir/kRV1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_17/simulation.dir/kIJ1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_17/simulation.dir/kIJ1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_17/simulation.dir/kIJ1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_17/simulation.dir/kPI1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_17/simulation.dir/kPI2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_17/simulation.dir/kPI3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_17/simulation.dir/kPI4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_17/simulation.dir/kPI5____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_17/simulation.dir/kPI6____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_17/simulation.dir/kTT1____1.gid'
+
+Source Gidas Files: 
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_18/simulation.dir/kEG1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_18/simulation.dir/kCY1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_18/simulation.dir/kCY1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_18/simulation.dir/kCY1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_18/simulation.dir/kVP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_18/simulation.dir/kVP1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_18/simulation.dir/kVP1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_18/simulation.dir/kMP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_18/simulation.dir/kMP2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_18/simulation.dir/kMP3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_18/simulation.dir/kMP4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_18/simulation.dir/kSB1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_18/simulation.dir/kSB2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_18/simulation.dir/kFR1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_18/simulation.dir/kFR1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_18/simulation.dir/kRV1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_18/simulation.dir/kRV1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_18/simulation.dir/kIJ1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_18/simulation.dir/kIJ1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_18/simulation.dir/kIJ1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_18/simulation.dir/kPI1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_18/simulation.dir/kPI2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_18/simulation.dir/kPI3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_18/simulation.dir/kPI4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_18/simulation.dir/kPI5____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_18/simulation.dir/kPI6____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_18/simulation.dir/kTT1____1.gid'
+
+Source Gidas Files: 
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_19/simulation.dir/kEG1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_19/simulation.dir/kCY1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_19/simulation.dir/kCY1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_19/simulation.dir/kCY1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_19/simulation.dir/kVP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_19/simulation.dir/kVP1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_19/simulation.dir/kVP1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_19/simulation.dir/kMP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_19/simulation.dir/kMP2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_19/simulation.dir/kMP3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_19/simulation.dir/kMP4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_19/simulation.dir/kSB1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_19/simulation.dir/kSB2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_19/simulation.dir/kFR1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_19/simulation.dir/kFR1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_19/simulation.dir/kRV1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_19/simulation.dir/kRV1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_19/simulation.dir/kIJ1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_19/simulation.dir/kIJ1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_19/simulation.dir/kIJ1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_19/simulation.dir/kPI1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_19/simulation.dir/kPI2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_19/simulation.dir/kPI3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_19/simulation.dir/kPI4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_19/simulation.dir/kPI5____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_19/simulation.dir/kPI6____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_19/simulation.dir/kTT1____1.gid'
+
+Source Gidas Files: 
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_20/simulation.dir/kEG1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_20/simulation.dir/kCY1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_20/simulation.dir/kCY1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_20/simulation.dir/kCY1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_20/simulation.dir/kVP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_20/simulation.dir/kVP1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_20/simulation.dir/kVP1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_20/simulation.dir/kMP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_20/simulation.dir/kMP2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_20/simulation.dir/kMP3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_20/simulation.dir/kMP4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_20/simulation.dir/kSB1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_20/simulation.dir/kSB2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_20/simulation.dir/kFR1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_20/simulation.dir/kFR1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_20/simulation.dir/kRV1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_20/simulation.dir/kRV1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_20/simulation.dir/kIJ1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_20/simulation.dir/kIJ1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_20/simulation.dir/kIJ1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_20/simulation.dir/kPI1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_20/simulation.dir/kPI2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_20/simulation.dir/kPI3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_20/simulation.dir/kPI4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_20/simulation.dir/kPI5____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_20/simulation.dir/kPI6____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_20/simulation.dir/kTT1____1.gid'
+
+Source Gidas Files: 
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_21/simulation.dir/kEG1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_21/simulation.dir/kCY1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_21/simulation.dir/kCY1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_21/simulation.dir/kCY1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_21/simulation.dir/kVP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_21/simulation.dir/kVP1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_21/simulation.dir/kVP1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_21/simulation.dir/kMP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_21/simulation.dir/kMP2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_21/simulation.dir/kMP3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_21/simulation.dir/kMP4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_21/simulation.dir/kSB1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_21/simulation.dir/kSB2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_21/simulation.dir/kFR1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_21/simulation.dir/kFR1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_21/simulation.dir/kRV1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_21/simulation.dir/kRV1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_21/simulation.dir/kIJ1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_21/simulation.dir/kIJ1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_21/simulation.dir/kIJ1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_21/simulation.dir/kPI1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_21/simulation.dir/kPI2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_21/simulation.dir/kPI3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_21/simulation.dir/kPI4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_21/simulation.dir/kPI5____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_21/simulation.dir/kPI6____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_21/simulation.dir/kTT1____1.gid'
+
+Source Gidas Files: 
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_22/simulation.dir/kEG1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_22/simulation.dir/kCY1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_22/simulation.dir/kCY1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_22/simulation.dir/kCY1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_22/simulation.dir/kVP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_22/simulation.dir/kVP1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_22/simulation.dir/kVP1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_22/simulation.dir/kMP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_22/simulation.dir/kMP2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_22/simulation.dir/kMP3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_22/simulation.dir/kMP4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_22/simulation.dir/kSB1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_22/simulation.dir/kSB2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_22/simulation.dir/kFR1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_22/simulation.dir/kFR1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_22/simulation.dir/kRV1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_22/simulation.dir/kRV1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_22/simulation.dir/kIJ1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_22/simulation.dir/kIJ1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_22/simulation.dir/kIJ1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_22/simulation.dir/kPI1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_22/simulation.dir/kPI2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_22/simulation.dir/kPI3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_22/simulation.dir/kPI4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_22/simulation.dir/kPI5____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_22/simulation.dir/kPI6____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_22/simulation.dir/kTT1____1.gid'
+
+Source Gidas Files: 
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_23/simulation.dir/kEG1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_23/simulation.dir/kCY1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_23/simulation.dir/kCY1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_23/simulation.dir/kCY1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_23/simulation.dir/kVP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_23/simulation.dir/kVP1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_23/simulation.dir/kVP1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_23/simulation.dir/kMP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_23/simulation.dir/kMP2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_23/simulation.dir/kMP3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_23/simulation.dir/kMP4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_23/simulation.dir/kSB1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_23/simulation.dir/kSB2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_23/simulation.dir/kFR1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_23/simulation.dir/kFR1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_23/simulation.dir/kRV1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_23/simulation.dir/kRV1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_23/simulation.dir/kIJ1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_23/simulation.dir/kIJ1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_23/simulation.dir/kIJ1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_23/simulation.dir/kPI1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_23/simulation.dir/kPI2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_23/simulation.dir/kPI3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_23/simulation.dir/kPI4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_23/simulation.dir/kPI5____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_23/simulation.dir/kPI6____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_23/simulation.dir/kTT1____1.gid'
+
+Source Gidas Files: 
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_24/simulation.dir/kEG1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_24/simulation.dir/kCY1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_24/simulation.dir/kCY1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_24/simulation.dir/kCY1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_24/simulation.dir/kVP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_24/simulation.dir/kVP1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_24/simulation.dir/kVP1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_24/simulation.dir/kMP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_24/simulation.dir/kMP2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_24/simulation.dir/kMP3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_24/simulation.dir/kMP4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_24/simulation.dir/kSB1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_24/simulation.dir/kSB2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_24/simulation.dir/kFR1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_24/simulation.dir/kFR1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_24/simulation.dir/kRV1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_24/simulation.dir/kRV1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_24/simulation.dir/kIJ1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_24/simulation.dir/kIJ1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_24/simulation.dir/kIJ1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_24/simulation.dir/kPI1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_24/simulation.dir/kPI2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_24/simulation.dir/kPI3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_24/simulation.dir/kPI4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_24/simulation.dir/kPI5____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_24/simulation.dir/kPI6____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_24/simulation.dir/kTT1____1.gid'
+
+Source Gidas Files: 
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_25/simulation.dir/kEG1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_25/simulation.dir/kCY1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_25/simulation.dir/kCY1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_25/simulation.dir/kCY1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_25/simulation.dir/kVP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_25/simulation.dir/kVP1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_25/simulation.dir/kVP1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_25/simulation.dir/kMP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_25/simulation.dir/kMP2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_25/simulation.dir/kMP3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_25/simulation.dir/kMP4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_25/simulation.dir/kSB1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_25/simulation.dir/kSB2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_25/simulation.dir/kFR1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_25/simulation.dir/kFR1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_25/simulation.dir/kRV1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_25/simulation.dir/kRV1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_25/simulation.dir/kIJ1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_25/simulation.dir/kIJ1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_25/simulation.dir/kIJ1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_25/simulation.dir/kPI1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_25/simulation.dir/kPI2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_25/simulation.dir/kPI3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_25/simulation.dir/kPI4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_25/simulation.dir/kPI5____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_25/simulation.dir/kPI6____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_25/simulation.dir/kTT1____1.gid'
+
+Source Gidas Files: 
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_26/simulation.dir/kEG1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_26/simulation.dir/kCY1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_26/simulation.dir/kCY1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_26/simulation.dir/kCY1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_26/simulation.dir/kVP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_26/simulation.dir/kVP1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_26/simulation.dir/kVP1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_26/simulation.dir/kMP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_26/simulation.dir/kMP2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_26/simulation.dir/kMP3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_26/simulation.dir/kMP4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_26/simulation.dir/kSB1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_26/simulation.dir/kSB2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_26/simulation.dir/kFR1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_26/simulation.dir/kFR1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_26/simulation.dir/kRV1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_26/simulation.dir/kRV1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_26/simulation.dir/kIJ1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_26/simulation.dir/kIJ1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_26/simulation.dir/kIJ1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_26/simulation.dir/kPI1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_26/simulation.dir/kPI2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_26/simulation.dir/kPI3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_26/simulation.dir/kPI4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_26/simulation.dir/kPI5____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_26/simulation.dir/kPI6____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_26/simulation.dir/kTT1____1.gid'
+
+Source Gidas Files: 
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_27/simulation.dir/kEG1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_27/simulation.dir/kCY1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_27/simulation.dir/kCY1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_27/simulation.dir/kCY1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_27/simulation.dir/kVP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_27/simulation.dir/kVP1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_27/simulation.dir/kVP1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_27/simulation.dir/kMP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_27/simulation.dir/kMP2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_27/simulation.dir/kMP3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_27/simulation.dir/kMP4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_27/simulation.dir/kSB1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_27/simulation.dir/kSB2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_27/simulation.dir/kFR1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_27/simulation.dir/kFR1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_27/simulation.dir/kRV1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_27/simulation.dir/kRV1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_27/simulation.dir/kIJ1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_27/simulation.dir/kIJ1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_27/simulation.dir/kIJ1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_27/simulation.dir/kPI1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_27/simulation.dir/kPI2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_27/simulation.dir/kPI3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_27/simulation.dir/kPI4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_27/simulation.dir/kPI5____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_27/simulation.dir/kPI6____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_27/simulation.dir/kTT1____1.gid'
+
+Source Gidas Files: 
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_28/simulation.dir/kEG1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_28/simulation.dir/kCY1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_28/simulation.dir/kCY1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_28/simulation.dir/kCY1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_28/simulation.dir/kVP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_28/simulation.dir/kVP1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_28/simulation.dir/kVP1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_28/simulation.dir/kMP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_28/simulation.dir/kMP2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_28/simulation.dir/kMP3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_28/simulation.dir/kMP4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_28/simulation.dir/kSB1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_28/simulation.dir/kSB2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_28/simulation.dir/kFR1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_28/simulation.dir/kFR1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_28/simulation.dir/kRV1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_28/simulation.dir/kRV1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_28/simulation.dir/kIJ1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_28/simulation.dir/kIJ1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_28/simulation.dir/kIJ1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_28/simulation.dir/kPI1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_28/simulation.dir/kPI2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_28/simulation.dir/kPI3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_28/simulation.dir/kPI4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_28/simulation.dir/kPI5____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_28/simulation.dir/kPI6____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_28/simulation.dir/kTT1____1.gid'
+
+Source Gidas Files: 
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_29/simulation.dir/kEG1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_29/simulation.dir/kCY1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_29/simulation.dir/kCY1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_29/simulation.dir/kCY1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_29/simulation.dir/kVP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_29/simulation.dir/kVP1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_29/simulation.dir/kVP1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_29/simulation.dir/kMP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_29/simulation.dir/kMP2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_29/simulation.dir/kMP3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_29/simulation.dir/kMP4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_29/simulation.dir/kSB1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_29/simulation.dir/kSB2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_29/simulation.dir/kFR1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_29/simulation.dir/kFR1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_29/simulation.dir/kRV1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_29/simulation.dir/kRV1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_29/simulation.dir/kIJ1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_29/simulation.dir/kIJ1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_29/simulation.dir/kIJ1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_29/simulation.dir/kPI1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_29/simulation.dir/kPI2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_29/simulation.dir/kPI3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_29/simulation.dir/kPI4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_29/simulation.dir/kPI5____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_29/simulation.dir/kPI6____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_29/simulation.dir/kTT1____1.gid'
+
+Source Gidas Files: 
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_30/simulation.dir/kEG1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_30/simulation.dir/kCY1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_30/simulation.dir/kCY1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_30/simulation.dir/kCY1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_30/simulation.dir/kVP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_30/simulation.dir/kVP1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_30/simulation.dir/kVP1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_30/simulation.dir/kMP1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_30/simulation.dir/kMP2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_30/simulation.dir/kMP3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_30/simulation.dir/kMP4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_30/simulation.dir/kSB1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_30/simulation.dir/kSB2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_30/simulation.dir/kFR1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_30/simulation.dir/kFR1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_30/simulation.dir/kRV1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_30/simulation.dir/kRV1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_30/simulation.dir/kIJ1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_30/simulation.dir/kIJ1____2.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_30/simulation.dir/kIJ1____3.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_30/simulation.dir/kPI1____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_30/simulation.dir/kPI2____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_30/simulation.dir/kPI3____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_30/simulation.dir/kPI4____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_30/simulation.dir/kPI5____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_30/simulation.dir/kPI6____1.gid'
+     'G:\Ziga_Perne\primerjava/ravna_primerjava.dolzina.Case_30/simulation.dir/kTT1____1.gid'
+
+------------------------------------------------------------------------
+OVERVIEW ERROR EVENTS:
+Name of the Case     PPD APP 
+dolzina.Case_1       OK  OK 
+dolzina.Case_2        -  OK 
+dolzina.Case_3        -  OK 
+dolzina.Case_4        -  OK 
+dolzina.Case_5        -  OK 
+dolzina.Case_6        -  OK 
+dolzina.Case_7        -  OK 
+dolzina.Case_8        -  OK 
+dolzina.Case_9        -  OK 
+dolzina.Case_10       -  OK 
+dolzina.Case_11       -  OK 
+dolzina.Case_12       -  OK 
+dolzina.Case_13       -  OK 
+dolzina.Case_14       -  OK 
+dolzina.Case_15       -  OK 
+dolzina.Case_16       -  OK 
+dolzina.Case_17       -  OK 
+dolzina.Case_18       -  OK 
+dolzina.Case_19       -  OK 
+dolzina.Case_20       -  OK 
+dolzina.Case_21       -  OK 
+dolzina.Case_22       -  OK 
+dolzina.Case_23       -  OK 
+dolzina.Case_24       -  OK 
+dolzina.Case_25       -  OK 
+dolzina.Case_26       -  OK 
+dolzina.Case_27       -  OK 
+dolzina.Case_28       -  OK 
+dolzina.Case_29       -  OK 
+dolzina.Case_30       -  OK 
+
+Legend:
+   PPD ... ppd-File not found
+   APP ... Could not append Results
+
+   ERR --> Error occurred
+   OK  --> No Error occurred
+   -   --> Error state unkown
+------------------------------------------------------------------------
+================================================================================
+
+Acoustic averaging started  @ 2020-03-27 21:57:01.957000
+Creating .gid files for dolzina
+ Total number of cases 34,  Cases with acoustic results 0
+Acoustic averaging finished @ 2020-03-27 21:57:01.976000
+Creation of series results done.

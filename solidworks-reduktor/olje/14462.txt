@@ -1,0 +1,13 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"10-15072013-106016";"";
+"REFERENCE";"14462";"";
+"TraceParts.PartTitle";"013E - HGFT-PR - Oil level indicators - with prismatic window, technopolymer";"";
+"TraceParts.InstanceId";"10-15072013-106016C5A22H3683N0JQSMWQ42NUJO2";"";
+"DESIGN";"HGFT.13/PR-1/2-C9";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartStatusId";"";"";
+"SUPPLIER";"ELESA";"";
+"TraceParts.PartVersion";"1.1.5";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.ClassPath";"ELESA:/F_ELESA/ELESA.0130/ELESA.0130.030/10-15072013-106016";"";

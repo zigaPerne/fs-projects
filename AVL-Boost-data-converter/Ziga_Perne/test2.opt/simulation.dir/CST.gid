@@ -1,0 +1,14 @@
+BEGIN
+diameter = 100
+dolzina = 10
+len = 500
+CHANNELNAME = ['diameter', &
+               'dolzina', &
+               'len']
+UNIT        = ['length~mm', &
+               'length~mm', &
+               'length~mm']
+END
+1.00000000e+02   1.00000000e+01   5.00000000e+02
+1.00000000e+02   5.00000000e+01   5.00000000e+02
+1.00000000e+02   1.00000000e+02   5.00000000e+02

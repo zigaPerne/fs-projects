@@ -1,0 +1,135 @@
+BOOST Python job started.
+Wed, 18 Mar 2020 15:48:05
+    AAA    VV   VV  LL        BBBBBB    OOOOO    OOOOO    SSSSS  TTTTTTTT
+   AAAAA   VV   VV  LL        BBBBBBB  OOOOOOO  OOOOOOO  SSSSSS  TTTTTTTT
+  AA   AA  VV   VV  LL        BB   BB  OO   OO  OO   OO  SS         TT
+  AAAAAAA  VV   VV  LL        BBBBBB   OO   OO  OO   OO  SSSSSS     TT
+  AAAAAAA  VVV VVV  LL        BB   BB  OO   OO  OO   OO      SS     TT
+  AA   AA   VVVVV   LLLLL     BBBBBBB  OOOOOOO  OOOOOOO  SSSSSS     TT
+  AA   AA    VVV    LLLLL     BBBBBB    OOOOO    OOOOO   SSSSS      TT
+
+  V E R S I O N   v2019.2.0.0.0
+  AVL - Advanced Simulation Technologies
+  Platform: x86_64-unknown-winnt_i16v15
+  Build date: Sep 30 2019 22:44:23
+  Git build hash: be28b9261d560946c8b3a40b85f0245f4d0c8e85
+
+  System date: 18.03.2020
+
+
+  input file name:     test2.bst
+  sys_1DCFD_solver License will expire in 288 days
+
+  Starting calculation
+  -------------------------------
+   Cycle   IMEP [bar] of cylinder
+  compl.       1
+  -------------------------------
+       2    2.19
+       3    1.33
+       4    2.34
+       5    2.80
+       6    3.24
+       7    3.62
+       8    3.95
+       9    4.22
+      10    4.39
+      11    4.65
+      12    4.34
+      13    4.34
+      14    4.20
+      15    4.21
+      16    4.26
+      17    4.30
+      18    4.37
+      19    4.37
+      20    4.35
+      21    4.33
+      22    4.41
+      23    4.46
+      24    4.58
+      25    4.68
+      26    4.85
+      27    5.03
+      28    5.08
+      29    5.02
+      30    4.96
+      31    4.89
+      32    4.84
+      33    4.79
+      34    4.73
+      35    4.78
+      36    4.97
+      37    5.04
+      38    5.00
+      39    4.95
+      40    4.91
+      41    4.86
+      42    4.80
+      43    4.75
+      44    4.70
+      45    4.68
+      46    4.66
+      47    4.67
+      48    4.69
+      49    4.70
+      50    4.72
+      51    4.73
+      52    4.74
+      53    4.75
+      54    4.77
+      55    4.77
+      56    4.78
+      57    4.78
+      58    4.79
+      59    4.81
+      60    4.81
+      61    4.84
+      62    4.86
+      63    4.91
+      64    4.98
+      65    5.06
+      66    5.09
+      67    5.13
+      68    5.16
+      69    5.19
+      70    5.19
+      71    5.21
+      72    5.21
+      73    5.23
+      74    5.24
+      75    5.26
+      76    5.27
+      77    5.28
+      78    5.30
+      79    5.31
+      80    5.31
+      81    5.32
+      82    5.33
+      83    5.34
+      84    5.35
+      85    5.35
+      86    5.35
+      87    5.36
+      88    5.36
+      89    5.36
+      90    5.36
+      91    5.37
+      92    5.37
+      93    5.37
+      94    5.36
+      95    5.35
+      96    5.35
+      97    5.35
+      98    5.34
+      99    5.33
+     100    5.33
+  84 warning(s) issued. Please check messages.
+  Successful finish for test2.bst
+
+Results tree writer (Boost PPD writer) 2019 R2
+Impress chart results tree generation completed.
+Result unpacker (boost_unpack) v2019 R2
+Results unpacking completed. 
+Wed, 18 Mar 2020 15:48:36
+BOOST Python job completed.

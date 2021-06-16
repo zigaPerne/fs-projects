@@ -1,0 +1,1432 @@
+Thu, 19 Mar 2020 15:43:03
+Creating Series Results ...
+Creation of series results started.
+================================================================================
+CSR - Case Set Result Creator
+================================================================================
+Case Set Table File: 'G:\Ziga_Perne\primerjava/test2.opt/caseTable'
+SUCCESS: When opening Case Set Table File
+
+Case Set Name:        'opt'
+Main Parameter Name:  'diameter'
+Main Parameter Group: 'length'
+Main Parameter Unit:  'mm'
+
+C A S E S  -->  R E A D   S T A T E
+Number of Cases:  '3'
+1. Case:  name='opt.Case_1'  value='100.000000' state='Unknown'
+2. Case:  name='opt.Case_2'  value='100.000000' state='Unknown'
+3. Case:  name='opt.Case_3'  value='100.000000' state='Unknown'
+
+C A S E S  -->  A C T U A L   S T A T E
+Number of Cases:  '3'
+1. Case:  name='opt.Case_1'  value='100.000000' state='Completed'
+2. Case:  name='opt.Case_2'  value='100.000000' state='Completed'
+3. Case:  name='opt.Case_3'  value='100.000000' state='Completed'
+
+Source PPD-File:  'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/Results.ppd'
+
+Target PPD-File:  'G:\Ziga_Perne\primerjava/test2.opt/simulation.dir/Results.ppd'
+
+SUCCESS: When opening PPD Source File
+Stored Filenames
+
+The following Gidas Files are available in the PPD-File: 
+-> 'kEG1____1.gid'
+-> 'kCY1____1.gid'
+-> 'kCY1____2.gid'
+-> 'kCY1____3.gid'
+-> 'kVP1____1.gid'
+-> 'kVP1____2.gid'
+-> 'kVP1____3.gid'
+-> 'kMP1____1.gid'
+-> 'kMP2____1.gid'
+-> 'kMP3____1.gid'
+-> 'kMP4____1.gid'
+-> 'kMP5____1.gid'
+-> 'kSB1____1.gid'
+-> 'kSB2____1.gid'
+-> 'kFR1____1.gid'
+-> 'kFR1____2.gid'
+-> 'kFR2____1.gid'
+-> 'kFR2____2.gid'
+-> 'kFR3____1.gid'
+-> 'kFR3____2.gid'
+-> 'kFR4____1.gid'
+-> 'kFR4____2.gid'
+-> 'kRV1____1.gid'
+-> 'kRV1____2.gid'
+-> 'kIJ1____1.gid'
+-> 'kIJ1____2.gid'
+-> 'kIJ1____3.gid'
+-> 'kPI1____1.gid'
+-> 'kPI2____1.gid'
+-> 'kPI3____1.gid'
+-> 'kPI4____1.gid'
+-> 'kPI5____1.gid'
+-> 'kPI6____1.gid'
+-> 'kPI7____1.gid'
+-> 'kPI8____1.gid'
+-> 'kPI9____1.gid'
+-> 'kTT1____1.gid'
+
+Source Gidas Files: 
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kEG1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kCY1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kCY1____2.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kCY1____3.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kVP1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kVP1____2.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kVP1____3.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kMP1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kMP2____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kMP3____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kMP4____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kMP5____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kSB1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kSB2____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kFR1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kFR1____2.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kFR2____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kFR2____2.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kFR3____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kFR3____2.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kFR4____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kFR4____2.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kRV1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kRV1____2.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kIJ1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kIJ1____2.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kIJ1____3.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kPI1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kPI2____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kPI3____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kPI4____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kPI5____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kPI6____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kPI7____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kPI8____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kPI9____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kTT1____1.gid'
+
+Target Gidas Files: 
+     'G:\Ziga_Perne\primerjava/test2.opt/simulation.dir/sEG1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt/simulation.dir/sCY1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt/simulation.dir/sCY1____2.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt/simulation.dir/sCY1____3.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt/simulation.dir/sVP1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt/simulation.dir/sVP1____2.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt/simulation.dir/sVP1____3.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt/simulation.dir/sMP1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt/simulation.dir/sMP2____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt/simulation.dir/sMP3____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt/simulation.dir/sMP4____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt/simulation.dir/sMP5____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt/simulation.dir/sSB1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt/simulation.dir/sSB2____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt/simulation.dir/sFR1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt/simulation.dir/sFR1____2.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt/simulation.dir/sFR2____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt/simulation.dir/sFR2____2.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt/simulation.dir/sFR3____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt/simulation.dir/sFR3____2.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt/simulation.dir/sFR4____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt/simulation.dir/sFR4____2.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt/simulation.dir/sRV1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt/simulation.dir/sRV1____2.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt/simulation.dir/sIJ1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt/simulation.dir/sIJ1____2.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt/simulation.dir/sIJ1____3.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt/simulation.dir/sPI1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt/simulation.dir/sPI2____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt/simulation.dir/sPI3____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt/simulation.dir/sPI4____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt/simulation.dir/sPI5____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt/simulation.dir/sPI6____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt/simulation.dir/sPI7____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt/simulation.dir/sPI8____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt/simulation.dir/sPI9____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt/simulation.dir/sTT1____1.gid'
+
+SUCCESS: When opening PPD Source File 'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/Results.ppd'
+SUCCESS: When opening PPD Target File 'G:\Ziga_Perne\primerjava/test2.opt/simulation.dir/Results.ppd'
+
++FOLDER 'Boost'
+++FOLDER 'TRANSIENTS'
++++FOLDER 'ENGINE 1'
+++++CURVE 'CYCLE'
+++++..
+++++CURVE 'CYCLEAVERAGEDSPEED'
+++++..
+++++CURVE 'CYCLEFREQUENCY'
+++++..
+++++CURVE 'CYCLEPERIOD'
+++++..
+++++CURVE 'PRESSURE-AMB'
+++++..
+++++CURVE 'TEMPERATURE-AMB'
+++++..
+++++CURVE 'PEAKCYLINDERTEMPERATURE'
+++++..
+++++CURVE 'PEAKCYLINDERTEMPERATURE-CRANKANGLE'
+++++..
+++++CURVE 'FUELMASSINJECTED'
+++++..
+++++CURVE 'CONVERGENCE'
+++++..
+++++FOLDER 'SHP'
++++++CURVE 'A/F-RATIO-STOICH'
++++++..
++++++CURVE 'A/F-RATIO-UNBRND'
++++++..
++++++CURVE 'AIR-EXCESS-RATIO'
++++++..
+++++..
+++++FOLDER 'C'
++++++CURVE 'LOWER-HEAT-VALUE'
++++++..
++++++CURVE 'PEAKCYLINDERPRESSURE'
++++++..
++++++CURVE 'PEAKCYLINDERPRESSURE-CRANKANGLE'
++++++..
++++++CURVE 'PEAKPRESSURERISE'
++++++..
++++++CURVE 'PEAKPRESSURERISE-CRANKANGLE'
++++++..
++++++CURVE 'COMBUSTIONSTART'
++++++..
++++++CURVE 'COMBUSTIONDURATION'
++++++..
+++++..
+++++FOLDER 'GEO'
++++++CURVE 'NBR-OF-CYLINDERS'
++++++..
++++++CURVE 'ENGINE-DISPLACEMENT'
++++++..
++++++CURVE 'COMPRESSIONRATIO'
++++++..
+++++..
+++++FOLDER 'PF'
++++++CURVE 'IMEP'
++++++..
++++++CURVE 'BMEP'
++++++..
++++++CURVE 'FMEP'
++++++..
++++++CURVE 'AMEP'
++++++..
++++++CURVE 'TORQUE'
++++++..
++++++CURVE 'POWER'
++++++..
++++++CURVE 'FRICTIONTORQUE'
++++++..
++++++CURVE 'FRICTIONPOWER'
++++++..
++++++CURVE 'ISFC1'
++++++..
++++++CURVE 'ISFC2'
++++++..
++++++CURVE 'BSFC'
++++++..
++++++CURVE 'ISO-VOL-COMB-EFFICIENCY'
++++++..
++++++CURVE 'INDICATED-EFFICIENCY'
++++++..
++++++CURVE 'EFFECTIVE-EFFICIENCY'
++++++..
++++++CURVE 'MECHANICAL-EFFICIENCY'
++++++..
+++++..
+++++FOLDER 'G'
++++++CURVE 'DELIVERYRATIO-AMB'
++++++..
++++++CURVE 'DELIVERYRATIO-INT'
++++++..
++++++CURVE 'AIRDELIVERYRATIO-AMB'
++++++..
++++++CURVE 'AIRDELIVERYRATIO-INT'
++++++..
++++++CURVE 'VOLUMETRICEFFICIENCY-AMB'
++++++..
++++++CURVE 'VOLUMETRICEFFICIENCY-INT'
++++++..
++++++CURVE 'SWIRL'
++++++..
++++++CURVE 'BLOWBY'
++++++..
+++++..
+++++FOLDER 'MB'
++++++CURVE 'TRAPPED-FUEL'
++++++..
++++++CURVE 'MASS-ASPIRATED'
++++++..
++++++CURVE 'AIRMASS-ASPIRATED'
++++++..
++++++CURVE 'FUELMASS-ASPIRATED'
++++++..
++++++CURVE 'MASS-ASPIRATED-PERS'
++++++..
++++++CURVE 'AIRMASS-ASPIRATED-PERS'
++++++..
++++++CURVE 'FUELMASS-ASPIRATED-PERS'
++++++..
++++++CURVE 'RESIDUALGASMASSIN'
++++++..
++++++CURVE 'RESIDUALGASMASSIN-PERS'
++++++..
++++++CURVE 'RESIDUALGASMASSINTOCYL'
++++++..
++++++CURVE 'RESIDUALGASMASSEX'
++++++..
++++++CURVE 'RESIDUALGASMASSEXTOCYL'
++++++..
++++++CURVE 'TOTALRESIDUALGAS-CONC'
++++++..
++++++CURVE 'TRAPPED-FUEL-PERS'
++++++..
+++++..
+++++FOLDER 'EB'
++++++CURVE 'FUEL-ENERGY'
++++++..
++++++CURVE 'FUEL-ENERGY-PERS'
++++++..
++++++CURVE 'RELEASED-ENERGY'
++++++..
++++++CURVE 'RELEASED-ENERGY-PERS'
++++++..
++++++CURVE 'GROSS-RELEASED-ENERGY'
++++++..
++++++CURVE 'EFF-RELEASED-ENERGY'
++++++..
++++++CURVE 'EFF-RELEASED-ENERGY-PERS'
++++++..
++++++CURVE 'EFF-GROSS-RELEASED-ENERGY'
++++++..
++++++CURVE 'ENERGYBALANCE'
++++++..
++++++CURVE 'EFFENERGYBALANCE'
++++++..
++++++CURVE 'BLOWBYENTHALPYFLOW'
++++++..
++++++CURVE 'EVAPORATIONENERGY'
++++++..
++++++CURVE 'ENTHALPYFLUX-IN'
++++++..
++++++CURVE 'ENTHALPYFLUX-EX'
++++++..
++++++CURVE 'PORTWALLHEATFLOW-IN'
++++++..
++++++CURVE 'PORTWALLHEATFLOW-EX'
++++++..
++++++CURVE 'ENTHALPYFLUX-FUEL'
++++++..
+++++..
+++++FOLDER 'H'
++++++CURVE 'WALLHEATFLOW'
++++++..
++++++CURVE 'WALLHEATFLOWPERS'
++++++..
++++++CURVE 'PISTONWALLHEATFLOW'
++++++..
++++++CURVE 'HEADWALLHEATFLOW'
++++++..
++++++CURVE 'LINERWALLHEATFLOW'
++++++..
++++++CURVE 'PISTONTEMPERATURE'
++++++..
++++++CURVE 'HEADTEMPERATURE'
++++++..
++++++CURVE 'LINERTDCTEMPERATURE'
++++++..
++++++CURVE 'LINERBDCTEMPERATURE'
++++++..
++++++CURVE 'MEAN-EFF-HTC'
++++++..
++++++CURVE 'MEAN-EFF-HTGASTEMP'
++++++..
+++++..
+++++FOLDER 'M'
++++++CURVE 'ACCUMULATEDSOOT-TIME'
++++++..
+++++..
++++..
++++FOLDER 'CYLINDER 1'
+++++CURVE 'CYLINDER-DISPLACEMENT'
+++++..
+++++CURVE 'IMEP'
+++++..
+++++CURVE 'BMEP'
+++++..
+++++CURVE 'FMEP'
+++++..
+++++CURVE 'SMEP'
+++++..
+++++CURVE 'ISFC1'
+++++..
+++++CURVE 'ISFC2'
+++++..
+++++CURVE 'BSFC'
+++++..
+++++CURVE 'DELIVERYRATIO-AMB'
+++++..
+++++CURVE 'DELIVERYRATIO-INT'
+++++..
+++++CURVE 'AIRDELIVERYRATIO-AMB'
+++++..
+++++CURVE 'VOLUMETRICEFFICIENCY-AMB'
+++++..
+++++CURVE 'VOLUMETRICEFFICIENCY-INT'
+++++..
+++++CURVE 'TOTALFUELMASS'
+++++..
+++++CURVE 'FUELMASSINJECTED'
+++++..
+++++CURVE 'FUELMASS-ASPIRATED'
+++++..
+++++CURVE 'PEAKCYLINDERPRESSURE'
+++++..
+++++CURVE 'PEAKCYLINDERPRESSURE-CRANKANGLE'
+++++..
+++++CURVE 'PEAKCYLINDERTEMPERATURE'
+++++..
+++++CURVE 'PEAKCYLINDERTEMPERATURE-CRANKANGLE'
+++++..
+++++CURVE 'PEAKPRESSURERISE'
+++++..
+++++CURVE 'PEAKPRESSURERISE-CRANKANGLE'
+++++..
+++++CURVE 'AIRDELIVERYRATIO-INT'
+++++..
+++++CURVE 'ENTHALPYFLUX-FUEL'
+++++..
+++++FOLDER 'SHP'
++++++CURVE 'HP-START-PRESSURE'
++++++..
++++++CURVE 'HP-START-TEMPERATURE'
++++++..
++++++CURVE 'HP-START-TOTALMASS'
++++++..
++++++CURVE 'HP-START-AIRMASS'
++++++..
++++++CURVE 'TOTALRESIDUALGAS-CONC'
++++++..
++++++CURVE 'A/F-RATIO-UNBRND'
++++++..
++++++CURVE 'A/F-RATIO-BRND'
++++++..
++++++CURVE 'AIR-EXCESS-RATIO'
++++++..
++++++CURVE 'HP-START-FBMASS'
++++++..
+++++..
+++++FOLDER 'G'
++++++CURVE 'RESIDUALGASMASSIN'
++++++..
++++++CURVE 'RESIDUALGASMASSINTOCYL'
++++++..
++++++CURVE 'RESIDUALGASMASSEX'
++++++..
++++++CURVE 'RESIDUALGASMASSEXTOCYL'
++++++..
++++++CURVE 'BLOWBY'
++++++..
++++++CURVE 'SCAVENGINGEFFICIENCY'
++++++..
+++++..
+++++FOLDER 'H'
++++++CURVE 'WALLHEATFLOW'
++++++..
++++++CURVE 'PISTONWALLHEATFLOW'
++++++..
++++++CURVE 'HEADWALLHEATFLOW'
++++++..
++++++CURVE 'LINERWALLHEATFLOW'
++++++..
++++++CURVE 'PISTONTEMPERATURE'
++++++..
++++++CURVE 'HEADTEMPERATURE'
++++++..
++++++CURVE 'LINERTDCTEMPERATURE'
++++++..
++++++CURVE 'LINERBDCTEMPERATURE'
++++++..
++++++CURVE 'MEAN-EFF-HTC'
++++++..
++++++CURVE 'MEAN-EFF-HTGASTEMP'
++++++..
++++++CURVE 'BLOWBYENTHALPYFLOW'
++++++..
+++++..
+++++FOLDER 'C'
++++++CURVE 'COMBUSTIONSTART'
++++++..
++++++CURVE 'COMBUSTIONDURATION'
++++++..
++++++CURVE 'VIBEPARAMETER-M'
++++++..
++++++CURVE 'VIBEPARAMETER-A'
++++++..
++++++CURVE 'MASS-FRAC-BURNED-02-CRANKANGLE'
++++++..
++++++CURVE 'MASS-FRAC-BURNED-05-CRANKANGLE'
++++++..
++++++CURVE 'MASS-FRAC-BURNED-10-CRANKANGLE'
++++++..
++++++CURVE 'MASS-FRAC-BURNED-50-CRANKANGLE'
++++++..
++++++CURVE 'MASS-FRAC-BURNED-90-CRANKANGLE'
++++++..
++++++CURVE 'MASS-FRAC-BURNED-95-CRANKANGLE'
++++++..
++++++CURVE 'SOC-TEMPERATURE'
++++++..
++++++CURVE 'SOC-PRESSURE'
++++++..
+++++..
+++++FOLDER 'PF'
++++++CURVE 'INDICATED-EFFICIENCY'
++++++..
++++++CURVE 'EFFECTIVE-EFFICIENCY'
++++++..
+++++..
+++++FOLDER 'I#2'
++++++CURVE 'FLOWCOEFFICIENT'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'PORTWALLHEAT'
++++++..
++++++CURVE 'VALVEPORTOPENING-EFF0MM-CRANKANGLE'
++++++..
++++++CURVE 'VALVEPORTCLOSING-EFF0MM-CRANKANGLE'
++++++..
+++++..
+++++FOLDER 'E#3'
++++++CURVE 'FLOWCOEFFICIENT'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'PORTWALLHEAT'
++++++..
++++++CURVE 'VALVEPORTOPENING-EFF0MM-CRANKANGLE'
++++++..
++++++CURVE 'VALVEPORTCLOSING-EFF0MM-CRANKANGLE'
++++++..
+++++..
++++..
++++FOLDER 'VARIABLE_PLENUM 1'
+++++CURVE 'PRESSURE'
+++++..
+++++CURVE 'TEMPERATURE'
+++++..
+++++CURVE 'MASS'
+++++..
+++++CURVE 'VOLUME'
+++++..
+++++CURVE 'VOLUMEWORK'
+++++..
+++++FOLDER 'S'
++++++CURVE 'A/F-RATIO'
++++++..
++++++CURVE 'COMBUSTIONPRODUCTCONCENTRATION'
++++++..
++++++CURVE 'FUELVAPOURCONCENTRATION'
++++++..
+++++..
+++++FOLDER 'P#2'
++++++CURVE 'FLOWCOEFFICIENT'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
+++++FOLDER 'P#6'
++++++CURVE 'FLOWCOEFFICIENT'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
++++..
++++FOLDER 'MEASURINGPOINT 1'
+++++CURVE 'PRESSURE'
+++++..
+++++CURVE 'VELOCITY'
+++++..
+++++CURVE 'TEMPERATURE'
+++++..
+++++CURVE 'MASSFLOW'
+++++..
+++++CURVE 'MASSFLOWPERS'
+++++..
+++++CURVE 'MASSFLOWAVERAGED-TEMPERATURE'
+++++..
+++++CURVE 'MACHNUMBER'
+++++..
+++++CURVE 'STAGNATIONPRESSURE'
+++++..
+++++CURVE 'STAGNATIONTEMPERATURE'
+++++..
+++++CURVE 'ENTHALPYFLOWPERS'
+++++..
+++++CURVE 'REYNOLDSNUMBER'
+++++..
+++++CURVE 'WALLTEMPERATURE'
+++++..
+++++CURVE 'CONVERGENCE'
+++++..
+++++CURVE 'DENSITY'
+++++..
+++++CURVE 'SPECHEATCP'
+++++..
+++++CURVE 'ISENTROPIC-EXPONENT'
+++++..
+++++CURVE 'GAS-CONSTANT'
+++++..
++++..
++++FOLDER 'MEASURINGPOINT 2'
+++++CURVE 'PRESSURE'
+++++..
+++++CURVE 'VELOCITY'
+++++..
+++++CURVE 'TEMPERATURE'
+++++..
+++++CURVE 'MASSFLOW'
+++++..
+++++CURVE 'MASSFLOWPERS'
+++++..
+++++CURVE 'MASSFLOWAVERAGED-TEMPERATURE'
+++++..
+++++CURVE 'MACHNUMBER'
+++++..
+++++CURVE 'STAGNATIONPRESSURE'
+++++..
+++++CURVE 'STAGNATIONTEMPERATURE'
+++++..
+++++CURVE 'ENTHALPYFLOWPERS'
+++++..
+++++CURVE 'REYNOLDSNUMBER'
+++++..
+++++CURVE 'WALLTEMPERATURE'
+++++..
+++++CURVE 'CONVERGENCE'
+++++..
+++++CURVE 'DENSITY'
+++++..
+++++CURVE 'SPECHEATCP'
+++++..
+++++CURVE 'ISENTROPIC-EXPONENT'
+++++..
+++++CURVE 'GAS-CONSTANT'
+++++..
++++..
++++FOLDER 'MEASURINGPOINT 3'
+++++CURVE 'PRESSURE'
+++++..
+++++CURVE 'VELOCITY'
+++++..
+++++CURVE 'TEMPERATURE'
+++++..
+++++CURVE 'MASSFLOW'
+++++..
+++++CURVE 'MASSFLOWPERS'
+++++..
+++++CURVE 'MASSFLOWAVERAGED-TEMPERATURE'
+++++..
+++++CURVE 'MACHNUMBER'
+++++..
+++++CURVE 'STAGNATIONPRESSURE'
+++++..
+++++CURVE 'STAGNATIONTEMPERATURE'
+++++..
+++++CURVE 'ENTHALPYFLOWPERS'
+++++..
+++++CURVE 'REYNOLDSNUMBER'
+++++..
+++++CURVE 'WALLTEMPERATURE'
+++++..
+++++CURVE 'CONVERGENCE'
+++++..
+++++CURVE 'DENSITY'
+++++..
+++++CURVE 'SPECHEATCP'
+++++..
+++++CURVE 'ISENTROPIC-EXPONENT'
+++++..
+++++CURVE 'GAS-CONSTANT'
+++++..
++++..
++++FOLDER 'MEASURINGPOINT 4'
+++++CURVE 'PRESSURE'
+++++..
+++++CURVE 'VELOCITY'
+++++..
+++++CURVE 'TEMPERATURE'
+++++..
+++++CURVE 'MASSFLOW'
+++++..
+++++CURVE 'MASSFLOWPERS'
+++++..
+++++CURVE 'MASSFLOWAVERAGED-TEMPERATURE'
+++++..
+++++CURVE 'MACHNUMBER'
+++++..
+++++CURVE 'STAGNATIONPRESSURE'
+++++..
+++++CURVE 'STAGNATIONTEMPERATURE'
+++++..
+++++CURVE 'ENTHALPYFLOWPERS'
+++++..
+++++CURVE 'REYNOLDSNUMBER'
+++++..
+++++CURVE 'WALLTEMPERATURE'
+++++..
+++++CURVE 'CONVERGENCE'
+++++..
+++++CURVE 'DENSITY'
+++++..
+++++CURVE 'SPECHEATCP'
+++++..
+++++CURVE 'ISENTROPIC-EXPONENT'
+++++..
+++++CURVE 'GAS-CONSTANT'
+++++..
++++..
++++FOLDER 'MEASURINGPOINT 5'
+++++CURVE 'PRESSURE'
+++++..
+++++CURVE 'VELOCITY'
+++++..
+++++CURVE 'TEMPERATURE'
+++++..
+++++CURVE 'MASSFLOW'
+++++..
+++++CURVE 'MASSFLOWPERS'
+++++..
+++++CURVE 'MASSFLOWAVERAGED-TEMPERATURE'
+++++..
+++++CURVE 'MACHNUMBER'
+++++..
+++++CURVE 'STAGNATIONPRESSURE'
+++++..
+++++CURVE 'STAGNATIONTEMPERATURE'
+++++..
+++++CURVE 'ENTHALPYFLOWPERS'
+++++..
+++++CURVE 'REYNOLDSNUMBER'
+++++..
+++++CURVE 'WALLTEMPERATURE'
+++++..
+++++CURVE 'CONVERGENCE'
+++++..
+++++CURVE 'DENSITY'
+++++..
+++++CURVE 'SPECHEATCP'
+++++..
+++++CURVE 'ISENTROPIC-EXPONENT'
+++++..
+++++CURVE 'GAS-CONSTANT'
+++++..
++++..
++++FOLDER 'SYSTEMBOUNDARY 1'
+++++FOLDER 'P#1'
++++++CURVE 'FLOWCOEFFICIENT'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
++++..
++++FOLDER 'SYSTEMBOUNDARY 2'
+++++FOLDER 'P#9'
++++++CURVE 'FLOWCOEFFICIENT'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
++++..
++++FOLDER 'RESTRICTION 1'
+++++FOLDER 'P#3'
++++++CURVE 'FLOWCOEFFICIENT'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
+++++FOLDER 'P#7'
++++++CURVE 'FLOWCOEFFICIENT'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
++++..
++++FOLDER 'RESTRICTION 2'
+++++FOLDER 'P#4'
++++++CURVE 'FLOWCOEFFICIENT'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
+++++FOLDER 'P#7'
++++++CURVE 'FLOWCOEFFICIENT'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
++++..
++++FOLDER 'RESTRICTION 3'
+++++FOLDER 'P#4'
++++++CURVE 'FLOWCOEFFICIENT'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
+++++FOLDER 'P#8'
++++++CURVE 'FLOWCOEFFICIENT'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
++++..
++++FOLDER 'RESTRICTION 4'
+++++FOLDER 'P#8'
++++++CURVE 'FLOWCOEFFICIENT'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
+++++FOLDER 'P#9'
++++++CURVE 'FLOWCOEFFICIENT'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
++++..
++++FOLDER 'ROTARYVALVE 1'
+++++FOLDER 'P#5'
++++++CURVE 'FLOWCOEFFICIENT'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
+++++FOLDER 'P#6'
++++++CURVE 'FLOWCOEFFICIENT'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
++++..
++++FOLDER 'FUELINJECTOR 1'
+++++CURVE 'ADDEDFUEL'
+++++..
+++++FOLDER 'P#1'
++++++CURVE 'FLOWCOEFFICIENT'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
+++++FOLDER 'P#5'
++++++CURVE 'FLOWCOEFFICIENT'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
++++..
++++FOLDER 'PIPE 1'
+++++FOLDER 'H'
++++++CURVE 'WALLHEATFLOW'
++++++..
++++++CURVE 'ALPHA-GAS-WALL'
++++++..
+++++..
++++..
++++FOLDER 'PIPE 2'
+++++FOLDER 'H'
++++++CURVE 'WALLHEATFLOW'
++++++..
++++++CURVE 'ALPHA-GAS-WALL'
++++++..
+++++..
++++..
++++FOLDER 'PIPE 3'
+++++FOLDER 'H'
++++++CURVE 'WALLHEATFLOW'
++++++..
++++++CURVE 'ALPHA-GAS-WALL'
++++++..
+++++..
++++..
++++FOLDER 'PIPE 4'
+++++FOLDER 'H'
++++++CURVE 'WALLHEATFLOW'
++++++..
++++++CURVE 'ALPHA-GAS-WALL'
++++++..
+++++..
++++..
++++FOLDER 'PIPE 5'
+++++FOLDER 'H'
++++++CURVE 'WALLHEATFLOW'
++++++..
++++++CURVE 'ALPHA-GAS-WALL'
++++++..
+++++..
++++..
++++FOLDER 'PIPE 6'
+++++FOLDER 'H'
++++++CURVE 'WALLHEATFLOW'
++++++..
++++++CURVE 'ALPHA-GAS-WALL'
++++++..
+++++..
++++..
++++FOLDER 'PIPE 7'
+++++FOLDER 'H'
++++++CURVE 'WALLHEATFLOW'
++++++..
++++++CURVE 'ALPHA-GAS-WALL'
++++++..
+++++..
++++..
++++FOLDER 'PIPE 8'
+++++FOLDER 'H'
++++++CURVE 'WALLHEATFLOW'
++++++..
++++++CURVE 'ALPHA-GAS-WALL'
++++++..
+++++..
++++..
++++FOLDER 'PIPE 9'
+++++FOLDER 'H'
++++++CURVE 'WALLHEATFLOW'
++++++..
++++++CURVE 'ALPHA-GAS-WALL'
++++++..
+++++..
++++..
++++FOLDER 'TEST_BED_REFERENCE 1'
+++++CURVE 'P-0-A'
+++++..
++++..
+++..
+++FOLDER 'TRACES'
++++FOLDER 'ENGINE 1'
+++++CURVE 'TRACESTIME'
+++++..
+++++CURVE 'ENGINESPEED'
+++++..
+++++CURVE 'TORQUE'
+++++..
++++..
++++FOLDER 'CYLINDER 1'
+++++CURVE 'PRESSURE'
+++++..
+++++CURVE 'TEMPERATURE'
+++++..
+++++CURVE 'MASS'
+++++..
+++++CURVE 'VOLUME'
+++++..
+++++CURVE 'VOLUMEWORK'
+++++..
+++++CURVE 'VOLUMEWORKINTEGRAL'
+++++..
+++++CURVE 'PRESSURERISE'
+++++..
+++++CURVE 'TEMPERATURERISE'
+++++..
+++++CURVE 'ENTHALPY'
+++++..
+++++CURVE 'ENTROPY'
+++++..
+++++CURVE 'SPECHEATCV'
+++++..
+++++CURVE 'SPECHEATCP'
+++++..
+++++CURVE 'RGASMIX'
+++++..
+++++CURVE 'PISTONPOSITION'
+++++..
+++++FOLDER 'C'
++++++CURVE 'RATEOFHEATRELEASE'
++++++..
++++++CURVE 'RATEOFHEATRELEASE-EFF'
++++++..
++++++CURVE 'NETRATEOFHEATRELEASE'
++++++..
++++++CURVE 'NORMRATEOFHEATRELEASE'
++++++..
+++++..
+++++FOLDER 'H'
++++++CURVE 'TOTALWALLHEATFLOW'
++++++..
++++++CURVE 'PISTONWALLHEATFLOW'
++++++..
++++++CURVE 'HEADWALLHEATFLOW'
++++++..
++++++CURVE 'LINERWALLHEATFLOW'
++++++..
++++++CURVE 'HEATTRANSFERCOEFFICIENT'
++++++..
++++++CURVE 'BLOWBYENTHALPYFLOW'
++++++..
++++++CURVE 'MOTOREDPRESSUREREF'
++++++..
+++++..
+++++FOLDER 'G'
++++++CURVE 'INTAKEMASSFLOW'
++++++..
++++++CURVE 'EXHAUSTMASSFLOW'
++++++..
++++++CURVE 'BLOWBY'
++++++..
++++++CURVE 'MASSASPIRATED'
++++++..
++++++CURVE 'MASSTRAPPED'
++++++..
++++++CURVE 'SCAVENGINGEFFICIENCY'
++++++..
++++++CURVE 'SCAVENGINGQUALITY'
++++++..
+++++..
+++++FOLDER 'S'
++++++CURVE 'FUELBURNEDCONCENTRATION'
++++++..
++++++CURVE 'COMBUSTIONPRODUCTCONCENTRATION'
++++++..
++++++CURVE 'FUELVAPOURCONCENTRATION'
++++++..
++++++CURVE 'A/F-RATIO'
++++++..
+++++..
+++++FOLDER 'I#2'
++++++CURVE 'FLOWCOEFFICIENTS'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
++++++CURVE 'EFFECTIVEFLOWAREA'
++++++..
++++++CURVE 'PORTWALLHEATFLOW'
++++++..
+++++..
+++++FOLDER 'E#3'
++++++CURVE 'FLOWCOEFFICIENTS'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
++++++CURVE 'EFFECTIVEFLOWAREA'
++++++..
++++++CURVE 'PORTWALLHEATFLOW'
++++++..
+++++..
++++..
++++FOLDER 'VARIABLE_PLENUM 1'
+++++CURVE 'PRESSURE'
+++++..
+++++CURVE 'TEMPERATURE'
+++++..
+++++CURVE 'MASS'
+++++..
+++++CURVE 'VOLUME'
+++++..
+++++CURVE 'VOLUMEWORK'
+++++..
+++++FOLDER 'S'
++++++CURVE 'A/F-RATIO'
++++++..
++++++CURVE 'COMBUSTIONPRODUCTCONCENTRATION'
++++++..
++++++CURVE 'FUELVAPOURCONCENTRATION'
++++++..
+++++..
+++++FOLDER 'P#2'
++++++CURVE 'FLOWCOEFFICIENTS'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
+++++FOLDER 'P#6'
++++++CURVE 'FLOWCOEFFICIENTS'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
++++..
++++FOLDER 'MEASURINGPOINT 1'
+++++CURVE 'PRESSURE'
+++++..
+++++CURVE 'VELOCITY'
+++++..
+++++CURVE 'TEMPERATURE'
+++++..
+++++CURVE 'MASSFLOW'
+++++..
+++++CURVE 'MACHNUMBER'
+++++..
++++..
++++FOLDER 'MEASURINGPOINT 2'
+++++CURVE 'PRESSURE'
+++++..
+++++CURVE 'VELOCITY'
+++++..
+++++CURVE 'TEMPERATURE'
+++++..
+++++CURVE 'MASSFLOW'
+++++..
+++++CURVE 'MACHNUMBER'
+++++..
++++..
++++FOLDER 'MEASURINGPOINT 3'
+++++CURVE 'PRESSURE'
+++++..
+++++CURVE 'VELOCITY'
+++++..
+++++CURVE 'TEMPERATURE'
+++++..
+++++CURVE 'MASSFLOW'
+++++..
+++++CURVE 'MACHNUMBER'
+++++..
++++..
++++FOLDER 'MEASURINGPOINT 4'
+++++CURVE 'PRESSURE'
+++++..
+++++CURVE 'VELOCITY'
+++++..
+++++CURVE 'TEMPERATURE'
+++++..
+++++CURVE 'MASSFLOW'
+++++..
+++++CURVE 'MACHNUMBER'
+++++..
++++..
++++FOLDER 'MEASURINGPOINT 5'
+++++CURVE 'PRESSURE'
+++++..
+++++CURVE 'VELOCITY'
+++++..
+++++CURVE 'TEMPERATURE'
+++++..
+++++CURVE 'MASSFLOW'
+++++..
+++++CURVE 'MACHNUMBER'
+++++..
++++..
++++FOLDER 'SYSTEMBOUNDARY 1'
+++++CURVE 'PRESSURE'
+++++..
+++++CURVE 'TEMPERATURE'
+++++..
+++++FOLDER 'P#1'
++++++CURVE 'FLOWCOEFFICIENTS'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
++++..
++++FOLDER 'SYSTEMBOUNDARY 2'
+++++CURVE 'PRESSURE'
+++++..
+++++CURVE 'TEMPERATURE'
+++++..
+++++FOLDER 'P#9'
++++++CURVE 'FLOWCOEFFICIENTS'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
++++..
++++FOLDER 'RESTRICTION 1'
+++++FOLDER 'P#3'
++++++CURVE 'FLOWCOEFFICIENTS'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
+++++FOLDER 'P#7'
++++++CURVE 'FLOWCOEFFICIENTS'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
++++..
++++FOLDER 'RESTRICTION 2'
+++++FOLDER 'P#4'
++++++CURVE 'FLOWCOEFFICIENTS'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
+++++FOLDER 'P#7'
++++++CURVE 'FLOWCOEFFICIENTS'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
++++..
++++FOLDER 'RESTRICTION 3'
+++++FOLDER 'P#4'
++++++CURVE 'FLOWCOEFFICIENTS'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
+++++FOLDER 'P#8'
++++++CURVE 'FLOWCOEFFICIENTS'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
++++..
++++FOLDER 'RESTRICTION 4'
+++++FOLDER 'P#8'
++++++CURVE 'FLOWCOEFFICIENTS'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
+++++FOLDER 'P#9'
++++++CURVE 'FLOWCOEFFICIENTS'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
++++..
++++FOLDER 'ROTARYVALVE 1'
+++++FOLDER 'P#5'
++++++CURVE 'FLOWCOEFFICIENTS'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
+++++FOLDER 'P#6'
++++++CURVE 'FLOWCOEFFICIENTS'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
++++..
++++FOLDER 'FUELINJECTOR 1'
+++++CURVE 'ADDEDFUEL'
+++++..
+++++FOLDER 'P#1'
++++++CURVE 'FLOWCOEFFICIENTS'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
+++++FOLDER 'P#5'
++++++CURVE 'FLOWCOEFFICIENTS'
++++++..
++++++CURVE 'MASSFLOW'
++++++..
++++++CURVE 'VELOCITY'
++++++..
+++++..
++++..
+++..
++..
+
+Source Gidas Files: 
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kEG1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kCY1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kCY1____2.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kCY1____3.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kVP1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kVP1____2.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kVP1____3.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kMP1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kMP2____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kMP3____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kMP4____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kMP5____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kSB1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kSB2____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kFR1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kFR1____2.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kFR2____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kFR2____2.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kFR3____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kFR3____2.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kFR4____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kFR4____2.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kRV1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kRV1____2.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kIJ1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kIJ1____2.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kIJ1____3.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kPI1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kPI2____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kPI3____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kPI4____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kPI5____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kPI6____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kPI7____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kPI8____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kPI9____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_1/simulation.dir/kTT1____1.gid'
+
+Source Gidas Files: 
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_2/simulation.dir/kEG1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_2/simulation.dir/kCY1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_2/simulation.dir/kCY1____2.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_2/simulation.dir/kCY1____3.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_2/simulation.dir/kVP1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_2/simulation.dir/kVP1____2.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_2/simulation.dir/kVP1____3.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_2/simulation.dir/kMP1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_2/simulation.dir/kMP2____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_2/simulation.dir/kMP3____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_2/simulation.dir/kMP4____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_2/simulation.dir/kMP5____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_2/simulation.dir/kSB1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_2/simulation.dir/kSB2____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_2/simulation.dir/kFR1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_2/simulation.dir/kFR1____2.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_2/simulation.dir/kFR2____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_2/simulation.dir/kFR2____2.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_2/simulation.dir/kFR3____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_2/simulation.dir/kFR3____2.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_2/simulation.dir/kFR4____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_2/simulation.dir/kFR4____2.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_2/simulation.dir/kRV1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_2/simulation.dir/kRV1____2.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_2/simulation.dir/kIJ1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_2/simulation.dir/kIJ1____2.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_2/simulation.dir/kIJ1____3.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_2/simulation.dir/kPI1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_2/simulation.dir/kPI2____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_2/simulation.dir/kPI3____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_2/simulation.dir/kPI4____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_2/simulation.dir/kPI5____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_2/simulation.dir/kPI6____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_2/simulation.dir/kPI7____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_2/simulation.dir/kPI8____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_2/simulation.dir/kPI9____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_2/simulation.dir/kTT1____1.gid'
+
+Source Gidas Files: 
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_3/simulation.dir/kEG1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_3/simulation.dir/kCY1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_3/simulation.dir/kCY1____2.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_3/simulation.dir/kCY1____3.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_3/simulation.dir/kVP1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_3/simulation.dir/kVP1____2.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_3/simulation.dir/kVP1____3.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_3/simulation.dir/kMP1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_3/simulation.dir/kMP2____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_3/simulation.dir/kMP3____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_3/simulation.dir/kMP4____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_3/simulation.dir/kMP5____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_3/simulation.dir/kSB1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_3/simulation.dir/kSB2____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_3/simulation.dir/kFR1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_3/simulation.dir/kFR1____2.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_3/simulation.dir/kFR2____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_3/simulation.dir/kFR2____2.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_3/simulation.dir/kFR3____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_3/simulation.dir/kFR3____2.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_3/simulation.dir/kFR4____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_3/simulation.dir/kFR4____2.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_3/simulation.dir/kRV1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_3/simulation.dir/kRV1____2.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_3/simulation.dir/kIJ1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_3/simulation.dir/kIJ1____2.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_3/simulation.dir/kIJ1____3.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_3/simulation.dir/kPI1____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_3/simulation.dir/kPI2____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_3/simulation.dir/kPI3____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_3/simulation.dir/kPI4____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_3/simulation.dir/kPI5____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_3/simulation.dir/kPI6____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_3/simulation.dir/kPI7____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_3/simulation.dir/kPI8____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_3/simulation.dir/kPI9____1.gid'
+     'G:\Ziga_Perne\primerjava/test2.opt.Case_3/simulation.dir/kTT1____1.gid'
+
+------------------------------------------------------------------------
+OVERVIEW ERROR EVENTS:
+Name of the Case     PPD APP 
+opt.Case_1           OK  OK 
+opt.Case_2            -  OK 
+opt.Case_3            -  OK 
+
+Legend:
+   PPD ... ppd-File not found
+   APP ... Could not append Results
+
+   ERR --> Error occurred
+   OK  --> No Error occurred
+   -   --> Error state unkown
+------------------------------------------------------------------------
+================================================================================
+
+Acoustic averaging started  @ 2020-03-19 15:43:11.766000
+Creating .gid files for naklon
+Creating .gid files for opt
+ Total number of cases 3,  Cases with acoustic results 0
+Acoustic averaging finished @ 2020-03-19 15:43:11.769000
+Creation of series results done.

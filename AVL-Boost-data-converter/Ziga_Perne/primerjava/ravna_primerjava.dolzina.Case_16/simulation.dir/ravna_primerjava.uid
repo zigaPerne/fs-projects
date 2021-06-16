@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<model_uuids file="../../ravna_primerjava.bwf">
+  <element name="PIPE" ord="1" uid="5E60B1C00100-00050F29-4C4943454D-01" resultname=""/>
+  <element name="PIPE" ord="2" uid="5E60EC8960A4-00EAA7AF-4C4943454D-01" resultname=""/>
+  <element name="PIPE" ord="3" uid="5E6649256448-006C5E5E-4C4943454D-01" resultname=""/>
+  <element name="PIPE" ord="4" uid="5E6750EE6002-0006A024-4C4943454D-01" resultname=""/>
+  <element name="PIPE" ord="5" uid="5E6750F06005-0006A75A-4C4943454D-01" resultname=""/>
+  <element name="PIPE" ord="6" uid="5E723AEF23A4-0002BE50-4C4943454D-01" resultname=""/>
+  <element name="SYSTEMBOUNDARY" ord="1" uid="5E60B0C80000-00014530-4C4943454D-01" resultname=""/>
+  <element name="SYSTEMBOUNDARY" ord="2" uid="5E675ABF2458-002CF995-4C4943454D-01" resultname=""/>
+  <element name="VARPLENUM" ord="1" uid="5E60B14C0048-0003467A-4C4943454D-01" resultname=""/>
+  <element name="CYLINDER" ord="1" uid="5E6774E83208-00932880-4C4943454D-01" resultname=""/>
+  <element name="RESTRICTION" ord="1" uid="5E6649166400-006C226F-4C4943454D-01" resultname=""/>
+  <element name="ROTARYVALVE" ord="1" uid="5E6750DE6401-00066412-4C4943454D-01" resultname=""/>
+  <element name="FUELINJECTOR" ord="1" uid="5E60B12D8101-0002CDD3-4C4943454D-01" resultname=""/>
+  <element name="MEASURINGPOINT" ord="1" uid="5E73814C4718-04FD9074-4C4943454D-01" resultname=""/>
+  <element name="MEASURINGPOINT" ord="2" uid="5E7381534718-04FDAB76-4C4943454D-01" resultname=""/>
+  <element name="MEASURINGPOINT" ord="3" uid="5E73815A4718-04FDC665-4C4943454D-01" resultname=""/>
+  <element name="MEASURINGPOINT" ord="4" uid="5E7381604718-04FDDE4B-4C4943454D-01" resultname=""/>
+  <element name="ENGINE" ord="1" uid="5E60B2318031-0006C571-4C4943454D-01" resultname=""/>
+</model_uuids>

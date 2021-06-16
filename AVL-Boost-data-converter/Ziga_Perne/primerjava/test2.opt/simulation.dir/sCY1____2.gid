@@ -1,0 +1,20 @@
+BEGIN
+diameter = 100
+dolzina = 10
+len = 500
+CHANNELNAME = ['diameter', &
+               'FLOWCOEFFICIENT_I#2', &
+               'MASSFLOW_I#2', &
+               'PORTWALLHEAT_I#2', &
+               'VALVEPORTOPENING-EFF0MM-CRANKANGLE_I#2', &
+               'VALVEPORTCLOSING-EFF0MM-CRANKANGLE_I#2']
+UNIT        = ['mm', &
+               '-', &
+               'kg/cycle', &
+               'J/cycle', &
+               'deg', &
+               'deg']
+END
+1.000000E+02   0.11439711E+000   0.40677615E-004   0.00000000E+000   0.13877061E+003   0.22106863E+003
+1.000000E+02   0.11439762E+000   0.46688498E-004   0.00000000E+000   0.13878227E+003   0.22129103E+003
+1.000000E+02   0.11439612E+000   0.46082415E-004   0.00000000E+000   0.13854612E+003   0.22136356E+003

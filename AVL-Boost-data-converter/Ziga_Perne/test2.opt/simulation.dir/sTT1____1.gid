@@ -1,0 +1,12 @@
+BEGIN
+diameter = 100
+dolzina = 10
+len = 500
+CHANNELNAME = ['diameter', &
+               'P-0-A']
+UNIT        = ['mm', &
+               'Pa']
+END
+1.000000E+02   0.10000000E+006
+1.000000E+02   0.10000000E+006
+1.000000E+02   0.10000000E+006
